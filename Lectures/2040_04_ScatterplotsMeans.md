@@ -17,3 +17,10 @@ Relationships
 
 ## Means
 
+-----
+# Homework
+## Reading
+* 
+
+## Exercises
+* 
