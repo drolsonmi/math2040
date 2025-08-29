@@ -109,7 +109,7 @@ Here are a couple of helps if you need more after our lecture:
 * Seaborn Cheatsheet: https://www.datacamp.com/cheat-sheet/python-seaborn-cheat-sheet
 
 ## Instructions
-Go to the textbook's website, select a website, then find a dataset you'd like to analyze. In your analysis:
+Go to the [textbook's website](https://www.openintro.org/book/os/), select a website, then find a dataset you'd like to analyze. In your analysis:
 * Identify quantitative variables
 * Find 5-number summaries of at least two quantitative variables
 * Create boxplots for at least two quantitative variables, correctly labeled
