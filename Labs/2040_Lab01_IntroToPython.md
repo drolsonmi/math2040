@@ -7,11 +7,11 @@
 * SQL (Not specifically for statistics, but integral with R and Python)
 * Julia
 * Matlab
-* ...
+* ...many other languages...
 
-You can choose the language you want, but I'll demonstrate Python
+You can choose the language you want, but I'll demonstrate in Python this semester
 * Can use Python online with a Google account for free
-    * You can install python and other 
+    * You can install Python, or R directly on your computer for free. I'd be happy to help if you want to do this.
 * Statistics majors may want to consider learning R - I have resources for you
 
 ## Example: Duke Forest
@@ -25,7 +25,7 @@ import seaborn as sns            # Graphs the Data
 import scipy.stats as stats      # Statistics calculations
 ```
 * *Note 1*: Using a `#` allows you to make comments within your code. The program will ignore comments
-* *Note 2*: In addition to cells with code, you can add cells with text. This is helpful when it comes to reports.
+* *Note 2*: In addition to cells with code, you can add cells with text. This is helpful if you want to include the code in your reports.
 
 * Load data 
   * Download dataset
@@ -52,6 +52,8 @@ plt.xlabel('Prices (US$)')
 plt.show()
 ```
 * The `plt.show()` command just finalizes and displays the graph. Not exactly necessary in Colab, but it's a good habit to be in.
+* Once the graph is plotted, we can right-click to copy and paste directly into a Word document
+
 * Now graph Square Footage (See if class can do this)
 ```python
 plt.figure(figsize=(10,3))
@@ -82,15 +84,44 @@ plt.show()
 ```
 
 * Graph timeseries of price vs year built
-
+```python
+duke['bed'] = duke['bed'].astype('category')   # For sake of coloring
+sns.scatterplot(data=duke, x='year_built', y='price', hue='bed')
+plt.title('House Price over Time')
+plt.xlabel('Year Built')
+plt.ylabel('Price (US$)')
+plt.show()
+```
 
 
 ## Helps
-* Seaborn Cheatsheet
-* SciPy Cheatsheet
+* [scipy.stats list of functions](https://docs.scipy.org/doc/scipy/reference/stats.html)
+* [Seaborn Cheatsheet](https://www.datacamp.com/cheat-sheet/python-seaborn-cheat-sheet)
 
 # Assignment
+In class, we will see how to use Python to do calculations and to create graphs. Before coming to class, be sure you have:
+* A laptop that you can bring to class
+* A Google account (If you don't have one, you can create one for free using your @students.snow.edu account)
+
+Here are a couple of helps if you need more after our lecture:
+* The instructions for this lab are on my Github page: https://github.com/drolsonmi/math2040/blob/main/Labs/2040_Lab01_IntroToPython.md
+* scipy.stats list of functions: https://docs.scipy.org/doc/scipy/reference/stats.html
+* Seaborn Cheatsheet: https://www.datacamp.com/cheat-sheet/python-seaborn-cheat-sheet
+
+## Instructions
 Go to the textbook's website, select a website, then find a dataset you'd like to analyze. In your analysis:
 * Identify quantitative variables
 * Find 5-number summaries of at least two quantitative variables
-* 
+* Create boxplots for at least two quantitative variables, correctly labeled
+* Compare two variables
+  * Identify the explanatory and response variables
+  * Create a scatterplot of the two variables, correctly labeled
+
+You are allowed to complete this assignment with other classmates.
+
+Once completed, submit your work by doing the following:
+* Rename your lab by clicking on the current name (probably something like "Untitled0.ipynb") to something related to this lab (such as "Math2040-Lab1.ipynb")
+* In Google Colab, select the `Share` button
+* In the box at the top, add my email address: `michael.olson2@snow.edu`
+* If it asks you for a message, be sure to include the names of all your group members who contributed to the lab
+* Push `Send`
