@@ -1,4 +1,4 @@
-# Lecture 5: Bargraphs and Histograms
+# Lecture 7: Bargraphs and Histograms
 
 ## Bargraph
 
@@ -19,7 +19,8 @@
 -----
 # Homework
 ## Reading
-* 
+* 2.2.1 Contigency tables and bar plots
+* 2.1.3 Histograms and shape
 
 ## Exercises
 * 

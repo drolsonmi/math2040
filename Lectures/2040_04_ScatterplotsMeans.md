@@ -20,7 +20,9 @@ Relationships
 -----
 # Homework
 ## Reading
-* 
+* 2.1.1 Scatterplots for paired data
+* 2.1.2 Dot plots and the mean
 
 ## Exercises
-* 
+* Section 2.1 Exercises
+  * Exercises 2.2, 2.3, 2.4, 2.6
