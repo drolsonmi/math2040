@@ -1,4 +1,7 @@
 # Lecture 5: 5-Number Summary and Boxplots
+Resources:
+* Microsoft Excel
+* Desmos
 
 ## Measuring the middle of the data
 * Mean
@@ -36,16 +39,18 @@ The measurement of quartiles can be inclusive or exclusive, meaning it includes 
 
 ## Class Practice
 Duke Forest dataset --> 
-  • Find 5-number summary of square footage for the first 30 houses and make a boxplot
-  • Identify the IQR and any outliers
+* Find 5-number summary of square footage for the first 30 houses and make a boxplot
+* Identify the IQR and any outliers
+> 6040  4475 	1745 	2091 	1772
+> 1950  3909	2841	3924	2173
+> 2091	2492	2200	3889	3169
+> 2750	3234	2933	3831	2414
+> 1416	2300	1932	2786	2830
+> 3487	1831	1935	2015	2526
 
-    6040	4475 	1745 	2091 	1772
-    1950	3909	2841	3924	2173
-    2091	2492	2200	3889	3169
-    2750	3234	2933	3831	2414
-    1416	2300	1932	2786	2830
-    3487	1831	1935	2015	2526
-
+In Desmos, show the following:
+* 5-number summary: `A.quartile([0...4])`
+* Boxplot: `boxplot(A)` --> Show including and excluding outliers
 
 ## Percentiles
 * Quartiles divided the data into 4 equally-sized segments
