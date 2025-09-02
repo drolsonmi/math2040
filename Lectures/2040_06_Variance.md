@@ -14,10 +14,7 @@ Take the following datasets and ask the students to explain the difference. (Per
 Variance measures how spread out the data is. To do this, let's just compare each value to the mean:
 $$x_i - \mu\tag{Deviation}$$
 
-Take the average deviation:
-$$\frac{\sum (x_i - \mu)}{n}\tag{Average Deviation}$$
-
-The problem is that this average would always be 0 since the mean is the middle point, meaning there is as much deviation between points on its left as on its right. We have to get rid of negatives.
+We could then take the average of all deviations. The problem is that this average would always be 0 since the mean is the middle point, meaning there is as much deviation between points on its left as on its right. We have to get rid of negatives.
 
 $$\sigma^2  = \frac{\sum (x_i - \mu)^2}{n}\tag{Population Variance}$$
 
