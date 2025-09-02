@@ -17,6 +17,9 @@ Relationships
 
 ## Means
 
+## Modes
+* Unimodal, Bimodal, Multimodal
+
 -----
 # Homework
 ## Reading

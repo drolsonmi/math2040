@@ -8,6 +8,13 @@ Resources:
 * Mode
 * Median
 
+When data is symmetric, these will be the same. If they are not symmetric, then
+* the mean is heavily influenced by outliers
+* the median is somewhat influenced by outliers
+* the mode is not influenced by outliers and remains unchanged
+
+(Draw a normal distribution to show symmetry, then show a skewed dataset)
+
 ## Finding the Median
 * List the numbers in order
 * Find the middle point

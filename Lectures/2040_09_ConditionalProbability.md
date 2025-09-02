@@ -1,0 +1,1 @@
+* __Note__: Exam 1 coming up on __September 23-24__
