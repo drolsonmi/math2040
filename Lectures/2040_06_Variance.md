@@ -35,6 +35,8 @@ We squared the deviations to get rid of the negatives. But now we have to get ri
 
 $$\sigma  = \sqrt{\frac{\sum (x_i - \mu)^2}{n}} \qquad s  = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n-1}}\tag{Standard Deviation}$$
 
+> In Desmos, demonstrate what happens when the mean changes and when the standard deviation changes.
+
 ## Class Practice
 Duke Forest dataset --> 
 * Find the variance and the standard deviation of the square footage for the first 30 houses
