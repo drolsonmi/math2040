@@ -1,7 +1,7 @@
 # Lab 1: Intro to Python
 
 ## Different programming languages for statistics
-* SAS (For very large and professional statistics)
+* SAS (Statistical Analysis System - For very large and professional statistics)
 * R (Created specifically for statistics - Great as an introduction)
 * Python (Broad application language - Has become equal in most respects to R)
 * SQL (Not specifically for statistics, but integral with R and Python)
@@ -16,6 +16,8 @@ You can choose the language you want, but I'll demonstrate in Python this semest
 
 ## Example: Duke Forest
 * Create new Colab
+  * Go to drive.google.com and log in to your Google account
+  * If you don't have a Google account, you can create one using your @students.snow.edu email address
   * `+ New` --> `More` --> `Google Colaboratory`
 * Import pandas and seaborn
 ```python
@@ -72,6 +74,9 @@ print("     Q1 = ", stats.quantile(duke['price'], 0.25))
 print(" Median = ", duke['price'].median())
 print("     Q3 = ", stats.quantile(duke['price'], 0.75))
 print("Maximum = ", duke['price'].max())
+
+# Or we can do all at once
+print("5-number summary = ", stats.quantile(duke['price'], [0,0.25,0.50,0.75,1]))
 ```
 
 * Graph scatterplots of price vs area
@@ -117,11 +122,13 @@ Go to the [textbook's website](https://www.openintro.org/book/os/), select a web
   * Identify the explanatory and response variables
   * Create a scatterplot of the two variables, correctly labeled
 
-You are allowed to complete this assignment with other classmates.
+You are allowed to complete this assignment with other classmates. Group work is not required, but encouraged.
 
 Once completed, submit your work by doing the following:
 * Rename your lab by clicking on the current name (probably something like "Untitled0.ipynb") to something related to this lab (such as "Math2040-Lab1.ipynb")
-* In Google Colab, select the `Share` button
+* Create a Text box at the top and list the names of all students that worked on this project
+* Select the `Share` button
 * In the box at the top, add my email address: `michael.olson2@snow.edu`
-* If it asks you for a message, be sure to include the names of all your group members who contributed to the lab
+  * You may want to also add the email addresses of those in your group so that they have a copy as well
+* If it asks you for a message, please include the names of all your group members who contributed to the lab (this is in addition to the text box you created earlier)
 * Push `Send`
