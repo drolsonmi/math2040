@@ -68,6 +68,11 @@ In Desmos, show the following:
   * maximum = 4th quartile = 100th percentile
 * If your value is in the 65th percentile, that means it is above the lowest 65% of the data
 
+## Comparing boxplots to histograms
+> * Create a normal distribution of data and show histogram and boxplot in Desmos
+> * Slowly add data to skew the distribution and see how the boxplot is affected
+> * Discuss what is going on
+
 -----
 # Homework
 ## Reading
