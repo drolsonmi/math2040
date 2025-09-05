@@ -1,4 +1,4 @@
-# Lecture 5: 5-Number Summary and Boxplots
+# Lecture 7: 5-Number Summary and Boxplots
 Resources:
 * Microsoft Excel
 * Desmos
@@ -79,7 +79,7 @@ In Desmos, show the following:
 * 2.1.5 Box plots, quartiles, and the median
 
 ## Exercises
-* From Section 2.1 Exercises
-  * Exercises 2.8, 2.10
+* From section 2.1 Exercises
+  * Exercises 2.8, 2.10, 2.17
 * From Chapter 2 Exercises
-  * Exercises 2.33, 2.28, 2.30
+  * Exercises 2.33, 2.28, 2.30, 2.34

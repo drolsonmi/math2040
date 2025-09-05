@@ -35,6 +35,7 @@ We squared the deviations to get rid of the negatives. But now we have to get ri
 
 $$\sigma  = \sqrt{\frac{\sum (x_i - \mu)^2}{n}} \qquad s  = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n-1}}\tag{Standard Deviation}$$
 
+## Behavior of the Standard Deviation
 > In Desmos, demonstrate what happens when the mean changes and when the standard deviation changes.
 
 ## Class Practice
@@ -55,4 +56,11 @@ Duke Forest dataset -->
 
 ## Exercises
 * From section 2.1
-  * Exercises 2.9
+  * What is the difference between the variance and the standard deviation?
+  * What do the variance and the standard deviation tell us about our data?
+  * Exercise 2.9
+  * Create a random dataset of 7 elements (just choose 7 numbers between 0 and 40). Then create another random dataset of 7 elements that has a standard deviation *larger* than your first dataset.
+  * Create another random dataset of 7 elements that has a standard deviation *smaller* than your first dataset.
+* From Chapter 2 Exercises
+  * Exercises 2.31, 2.32
+  * Exercise  2.33 (Find the standard deviation of these statistics by hand - show the work. Then verify with the calculator and indicate if you got it right or, if not, what the mistake was that you made.)
