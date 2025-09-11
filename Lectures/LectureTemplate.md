@@ -1,11 +1,11 @@
-# Lecture 9: Conditional Probability
-* __Note__: Exam 1 coming up on __September 23-24__
+# Lecture 8: Probability
+* __Note__: 
 
 Resources for this lecture:
 
 Remember:
 
-## Complements
+## Variance
 
 
 ### Sample Variance
@@ -31,7 +31,6 @@ Duke Forest dataset -->
 -----
 # Homework
 ## Reading
-* 3.1.5 Probability Distributions
 * 
 
 ## Exercises
