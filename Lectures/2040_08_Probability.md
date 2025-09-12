@@ -88,9 +88,9 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 1. If you draw out one marble, what is the probability of getting a blue?
     * $P(blue)=12/36=0.3333$
 2. If you draw out one marble, what is the probability of getting a green OR a blue?
-    * $P(green OR blue)=P(green)+P(blue)−P(green AND blue)=6/36+12/36−0/36=18/36=0.50$
+    * $P(green~OR~blue)=P(green)+P(blue)−P(green~AND~blue)=6/36+12/36−0/36=18/36=0.50$
 3. If you draw out one marble, what is the probability of getting a green AND a purple?
-    * $P(green AND purple)=0$
+    * $P(green~AND~purple)=0$
     * If drawing 1 marble, green and purple are mutually exclusive
 
 -----
@@ -99,8 +99,8 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 * 3.1 Defining Probability
 
 ## Exercises
-* From section 
-  * Exercise 
+* From section 3.1
+  * Exercise 3.1, 3.3, 
   * 
 * From Chapter 3 Exercises
   * Exercises 
