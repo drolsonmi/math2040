@@ -34,7 +34,7 @@ import scipy.stats as stats      # Statistics calculations
   * Upload to Colab
   * Load the data
 ```python
-duke = pd.read_csv('content/duke_forest.csv')
+duke = pd.read_csv('/content/duke_forest.csv')
 ```
 * We can see a sample of the data:
 ```python
