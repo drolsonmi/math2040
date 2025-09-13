@@ -1,4 +1,4 @@
-# Lecture 9: Conditional Probability
+# Lecture 10: Probability Distributions
 * __Note__: Exam 1 coming up on __September 23-24__
 
 Resources for this lecture:
