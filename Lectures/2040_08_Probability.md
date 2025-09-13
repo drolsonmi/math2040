@@ -99,8 +99,22 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 * 3.1 Defining Probability
 
 ## Exercises
-* From section 3.1
-  * Exercise 3.1, 3.3, 
-  * 
+* From section 3.1, exercises 3.1, 3.2, 3.3 
+* For each example below, you need to do two things:
+  a. Decide if the events are disjoint (meaning they can't happen at the same time).
+  b. Create a new, similar example opposite of your first answer. If your first answer was disjoint, make the new example not disjoint (meaning the events can happen at the same time). If your first answer was not disjoint, make the new example disjoint.
+
+  * Rolling a 5 and a 3 on one die
+  * Having brown hair and blue eyes
+  * Earning an A and a B in a class
+  * Rolling a 2 and an even on one die
+  * A person owns both a dog and a cat
+  * Drawing one card that is both a 10 and a diamond
+
 * From Chapter 3 Exercises
   * Exercises 
+
+
+  * Disjoint data
+  * Law of Large Numbers
+  * Addition Rule
