@@ -99,8 +99,10 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 * 3.1 Defining Probability
 
 ## Exercises
-* From section 3.1, exercises 3.1, 3.2, 3.3 
-* For each example below, you need to do two things:
+1. Exercise 3.1 from section 3.1
+2. Exercise 3.2 from section 3.1
+3. Exercise 3.3 from section 3.1 
+4. (1 point for each answer) For each example below, you need to do two things:
   a. Decide if the events are disjoint (meaning they can't happen at the same time).
   b. Create a new, similar example opposite of your first answer. If your first answer was disjoint, make the new example not disjoint (meaning the events can happen at the same time). If your first answer was not disjoint, make the new example disjoint.
 
@@ -111,10 +113,11 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
   * A person owns both a dog and a cat
   * Drawing one card that is both a 10 and a diamond
 
-* From Chapter 3 Exercises
-  * Exercises 
+5. Describe the difference between a probability and a proportion.
 
-
-  * Disjoint data
-  * Law of Large Numbers
-  * Addition Rule
+6. A small business that sells custom-printed T-shirts analyzed its sales data from the past quarter. 
+  * The data revealed that,
+    * 35% of all orders included at least one T-shirt with a design featuring a logo,
+    * 55% of all orders included at least one T-shirt with a slogan, and
+    * 20% of all orders included at least one T-shirt with both a logo and a slogan
+  * An order is randomly selected from the past quarter's sales. What's the probability that this order contains at least one T-shirt with a logo or at least one T-shirt with a slogan?
