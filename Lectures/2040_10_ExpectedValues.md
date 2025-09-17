@@ -139,9 +139,11 @@ Duke Forest dataset -->
 * 3.4 Random Variables
 
 ## Exercises
-* From section 
-* Exercise 3.29 from section 3.4
-, 3.30, 3.33
-  * 
-* From Chapter 3 Exercises
-  * Exercises 3.39, 
+1. Exercise 3.29 from section 3.4
+2. Exercise 3.30 from section 3.4
+3. Exercise 3.33 from section 3.4
+4. Exercise 3.39 from chapter 3 exercises
+
+Students in a swimming class have been given an exercise routine. After they are done swimming each day, a small, random number of students are asked about the difficulty of the exercises by reporting how hard their breathing is after the exercise (using the difficulty of talking as an indicator). In a semester, there were, 35 reports of being completely winded after exercising (couldn't talk at all), 42 reports of hard breathing (very difficult to talk), 49 reports of heavy breathing (can talk, but have to take breaks to breathe), 32 reports of slightly elevated breathing (can still talk clearly while breathing slightly more heavily), and 14 reports of no elevated breathing at all (talking is normal).
+5. Create a scale to calculate an expected value. Describe what the expected value tells us.
+6. Calculate the standard deviation of this data.
