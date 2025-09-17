@@ -1,4 +1,23 @@
-# Lab 1: Intro to Python
+# Lab 2: Analysis
+
+
+* Mean
+* Quartiles
+* Boxplots
+* Counting
+
+How?
+* Load a dataset in python using pandas
+* Identify the quantitative and categorical variables
+* Instruction sheet with (is there a cheat sheet?)
+    * How to find the mean, standard deviation, 5-number summary: `df.describe()`
+    * How to make a boxplot
+    * How to count of categories
+    * How to make probabilities
+    * 
+
+https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python
+
 
 ## FOR loops
 
@@ -36,4 +55,4 @@
       \end{align*}$$
 > It takes 23 people to have a probability less than 50% that nobody is repeating a birthday. 
 >
-> Therefore, taking the compement, it takes 23 people to have a probability greater than 50% that *somebody* has repeated a birthday.
+> Therefore, taking the complement, it takes 23 people to have a probability greater than 50% that *somebody* has repeated a birthday.
