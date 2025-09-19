@@ -115,9 +115,7 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 
 5. Describe the difference between a probability and a proportion.
 
-6. A small business that sells custom-printed T-shirts analyzed its sales data from the past quarter. 
-  * The data revealed that,
+6. A small business that sells custom-printed T-shirts analyzed its sales data from the past quarter. An order is randomly selected from the past quarter's sales. What's the probability that this order contains at least one T-shirt with a logo or at least one T-shirt with a slogan? The data revealed that,
     * 35% of all orders included at least one T-shirt with a design featuring a logo,
     * 55% of all orders included at least one T-shirt with a slogan, and
     * 20% of all orders included at least one T-shirt with both a logo and a slogan
-  * An order is randomly selected from the past quarter's sales. What's the probability that this order contains at least one T-shirt with a logo or at least one T-shirt with a slogan?
