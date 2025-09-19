@@ -1,5 +1,7 @@
 # Lecture 10: Probability Distributions
-* __Note__: Exam 1 coming up on __September 23-24__
+* __Coming Up__:
+  * Lab 2 due on __September 22__
+  * Exam 1 coming up on __September 23-24__
 
 Resources for this lecture:
 
@@ -57,6 +59,43 @@ What if we chose a different scale?
   * Remember: Our goal is to make this as easy as possible for readers to understand
   * Best practice is to either start our categories with 0 or 1
 
+### Gambling
+Can we apply this to gambling?
+
+The game of Craps has lots of types of bets. You roll 2 dice and your winnings (or losses) depend on the sum of the 2 dice
+
+![Bets on a Craps Table](../images/craps_table.png)
+
+We'll focus on the field bet. What is the expected value for our winnings?
+
+![The Field Bet on a Craps Table](../images/craps_field_small.png)
+
+| Roll        | Winnings | Probability | x*P(x) |
+| :---------: | :------: | :---------: | :----: |
+| 3,4,9,10,11 | $1       | 14/36       | 14/36  |
+| 2           | $2       | 1/36        | 2/36   |
+| 12          | $3       | 1/36        | 3/36   |
+| 5,6,7,8     | -$1      | 20/36       | -20/36 |
+
+Rolls:
+
+| Total | Rolls                               |
+| :---: | :---------------------------------- |
+|   2   | (1,1)                               |
+|   3   | (1,2) (2,1)                         |
+|   4   | (1,3) (2,2) (3,3)                   |
+|   5   | (1,4) (2,3) (3,2) (4,1)             |
+|   6   | (1,5) (2,4) (3,3) (4,2) (5,1)       |
+|   7   | (1,6) (2,5) (3,4) (4,3) (5,2) (6,1) |
+|   8   | (2,6) (3,5) (4,4) (5,3) (6,2)       |
+|   9   | (3,6) (4,5) (5,4) (6,3)             |
+|  10   | (4,6) (5,5) (6,4)                   |
+|  11   | (5,6) (6,5)                         |
+|  12   | (6,6)                               |
+
+$$E[x]=\frac{14}{36}+\frac{2}{36}+\frac{3}{36}−\frac{20}{36} = \frac{−1}{36} = −0.027$$
+
+
 ### Life Insurance
 Sometimes our categories have a natural value. Such is the case with insurance, where the value would be the worth of a policy compared to the cost.
 * Look up insurance rates for your age
@@ -65,11 +104,13 @@ Sometimes our categories have a natural value. Such is the case with insurance, 
     * Probability of living: [https://www.ssa.gov/oact/STATS/table4c6.html](https://www.ssa.gov/oact/STATS/table4c6.html)
 * Calculate expected earnings for life insurance
 
-|         | Live  | Die    |
-| :-----: | :---: | :----: |
-| *x*     | -250  | 199750 |
-| *P(x)*  | 0.995 | 0.005  |
-| *xP(x)* |       |        |
+|         | Live     | Die      |
+| :-----: | :------: | :------: |
+| *x*     | -$250    | $199,750 |
+| *P(x)*  | 0.995    | 0.005    |
+| *xP(x)* | -$248.75 | $998.75  |
+
+$$E[x] = -$248.75 + $998.75 = $750$$
 
 ## Variability
 Knowing that the variance is just an average of the squared deviations, we can follow the same process as we did before:
