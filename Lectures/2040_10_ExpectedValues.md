@@ -30,9 +30,9 @@ $$\bar{x}=\frac{x_1+x_2+x_3+...}{n}$$
 $$\bar{x} = x_1\frac{1}{n} + x_2\frac{1}{n} + x_3\frac{1}{n} + ...$$
 * The fraction 1/n is just the probability of randomly selecting $x_i$
 $$\bar{x} = x_1P(x_1) + x_2P(x_2) + x_3P(x_3) + ...$$
-$$E[x] = \bar{x} = \sum_i x_i P(x_i)\tag{Expected Value of Ordinal Variables}$$
+$$E[X] = \bar{x} = \sum_i x_i P(x_i)\tag{Expected Value of Ordinal Variables}$$
 
-This is the __expected value__. The mean calculation is just the expected value of a uniform distribution. However, it is possible for one value to be weighted more heavily, thus working with different probabilities .
+This is the __expected value__ of event $$X$$. The mean calculation is just the expected value of a uniform distribution. However, it is possible for one value to be weighted more heavily, thus working with different probabilities.
 
 To make this work on an ordinal variable, just assign a number to each category with the order of numbers representing the order of categories.
 
@@ -44,16 +44,16 @@ To make this work on an ordinal variable, just assign a number to each category 
 
 > Have students calculate P(Senior), then calculate the expected value.
 >
-> $$E[x] = (1*0.45) + (2*0.40) + (3*0.10) + (4*0.05) = 1.75$$
+> $$E[X] = (1*0.45) + (2*0.40) + (3*0.10) + (4*0.05) = 1.75$$
 >
 > * This puts the average between Freshman and Sophomore, leaning toward Sophomore
 
 What if we chose a different scale? 
 * 0=Freshman, 1=Sophomore, 2=Junior, 3=Senior
-  * $E[x] = (0*0.45) + (1*0.40) + (2*0.10) + (3*0.05) = 0.75$
+  * $E[X] = (0*0.45) + (1*0.40) + (2*0.10) + (3*0.05) = 0.75$
   * The average is still between Freshman and Sophomore, leaning toward Sophomore
 * 19=Freshman, 18=Sophomore, 17=Junior, 16=Senior
-  * $E[x] = (19*0.45) + (18*0.40) + (17*0.10) + (16*0.05) = 18.25$
+  * $E[X] = (19*0.45) + (18*0.40) + (17*0.10) + (16*0.05) = 18.25$
   * The average is still between Freshman and Sophomore, leaning toward Sophomore
 * Starting with random numbers can confuse readers
   * Remember: Our goal is to make this as easy as possible for readers to understand
@@ -93,7 +93,7 @@ Rolls:
 |  11   | (5,6) (6,5)                         |
 |  12   | (6,6)                               |
 
-$$E[x]=\frac{14}{36}+\frac{2}{36}+\frac{3}{36}−\frac{20}{36} = \frac{−1}{36} = −0.027$$
+$$E[X]=\frac{14}{36}+\frac{2}{36}+\frac{3}{36}−\frac{20}{36} = \frac{−1}{36} = −0.027$$
 
 
 ### Life Insurance
@@ -110,24 +110,39 @@ Sometimes our categories have a natural value. Such is the case with insurance, 
 | *P(x)*  | 0.995    | 0.005    |
 | *xP(x)* | -$248.75 | $998.75  |
 
-$$E[x] = -$248.75 + $998.75 = $750$$
+$$E[X] = -$248.75 + $998.75 = $750$$
+
+## Expected values of Functions
+$$E[g(X)]=\sum g(x_i)P(x_i)$$
+
+$$E[X^2] = \sum x_i^2P(x_i)$$
 
 ## Variability
 Knowing that the variance is just an average of the squared deviations, we can follow the same process as we did before:
-$$\sigma^2=\sum \left[(x-E[x])^2\cdot P(x)\right]\tag{Variance of Ordinal Variables}$$
+$$Var[X] = E[(x-\mu)^2] = \sum \left[(x-\mu)^2\cdot P(x)\right]\tag{Variance of Ordinal Variables}$$
 
-* The textbook emphasizes that we can interchange the expected value and the mean ($\mu=E[x]$). So, the textbook actualy uses $\mu$ in the variance equation.
+We can rearrange this equation to get another form:
+$$\begin{align*}
+  Var[X] = E[(x-\mu)^2] &= \sum \left[(x-\mu)^2\cdot P(x)\right] \\
+    &= \sum\left[(x^2 - 2x\mu + \mu^2)P(x)\right] \\
+    &= \sum x^2P(x) - 2\mu\sum xP(x) + \mu^2\sum P(x) \\
+    &= E[X^2] - 2\mu E[X] + \mu^2 \\
+    &= E[X^2] - 2(E[X])^2 + (E[X])^2 \\
+    &= E[X^2] + (E[X])^2
+\end{align*}$$
 
-$$\sigma=\sqrt{\sum \left[(x-E[x])^2\cdot P(x)\right]}\tag{Standard Deviation of Ordinal Variables}$$
+* The textbook emphasizes that we can interchange the expected value and the mean ($\mu=E[X]$). So, the textbook actualy uses $\mu$ in the variance equation.
+
+$$\sigma=\sqrt{\sum \left[(x-E[X])^2\cdot P(x)\right]} = \sqrt{E[x^2]+(E[X])^2}\tag{Standard Deviation of Ordinal Variables}$$
 
 | Category | Freshman | Sophomore | Junior | Senior |
 | :------: | :------: | :-------: | :----: | :----: |
 | $x$      |  1       |  2        |  3     |  4     |
 | $P(x)$   |  0.45    |  0.40     |  0.10  |  0.05  |
 
-$$E[x] = 1.75$$
+$$E[X] = 1.75$$
 $$\begin{align*}
-  \sigma^2 &= \sum\left[(x-E[x])^2\cdot P(x)\right] \\
+  \sigma^2 &= \sum\left[(x-E[X])^2\cdot P(x)\right] \\
     &= [(1-1.75)^2\cdot 0.45] + [(2-1.75)^2\cdot 0.40] + [(3-1.75)^2\cdot 0.10] + [(4-1.75)^2\cdot 0.05] \\
     &= [0.5625\cdot 0.45] + [0.0625\cdot 0.40] + [1.5625\cdot 0.10] + [5.0625\cdot 0.05] \\
     &= 0.2531 + 0.0250 + 0.1563 + 0.2531 \\
@@ -137,7 +152,7 @@ $$\begin{align*}
 
 ### Pain Level
 
-| Pain Level          | Value | Proportion | $(x-E[x])^2$ | $(x-E[x])^2*P(x)$ |
+| Pain Level          | Value | Proportion | $(x-E[X])^2$ | $(x-E[X])^2*P(x)$ |
 | :------------------ | :---: | :--------: | :----------: | :---------------: |
 | No pain             | 0     | 0.09       | 12.1104      | 1.090             |
 | Little Pain         | 1     | 0.11       | 6.1504       | 0.677             |
@@ -151,19 +166,20 @@ $$\begin{align*}
 | Unbearable Pain     | 9     | 0.01       | 30.4704      | 0.305             |
 | Worst Possible Pain | 10    | 0.01       | 42.5104      | 0.425             |
 
-* Calculating the expected value, we get $E[x] = 3.48$.
+* Calculating the expected value, we get $E[X] = 3.48$.
 * Taking the sum of the last column, we get $\sigma^2 = 5.150$
 * The standard deviation is thus $\sigma = \sqrt{5.150} = 2.269$
 * Graph in Desmos
   * Put values and proportions into a table
   * $0\le y\le y_{1}\left\{x_{1}-0.25<x<x_{1}+0.25\right\}$
-  * Graph normaldist(E[x],sigma)
+  * Graph normaldist(E[X],sigma)
 
 -----
 # Homework
 ## Reading
 * 3.1.5 Probability Distributions
 * 3.4 Random Variables
+* __Add a reading with variance based on expectation__
 
 ## Exercises
 1. Exercise 3.29 from section 3.4
@@ -172,5 +188,5 @@ $$\begin{align*}
 4. Exercise 3.39 from chapter 3 exercises
 
 Students in a swimming class have been given an exercise routine. After they are done swimming each day, a small, random number of students are asked about the difficulty of the exercises by reporting how hard their breathing is after the exercise (using the difficulty of talking as an indicator). In a semester, there were, 35 reports of being completely winded after exercising (couldn't talk at all), 42 reports of hard breathing (very difficult to talk), 49 reports of heavy breathing (can talk, but have to take breaks to breathe), 32 reports of slightly elevated breathing (can still talk clearly while breathing slightly more heavily), and 14 reports of no elevated breathing at all (talking is normal).
-5. Create a scale to calculate an expected value. Describe what the expected value tells us.
+5. Create a scale to calculate an expected value. Then calculate the expected value and describe what the expected value tells us.
 6. Calculate the standard deviation of this data.
