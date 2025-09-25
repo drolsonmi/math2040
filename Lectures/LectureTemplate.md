@@ -1,4 +1,4 @@
-# Lecture 8: Probability
+# Lecture n: Title
 * __Note__: 
 
 Resources for this lecture:
@@ -34,8 +34,6 @@ Duke Forest dataset -->
 * 
 
 ## Exercises
-* Exercise () from section () exercise
-* Exercise () from chapter () exercises
-  * 
-* From Chapter 2 Exercises
-  * Exercises 
+1. Exercise () from section () exercise
+2. Exercise () from chapter () exercises
+3. From Chapter 2 Exercises

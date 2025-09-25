@@ -1,7 +1,7 @@
-# Lecture 9: Distribution Probabilities
-*  
+# Lecture 12: Distribution Probabilities
 
 Resources for this lecture:
+* Desmos, show a normal distribution with cdf
 
 Remember:
 * Continuous Distributions
@@ -15,11 +15,30 @@ Remember:
   * The height of the line is known as the __likelihood__
   * The probability is found by calculating the area under the PDF that is within our range
 
-* Finding areas
-  * Empirical Rule
-
+### Area of a tail
 > * Finding probability (area) on Desmos and on a TI-84
 > * Z-Table
+>
+> For those who like to see the calculus, the equation of the normal curve is
+>
+> $$f(x)=\frac{1}{\sqrt{2\pi}} e^{x^2/2}$$
+>
+> To calculate the area, we take an integral:
+>
+> $$Area = \int_{-\infty}^z \frac{1}{\sqrt{2\pi}} e^{x^2/2} dx$$
+
+* What is area of left tail up to z=-3? up to z=-2? up to z=-1?
+* What is area of right tail above z=1? z=2? z=3?
+
+### Complements
+* Know left-tail, find right-tail
+* We know area left of z=-1. What is area right of z=-1?
+
+### Area of a central range
+* Know left-tail, know right-tail, find center
+* What is area between z=-1 and z=1?
+* Empirical Rule
+
 
 ## Other Distributions
 Normal distributions are only one type of distribution. Others we'll see:
@@ -49,11 +68,12 @@ $$\mu = \frac{1}{p} \qquad \sigma = \sqrt{\frac{1-p}{p^2}}$$
 -----
 # Homework
 ## Reading
-* 
+* 4.1.3 Finding tail areas
+* 4.1.4 Normal Probability examples
+* 4.1.5 68-95-99.7 rule
+* 4.2.2 Geometric distribution
 
 ## Exercises
-* Exercise () from section () exercise
-* Exercise () from chapter () exercises
-  * 
-* From Chapter 2 Exercises
-  * Exercises 
+1. Exercise () from section () exercise
+2. Exercise () from chapter () exercises
+3. From Chapter 2 Exercises

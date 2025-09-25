@@ -33,7 +33,8 @@ Resources for this lecture:
 # Homework
 ## Reading
 * 3.5 Continuous Distributions
-* 4.1 Normal distribution
+* 4.1.1 Normal distribution model
+* 4.1.2 Standardizing with Z-scores
 
 ## Exercises
 * Exercise () from section () exercises
