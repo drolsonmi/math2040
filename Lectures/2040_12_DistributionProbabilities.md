@@ -39,31 +39,12 @@ Remember:
 * What is area between z=-1 and z=1?
 * Empirical Rule
 
-
-## Other Distributions
-Normal distributions are only one type of distribution. Others we'll see:
-* Geometric Distribution
-* Binomial Distribution
-* Poisson Distribution
-
-## Geometric Distributions
-
-* Probability of finding the first success in the 1st trial $= p$
-* Probability of finding the first success in the 2nd trial $= (1-p)p$
-* Probability of finding the first success in the 3rd trial $= (1-p)^2p$
-* Probability of finding the first success in the 4th trial $= (1-p)^3p$
-* Probability of finding the first success in the *n*-th trial $= (1-p)^{n-1}p$
-
-$$\mu = \frac{1}{p} \qquad \sigma = \sqrt{\frac{1-p}{p^2}}$$
-
-> Desmos:
-> 
-> ```python
-> p = 0.5
-> g = geodist(p)
-> a = [1,...,30]
-> 0 < y < g.pdf(a) {a-0.4 < x < a+0.4}
-> ```
+## Finding z-scores knowing the probabilities
+What is the value of z for this probability?
+$$P(a\le z \le b) = 0.25$$
+* Reverse engineer on a z-table
+* Desmos
+* TI-84
 
 -----
 # Homework
@@ -74,6 +55,9 @@ $$\mu = \frac{1}{p} \qquad \sigma = \sqrt{\frac{1-p}{p^2}}$$
 * 4.2.2 Geometric distribution
 
 ## Exercises
-1. Exercise () from section () exercise
-2. Exercise () from chapter () exercises
-3. From Chapter 2 Exercises
+1. Exercise 4.3(e-h) from section 4.1 exercises
+  * You did parts a-d in lesson 11 homework
+2. Exercise 4.5 from section 4.1 exercises
+3. Exercise 4.7 from section 4.1 exercises
+4. Exercise 4.9 from section 4.1 exercises
+5. Exercise 4.36 from chapter 4 exercises

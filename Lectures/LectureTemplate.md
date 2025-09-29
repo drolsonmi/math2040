@@ -34,6 +34,5 @@ Duke Forest dataset -->
 * 
 
 ## Exercises
-1. Exercise () from section () exercise
+1. Exercise () from section () exercises
 2. Exercise () from chapter () exercises
-3. From Chapter 2 Exercises

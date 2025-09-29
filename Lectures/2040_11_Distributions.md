@@ -37,8 +37,7 @@ Resources for this lecture:
 * 4.1.2 Standardizing with Z-scores
 
 ## Exercises
-* Exercise () from section () exercises
-* Exercise () from chapter () exercises
-  * 
-* From Chapter 2 Exercises
-  * Exercises 
+1. Exercise 3.37 from section 3.5 exercises
+2. Exercise 3.38 from section 3.5 exercises
+3. Exercise 4.2 from section 4.1 exercises
+4. Exercise 4.3(a-d) from section 4.1 exercises
