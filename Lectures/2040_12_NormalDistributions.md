@@ -1,4 +1,6 @@
 # Lecture 12: Normal Distribution
+* Lab 3 on __Friday__
+* Project 1 coming soon
 
 Resources for this lecture:
 * Desmos, show a normal distribution with cdf
