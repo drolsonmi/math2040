@@ -1,4 +1,4 @@
-# Lecture 12: Distribution Probabilities
+# Lecture 12: Normal Distribution
 
 Resources for this lecture:
 * Desmos, show a normal distribution with cdf

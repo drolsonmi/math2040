@@ -11,11 +11,11 @@ Normal distributions are only one type of distribution. Others we'll see:
 
 ## Geometric Distributions
 
-* Probability of finding the first success in the 1st trial $= p$
-* Probability of finding the first success in the 2nd trial $= (1-p)p$
-* Probability of finding the first success in the 3rd trial $= (1-p)^2p$
-* Probability of finding the first success in the 4th trial $= (1-p)^3p$
-* Probability of finding the first success in the *n*-th trial $= (1-p)^{n-1}p$
+* Probability of finding the first success in the 1st trial $= P(S) = p$
+* Probability of finding the first success in the 2nd trial $= P(FS) = P(F and S) = (1-p)p$
+* Probability of finding the first success in the 3rd trial $= P(FFS) = P(F and F and S) = (1-p)^2p$
+* Probability of finding the first success in the 4th trial $= P(FFFS) = (1-p)^3p$
+* Probability of finding the first success in the *n*-th trial $= P(S on nth trial) = (1-p)^{n-1}p$
 
 $$\mu = \frac{1}{p} \qquad \sigma = \sqrt{\frac{1-p}{p^2}}$$
 
@@ -35,8 +35,12 @@ $$\mu = \frac{1}{p} \qquad \sigma = \sqrt{\frac{1-p}{p^2}}$$
   * $$p$$ is the proportion of students answering "Yes"
 * Probability that out of 5 people, 3 say yes
 
-$$P(X=3) = (Combination)*P(YYYNN) = (Combination)*P(Y)*P(Y)*P(Y)*P(N)*P(N)$$
-$$P(X=3) = (Combination)*p*p*p*(1-p)*(1-p) = (Combination)p^3(1-p)^{5-3}$$
+$$\begin{align*}
+  P(X=3) &= (Combination)*P(YYYNN) \\
+         &= (Combination)*P(Y)*P(Y)*P(Y)*P(N)*P(N) \\
+         &= (Combination)*p*p*p*(1-p)*(1-p) \\
+         &= (Combination)p^3(1-p)^{5-3}
+\end{align*}$$
 
 ### Combinations
 The 5 people in our example can be rearranged: {YYYNN, YYNYN, YNYYN, NYYYN, YYNNY, YNYNY, NYYNY, YNNYY, NYNYY, NNYYY}
@@ -45,7 +49,7 @@ The method to calculate the number of ways we can get *k* successes from a sampl
 
 $${}_nC_k=\begin{pmatrix}n\\ k\end{pmatrix} = \frac{n!}{k!(n-k)!}$$
 
-where $$n! = n(n-1)(n-2)(n-3)...*3*2*1$$.
+where $$n! = n(n-1)(n-2)(n-3)...*3*2*1 = \prod_{k=1}^n k$$. We often use the phrase "n choose k" to describe the combination $$\begin{pmatrix}n\\k\end{pmatrix}$$.
 
 ### Binomial Probabilities
 The full equation for the probability of *k* results in a binomial experiment is
