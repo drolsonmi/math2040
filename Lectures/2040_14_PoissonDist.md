@@ -5,28 +5,37 @@ Resources for this lecture:
 
 Remember:
 
-## Variance
+## Scenario
+Wages
+* Gather hourly wages of 500 randomly selected employees (we'll call this $X$)
+* Calculate the mean (or Expected Value). The Expected Value is $E[X] = 12$.
+* What is the probability, based on this average, that a randomly selected employee earns $11/hour?
 
+The __Poisson Distribution__ looks at the probability of a certain number of events in a given time period. In this scenario, we are looking at the probability of earning a certain number of dollars in an hour.
 
-### Sample Variance
+## The Poisson Probability
+Let's call the expected value $E[X] = \lambda$.
+$$P(X=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$
 
+What is the probability, based on this average, that a randomly selected employee earns $11/hour?
 
-## Standard Deviation
+$$P(X=11) = \frac{12^{11}e^{-12}}{11!} = \frac{743008370688\cdot 6.144*10^{-6}}{39916800} = 0.1144$$
 
+## The Poisson Distribution
+* Demonstrate in Desmos
 
-## Behavior of the Standard Deviation
-> Demo
+```python
+L = 12
+d=poissondist(L)
+a = [0...50]
+0<y<d.pdf(a){a-0.4<x<a+0.4}
+```
 
-## Class Practice
-Duke Forest dataset --> 
-* Find the variance and the standard deviation of the square footage for the first 30 houses
-> 6040	4475 	1745 	2091 	1772
-> 1950	3909	2841	3924	2173
-> 2091	2492	2200	3889	3169
-> 2750	3234	2933	3831	2414
-> 1416	2300	1932	2786	2830
-> 3487	1831	1935	2015	2526
-
+Other examples of the poisson distribution
+* How many people run the stop sign on the NW corner of campus in a day during school hours (8-5)?
+* How many items are sold in a week?
+* How often does a certain model of car need repairs in a year?
+* How many businesses go bankrupt in a month?
 
 -----
 # Homework
