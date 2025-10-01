@@ -1,5 +1,6 @@
 # Lecture 14: Poisson Distribution
-* __Note__: 
+* Lab 3 on __Friday__
+* Project 1 coming soon
 
 Resources for this lecture:
 
@@ -40,7 +41,7 @@ Other examples of the poisson distribution
 -----
 # Homework
 ## Reading
-* 
+* 4.5 Poisson distribution
 
 ## Exercises
 1. Exercise () from section () exercises
