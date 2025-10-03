@@ -23,11 +23,11 @@ Remember:
 >
 > For those who like to see the calculus, the equation of the normal curve is
 >
-> $$f(x)=\frac{1}{\sqrt{2\pi}} e^{x^2/2}$$
+> $$f(x)=\frac{1}{\sqrt{2\pi}} e^{-x^2/2}$$
 >
 > To calculate the area, we take an integral:
 >
-> $$Area = \int_{-\infty}^z \frac{1}{\sqrt{2\pi}} e^{x^2/2} dx$$
+> $$Area = \int_{-\infty}^z \frac{1}{\sqrt{2\pi}} e^{-x^2/2} dx$$
 
 * What is area of left tail up to z=-3? up to z=-2? up to z=-1?
 * What is area of right tail above z=1? z=2? z=3?
