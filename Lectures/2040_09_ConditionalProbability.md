@@ -17,8 +17,8 @@ Remember:
 ## Complements
 
 
-## Confusion Matrix
-Sometimes we are looking at multiple categories at once. The probability of one category may depend on the other category. We often use a __confusion matrix__ to show how the two categories react with each other.
+## Confusion Matrix (or Contingency Table, or Cross-tabulation)
+Sometimes we are looking at multiple categories at once. The probability of one category may depend on the other category. We often use a __confusion matrix__ to show how the two or more categories react with each other.
 
 A table that shows the two categories
 
@@ -37,6 +37,15 @@ For example, let's compare students who like football compared to students who l
 | :-------: | :---: | :-------: | 
 | $B$       | 120   | 25        |
 | $\bar{B}$ | 40    | 15        |
+
+Contingency Table comparing favorite sport to favorite concessions foods:
+|          | $Football$ | $Basketball$ | $Baseball$ |
+| :------: | :--------: | :----------: | :--------: |
+| Hot Dogs | Moderate   | Low          | High       |
+| Nachos   | High       | High         | Moderate   |
+| Wings    | High       | Moderate     | Low        |
+| Churros  | Moderate   | High         | Moderate   |
+
 
 ## Conditional Probability
 * What is the probability that a student likes basketball? (145/200 = 0.725)

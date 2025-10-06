@@ -44,5 +44,6 @@ Other examples of the poisson distribution
 * 4.5 Poisson distribution
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 4.31 from section 4.5 exercises
+2. Exercise 4.33 from section 4.5 exercises
+3. Exercise 4.34 from section 4.5 exercises
