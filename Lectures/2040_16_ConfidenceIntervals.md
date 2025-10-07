@@ -26,9 +26,15 @@ The __confidence level__ indicates how sure we are of these measurements.
 ### Practice
 > Give everyone a small handful of beans
 > * Find the proportion of beans that are white
-> * Gather the data
-> * Calculate $\mu_\hat{p}$
-> * Calculate $SE_\hat{p}$
+> * Gather and submit the data (Microsoft Forms: Bean Counter)
+>
+> In your groups:
+>   * Find the mean ($\mu_\hat{p}$) and the standard error ($SE_\hat{p}$)
+>   * Find the 90% confidence level of the true proportion
+> 
+> Together (in Desmos: 2040_CLT)
+>   * Plot each group's value and margin of error
+>   * What are the mean and standard deviation? Do the match what we calculated?* 
 
 -----
 # Homework
