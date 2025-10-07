@@ -32,7 +32,7 @@ The __confidence level__ indicates how sure we are of these measurements.
 >   * Find the mean ($\mu_\hat{p}$) and the standard error ($SE_\hat{p}$)
 >   * Find the 90% confidence level of the true proportion
 > 
-> Together (in Desmos: 2040_CLT)
+> Together (in Desmos: [2040-CLT](https://www.desmos.com/calculator/ugpnvtiiyp))
 >   * Plot each group's value and margin of error
 >   * What are the mean and standard deviation? Do the match what we calculated?* 
 
