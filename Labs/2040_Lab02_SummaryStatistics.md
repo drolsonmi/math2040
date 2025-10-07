@@ -1,6 +1,16 @@
 # Lab 2: Analysis
 
 
+
+
+
+
+
+
+
+
+
+
 * Mean
 * Quartiles
 * Boxplots

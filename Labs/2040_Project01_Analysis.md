@@ -17,6 +17,8 @@ Students must use Python (e.g., `pandas`, `matplotlib`/`seaborn`, `scipy.stats`)
     * Data can be gathered by you (and your group). Be aware that this may take additional time. 
       * If you choose to collect your own data, be sure you decide how to make collecting the data as efficient as possible.
       * Be sure to account for any possible lurking variables.
+    * You are also welcome to use a pre-established dataset
+      * Some ideas are available on the [Dataset Sources [__INSERT LINK__]]() page
 3. __Data Loading & Cleaning__ (Python or Excel):
     * Load the data into a Python environment (e.g., using pandas) or into Excel
     * Inspect and handle any missing values or obvious data errors
