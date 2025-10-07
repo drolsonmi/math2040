@@ -8,7 +8,7 @@ This project can be completed in groups.
 To apply data loading, graphing, quantitative calculation, and normal distribution techniques learned in the course to a real-world dataset to answer a specific research question.
 
 ## Tools Requirement
-Students must use Python (e.g., pandas, matplotlib/seaborn, scipy.stats) or Microsoft Excel for the data loading, at least one plot, and the normal distribution calculations. Excel and/or Desmos may be used for supplementary analysis, data organization, and visualization.
+Students must use Python (e.g., `pandas`, `matplotlib`/`seaborn`, `scipy.stats`) or Microsoft Excel for the data loading, at least one plot, and the normal distribution calculations. Excel and/or Desmos may be used for supplementary analysis, data organization, and visualization.
 
 ## Project Phases & Requirements
 ### Phase 1: Data Acquisition & Exploratory Data Analysis (EDA)
@@ -44,10 +44,9 @@ The Final Report must include:
     * Description of the variables used.
     * Detailed presentation of the Python code used for data loading and cleaning.
 3. Results and Discussion:
-    * EDA: Tables of summary statistics and the generated graphs with brief interpretations.
+    * Tables of summary statistics and the generated graphs with brief interpretations.
     * Distribution Analysis: Discussion of the variable's distribution and evidence for/against normality.
     * Probability Calculations: Clear presentation of the normal distribution calculations, including Z-scores, probabilities, and the Python output.
-    * Bivariate Analysis: Scatter plot, correlation coefficient (r), and interpretation of the relationship.
 4. Conclusion:
     * A summary answer to the initial research question(s).
     * Discussion of any limitations (e.g., sampling bias, non-normality) and suggestions for future research.
