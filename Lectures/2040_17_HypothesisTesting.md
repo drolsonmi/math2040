@@ -50,6 +50,9 @@ Example: Testing for cancer
 Level of Significance
 * Confidence level and level of significance on Desmos
 
+Test statistic
+$$z = \frac{\text{point estimate - null value}}{SE}$$
+
 The p-value is the size of the tail beyond the test statistic.
 * Small p-value means not likely
 * If the test statistic is in the tail despite being unlikely, it indicates there is likely a difference
