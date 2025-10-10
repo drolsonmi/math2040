@@ -20,7 +20,7 @@ Show that the number of beans in my jar is not equally balanced (balanced means 
 * Do I reject H0 and adopt HA instead? Or is there not enough evidence to reject H0?
 
 ### Example: Elections
-In the most resent elections, a poll of 325 people indicated that 53% of them would vote for a candidate. Is that enough to say with a 95% confidence level that this candidate will win the election without counting?
+In the most recent elections, a poll of 325 people indicated that 53% of them would vote for a candidate. Is that enough to say with a 95% confidence level that this candidate will win the election without counting?
 * What is the null value?
 * What is the null hypothesis?
 * What is the alternate hypothesis?
