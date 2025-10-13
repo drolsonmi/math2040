@@ -47,6 +47,8 @@ Example: Testing for cancer
   * If we adopt HA and declare the patient has cancer but actually doesn't, that is a false positive
 
 ## Testing hypotheses using the p-value
+Two-tailed, Left-tailed, and right-tailed tests
+
 Level of Significance
 * Confidence level and level of significance on Desmos
 
@@ -56,6 +58,16 @@ $$z = \frac{\text{point estimate - null value}}{SE}$$
 The p-value is the size of the tail beyond the test statistic.
 * Small p-value means not likely
 * If the test statistic is in the tail despite being unlikely, it indicates there is likely a difference
+
+### Example: Elections
+In the most recent elections, a poll of 325 people indicated that 53% of them would vote for a candidate. Is that enough to say with a 5% level of significance that this candidate will win the election without counting?
+* What is the null value?
+* What is the null hypothesis?
+* What is the alternate hypothesis?
+$$\hat{p} = 0.53 \qquad SE=\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} = \sqrt{\frac{0.53(0.47)}{325}} = \sqrt{0.000766} = 0.0277$$
+$$z = \frac{0.53 - 0.50}{0.0277} = 1.083 > 0.05$$
+
+Fail to reject $$H_0$$.
 
 ### Revisiting the Shapiro-Wilk test (Lab 3)
 * Null Hypothesis: The data is normally distributed (default assumption)
@@ -69,5 +81,11 @@ If the p-value is smaller than the threshold, then null hypothesis is rejected, 
 * 5.3 Hypothesis testing for a proportion
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 5.15 from section () exercises
+2. Exercise 5.16 from section () exercises
+3. Exercise 5.17 from section () exercises
+4. Exercise 5.22 from section () exercises
+5. Exercise 5.23 from section () exercises
+6. Exercise 5.24 from section () exercises
+7. Exercise 5.25 from section () exercises
+8. Exercise 5.29 from chapter () exercises

@@ -13,7 +13,7 @@ $$p = \hat{p} \pm ME \qquad \hat{p} - ME \le p \le \hat{p} + ME$$
 
 This is known as a __confidence interval__.
 
-## Finding $z_c$
+## Finding the critical value
 The __confidence level__ indicates how sure we are of these measurements. 
 * Normal distribution - the confidence level is the area in the middle
   * > Demo on Desmos
@@ -43,5 +43,14 @@ The __confidence level__ indicates how sure we are of these measurements.
 * 5.2 Confidence intervals for a proportion
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. What is the critical value for each of the following confidence levels?
+    * C = 65%
+    * C = 82%
+    * C = 87%
+    * C = 92%
+    * C = 99.5%
+2. Exercise 5.7 from section 5.2 exercises
+3. Exercise 5.9 from section 5.2 exercises
+4. Exercise 5.12 from section 5.2 exercises
+5. Exercise 5.13 from section 5.2 exercises
+6. Exercise 5.27 from chapter 5 exercises
