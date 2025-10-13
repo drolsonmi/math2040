@@ -1,6 +1,8 @@
 # Lecture 18: Inference of 2-sample proportions
-* __Note__: 
-
+* __Notes:__
+  * No class on Friday - Fall Break
+  * Exam 2 on Wednesday, Oct 29 (2 weeks from this Wednesday)
+  
 Resources for this lecture:
 
 Remember:

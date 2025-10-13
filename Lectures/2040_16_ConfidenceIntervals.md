@@ -37,10 +37,14 @@ The __confidence level__ indicates how sure we are of these measurements.
 >   * Plot each group's value and margin of error
 >   * What are the mean and standard deviation? Do the match what we calculated?* 
 
+## What is the ideal sample size?
+$$ME = z_c \sqrt{\frac{p_0(1-p_0)}{n}} \qquad\to\qquad n = $$
+
 -----
 # Homework
 ## Reading
 * 5.2 Confidence intervals for a proportion
+* 6.1.5 Choosing a sample size when estimating a proportion
 
 ## Exercises
 1. What is the critical value for each of the following confidence levels?
