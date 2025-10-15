@@ -95,6 +95,7 @@ If the p-value is smaller than the threshold, then null hypothesis is rejected, 
 # Homework
 ## Reading
 * 5.3 Hypothesis testing for a proportion
+* 6.1 Inference for a single proportion
 
 ## Exercises
 1. Exercise 5.15 from section 5.3 exercises
