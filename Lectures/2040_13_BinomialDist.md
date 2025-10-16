@@ -125,11 +125,11 @@ What are the chances that at least 11 of them were built before 1975?
 * 4.3 Binomial distribution
 
 ## Exercises
-* Exercise 4.11 from section 4.2 exercise
-* Exercise 4.13 from section 4.2 exercise
-* Exercise 4.17 from section 4.3 exercise
-* Exercise 4.19 from section 4.3 exercise
-* Exercise 4.18 from section 4.3 exercise
-* Exercise 4.20 from section 4.3 exercise
-* Exercise 4.22 from section 4.3 exercise
-* Exercise 4.23 from section 4.3 exercise
+1. Exercise 4.11 from section 4.2 exercise
+2. Exercise 4.13 from section 4.2 exercise
+3. Exercise 4.17 from section 4.3 exercise
+4. Exercise 4.19 from section 4.3 exercise
+5. Exercise 4.18 from section 4.3 exercise
+6. Exercise 4.20 from section 4.3 exercise
+7. Exercise 4.22 from section 4.3 exercise
+8. Exercise 4.23 from section 4.3 exercise
