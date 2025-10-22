@@ -1,8 +1,8 @@
 # Lecture 18: Inference with proportions of 2 samples
 * __Notes:__
   * No class on Friday or Monday - Fall Break
+  * Lab 4 on Friday, Oct 24 - Bring your laptops
   * Exam 2 on Wednesday, Oct 29 (2 weeks from this Wednesday)
-
 
 ## Difference of two proportions
 We have two independent samples. How do we compare them? In this case, we are not comparing our sample to a null value, but to another dataset.
@@ -56,5 +56,10 @@ $$SE = \sqrt{\frac{\hat{p}_{pooled}(1-\hat{p}_{pooled})}{n_1} + \frac{\hat{p}_{p
 * 6.2 Difference of two proportions
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 6.18 from section 6.2 exercises
+2. Exercise 6.19 from section 6.2 exercises
+3. Exercise 6.22 from section 6.2 exercises
+4. Exercise 6.24 from section 6.2 exercises
+5. Exercise 6.23 from section 6.2 exercises
+6. Exercise 6.25 from section 6.2 exercises
+7. Exercise 6.28 from section 6.2 exercises
