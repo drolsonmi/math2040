@@ -110,6 +110,10 @@ $$p-value = P(\chi^2 > 1.261) = 0.939$$
 * Fail to reject H0
 * Therefore the distribution appears to agree with the advertisement
 
+## Conditions for the Chi-square Test
+* __Independence__. Each case that contributes a count to the table must be independent of all the other cases in the table.
+* __Sample size / distribution__. Each particular scenario (in other words, each cell count) must have at least 5 expected cases.
+
 ### Which distribution?
 Let's look again at some house square footages from our Duke Forest dataset:
 <pre>
@@ -152,6 +156,33 @@ $$z = \frac{x-\bar{x}}{s} \qquad\to\qquad x = zs + \bar{x}$$
 $$\chi^2 = 115.520 \qquad p-value=P(\chi^2>115.520) = 2.8*10^{-21} < 0.01$$
 
 ## Independence in two-way tables
+What we have seen so far is a goodness of fit, checking how proportions of 1 variable fit with expected counts. What if we have 2 variables? 
+
+For example, I want to see how well students have passed my MATH 1025 class between the 3 main modalities:
+
+| Counts     | In-person | Online | IVC    | __Total__ |
+| :--------- | :-------: | :----: | :----: | :-------: |
+| Passed     | 24        | 21     | 18     | __63__    |
+| Failed     | 3         | 4      | 2      | __9__     |
+| __Total__  | __27__    | __25__ | __20__ | __*72*__  |
+
+The proportion of those that passed was 63/72 = 0.875. The proportion of those that failed was 9/72 = 0.125. Assuming this proportion is good for all categories, what are my expected counts? Use a level of significance of 10%.
+
+| Expected Counts | In-person       | Online          | IVC           |
+| :-------------- | :-------------: | :-------------: | :-----------: |
+| Passed          | 0.875*27=23.625 | 0.875*25=21.875 | 0.875*20=17.5 |
+| Failed          | 0.125*27=3.375  | 0.125*25=3.125  | 0.125*20=2.5  |
+
+* H0:  The counts appropriately represent the expected counts (in other words, the proportion of those that passed is around 0.875 for all categories)
+* HA:  The counts do not represent the expected counts (in other words, it is not consistently 0.875 of all students that pass)
+
+Now, we find the $\chi^2$ test statistic.
+$$\ch^2 = \frac{(24-23.625)^2}{23.625} + \frac{(21-21.875)^2}{21.875} + \frac{(18-17.5)^2}{17.5} + \frac{(3-3.375)^2}{3.375} + \frac{(4-3.125)^2}{3.125} + \frac{(2-2.5)^2}{2.5}$$
+$$\chi^2=0.00595 + 0.035 + 0.01429 + 0.04167 + 0.245 + 0.1 = 0.44191$$
+$$df = (\text{\# of rows} - 1)*(\text{\# of columns}-1) = (2-1)*(3-1)=1*2=2$$
+$$p-value=0.802$$
+
+We fail to reject the null hypothesis, so the assumption that the counts appropriately represent the expected counts stands. Approximately 87.5% of students in my MATH 1025 class pass, regardless of the modality.
 
 -----
 # Homework
