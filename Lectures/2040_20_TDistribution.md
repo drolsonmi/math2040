@@ -65,8 +65,13 @@ $$\sigma_{\bar{x}} = SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}$$
 -----
 # Homework
 ## Reading
-* 
+* 7.1 One-sample means with the *t*-distribution
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 7.1 from section 7.1 exercises
+2. Exercise 7.2 from section 7.1 exercises
+3. Exercise 7.3 from section 7.1 exercises
+4. Exercise 7.6 from section 7.1 exercises
+5. Exercise 7.13 from section 7.1 exercises
+6. Exercise 7.7 from section 7.1 exercises
+7. Exercise 7.11 from section 7.1 exercises
