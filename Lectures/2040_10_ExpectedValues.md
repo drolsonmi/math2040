@@ -1,3 +1,8 @@
+<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
 # Lecture 10: Probability Distributions
 * __Coming Up__:
   * Lab 2 due on __September 22__

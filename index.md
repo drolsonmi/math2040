@@ -20,3 +20,9 @@
 * [15: The Central Limit Therorem](./Lectures/2040_15_CLT.md)
 * [16: Confidence Intervals](./Lectures/2040_16_ConfidenceIntervals.md)
 * [17: Hypothesis Testing](./Lectures/2040_17_HypothesisTesting.md)
+* [18: Inference of 2 Samples](./Lectures/2040_18_InferenceOf2Samples.md)
+* [19: Chi-squared Distributions](./Lectures/2040_19_ChiSquared.md)
+
+## Segment 3
+* [20: Quantitative Inference and T-Distributions](./Lectures/2040_20_TDistribution.md)
+* [21: Quantitative Inference with 2 Samples](./Lectures/2040_21_InfOf2QuantitativeSamples.md)

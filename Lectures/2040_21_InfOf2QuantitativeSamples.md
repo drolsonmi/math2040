@@ -1,14 +1,24 @@
-<head>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</head>
-
-# Lecture n: Title
+# Lecture 21: Inference with 2 Quantitative Samples
 * __Note__: 
 
 Resources for this lecture:
 
 Remember:
+
+## Paired Samples
+
+
+## Difference of two means
+
+
+
+
+
+
+
+
+
+
 
 ## Variance
 
@@ -36,7 +46,8 @@ Duke Forest dataset -->
 -----
 # Homework
 ## Reading
-* 
+* 7.2 Paired data
+* 7.3 Difference of two means
 
 ## Exercises
 1. Exercise () from section () exercises

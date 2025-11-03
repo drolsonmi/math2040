@@ -1,3 +1,8 @@
+<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
 # Lecture 20: Inference with 1-sample Quantitative Data
 * __Note__: 
 
@@ -57,10 +62,26 @@ $$\sigma_{\bar{x}} = SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}$$
 > Demonstrate on Desmos with $n$ as a variable
 
 ### Probabilities with the T-distribution
+> Show on Desmos and TI-84
 
 ### Confidence Intervals
+A sample of 56 gas stations show an average price of $3.25 for a gallon of unleaded gasoline with a standard deviation of $0.07. What is the 95% confidence interval for the true price of unleaded gasoline?
+$$SE = \frac{s}{\sqrt{n}} = \frac{\$0.07}{\sqrt{56}} = \frac{\$0.07}{7.48} = 0.00935$$
+$$ME = z_cSE = 1.96*0.00935 = 0.0183$$
+$$x = \bar{x} \pm ME = \{\$3.25 - \$0.0183, \$3.25 + \$0.0183\} = \{\$3.232, \$3.268\}$$
+
+We are 95% confident that the true average price of unleaded gasoline is between $3.232 and $3.268.
 
 ### Hypothesis Testing
+A sample of 56 gas stations show an average price of $3.25 for a gallon of unleaded gasoline with a standard deviation of $0.07. If last year's average price of gas this time of year was $3.29, can we say with a 1% level of significance that gas is cheaper this year?
+* H0: $\mu = 3.29$
+* HA: $\mu < 3.29$
+* $\alpha = 0.01$
+
+$$t = \frac{\bar{x}-\mu_0}{SE} = \frac{\bar{x}-\mu_0}{s/\sqrt{n}} = \frac{3.25-3.29}{0.07/\sqrt{56}} = \frac{-0.04}{0.00935} = -4.278 $$
+$$\text{p-value} = P(t<-4.278) = 0.00003816$$
+
+Yes, there enough evidence to say with a 1% level of significance that gas prices are lower this year than they were last year.
 
 -----
 # Homework

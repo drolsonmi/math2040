@@ -1,3 +1,8 @@
+<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
 # Lecture 19: Chi-Squared ($\chi^2$) Test
 * __Notes__: 
   * Lab 4 on Friday, Oct 24 - Bring your laptops
