@@ -27,7 +27,7 @@ What if, however, we want to know the true mean? For example,
 We can follow many of the same processes. However, we have to look at the Central Limit Theorem differently.
 
 ### Sampling Distributions
-> https://onlinestatbook.com/stat_sim/sampling_dist/index.html
+> [Online Stat Book - Sampling Distribution Simulator](https://onlinestatbook.com/stat_sim/sampling_dist/index.html)
 >   * Sampling Distributions form Normal Distributions if they are large enough
 >   * Otherwise, need about 30 samples
 
@@ -48,7 +48,7 @@ $$\mu_{\bar{x}}=\mu \qquad \sigma_{\bar{x}}=SE_{\bar{x}}=\frac{\sigma}{\sqrt{n}}
 The two conditions for the CLT to hold are the same for quantitative variables as they were for categorical variables, though the second is now calculated differently:
 1. __Independence__ (random)
 2. __Large Enough__
-    * As a general rule, we say it's large enough if $n\ge 30$
+    * As a general rule, we say it's large enough if $$n\ge 30$$
     * > Show this in the simulator
 
 > The average weight of a particular chocolate bar is claimed to be 20 ozs with a standard deviation of 0.7 ozs.
@@ -59,7 +59,7 @@ The two conditions for the CLT to hold are the same for quantitative variables a
 Everything we did above works beautifully if we know $\sigma$. However, we often don't. So, we have to approximate using the sample.
 $$\sigma_{\bar{x}} = SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}$$
 
-> Demonstrate on Desmos with $n$ as a variable
+> Demonstrate on Desmos with *n* as a variable
 
 ### Probabilities with the T-distribution
 > Show on Desmos and TI-84
@@ -74,9 +74,9 @@ We are 95% confident that the true average price of unleaded gasoline is between
 
 ### Hypothesis Testing
 A sample of 56 gas stations show an average price of $3.25 for a gallon of unleaded gasoline with a standard deviation of $0.07. If last year's average price of gas this time of year was $3.29, can we say with a 1% level of significance that gas is cheaper this year?
-* H0: $\mu = 3.29$
-* HA: $\mu < 3.29$
-* $\alpha = 0.01$
+* H0: $$\mu = 3.29$$
+* HA: $$\mu < 3.29$$
+* $$\alpha = 0.01$$
 
 $$t = \frac{\bar{x}-\mu_0}{SE} = \frac{\bar{x}-\mu_0}{s/\sqrt{n}} = \frac{3.25-3.29}{0.07/\sqrt{56}} = \frac{-0.04}{0.00935} = -4.278 $$
 $$\text{p-value} = P(t<-4.278) = 0.00003816$$
