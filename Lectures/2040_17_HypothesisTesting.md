@@ -40,6 +40,7 @@ Since a minority vote is possible, we cannot say for sure that the true proporti
 
 
 ## Decision Errors
+
 |         | Fail to reject H0                | Reject H0                        |
 | :------ | :------------------------------: | :------------------------------: |
 | H0 True | Good                             | Type 1 Error<br>(False Positive) |
