@@ -29,7 +29,7 @@ We can follow many of the same processes. However, we have to look at the Centra
 ### Sampling Distributions
 > https://onlinestatbook.com/stat_sim/sampling_dist/index.html
 >   * Sampling Distributions form Normal Distributions if they are large enough
->   * a
+>   * Otherwise, need about 30 samples
 
 ### CLT for Sample Mean
 $$\mu_{\bar{x}}=\mu \qquad \sigma_{\bar{x}}=SE_{\bar{x}}=\frac{\sigma}{\sqrt{n}}\tag{CLT for Quantitative Variables}$$
@@ -82,6 +82,10 @@ $$t = \frac{\bar{x}-\mu_0}{SE} = \frac{\bar{x}-\mu_0}{s/\sqrt{n}} = \frac{3.25-3
 $$\text{p-value} = P(t<-4.278) = 0.00003816$$
 
 Yes, there enough evidence to say with a 1% level of significance that gas prices are lower this year than they were last year.
+
+> Show on TI-84
+
+## Practice Questions
 
 -----
 # Homework
