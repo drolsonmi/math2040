@@ -3,31 +3,12 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
-# Lecture 21: Inference with 2 Quantitative Samples
+# Lecture 22: Power Calculations
 * __Note__: 
 
 Resources for this lecture:
 
 Remember:
-
-## Paired Samples
-Dependent variables
-$$d = x_1 - x_2$$
-* H0:   $$\mu_d = 0$$
-* HA:   $$\mu_d \ne 0$$ or $$\mu_d < 0$$ or $$\mu_d > 0$$
-
-
-## Difference of two means
-Independent variables
-
-
-
-
-
-
-
-
-
 
 ## Variance
 
@@ -55,8 +36,7 @@ Duke Forest dataset -->
 -----
 # Homework
 ## Reading
-* 7.2 Paired data
-* 7.3 Difference of two means
+* 
 
 ## Exercises
 1. Exercise () from section () exercises
