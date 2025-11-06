@@ -10,46 +10,58 @@ Resources for this lecture:
 
 Remember:
 
-## Paired Samples
-Dependent variables
-$$d = x_1 - x_2$$
-* H0:   $$\mu_d = 0$$
-* HA:   $$\mu_d \ne 0$$ or $$\mu_d < 0$$ or $$\mu_d > 0$$
+## Paired samples
+* The two samples are dependent on each other
+    * One event in one sample is connected to a specific event in the other sample
+    * Husband - to - wife height difference
+    * Temperature - to - exam scores
+    * Children's height at 1 year old compared to 4 years old (Longitudinal study)
+
+$$d = \mu_1 − \mu_2$$
+
+### Confidence Intervals
+$$SE = \frac{\sigma_d}{\sqrt{n}}$$
+
+$$ME = t_c \cdot SE$$
+* To find the critical value, use a t-distribution with *df = n − 1*
+
+$$\mu_d = \bar{d} \pm ME$$
 
 
-## Difference of two means
-Independent variables
+### Hypothesis Testing
+$$SE = \frac{\sigma_d}{\sqrt{n}} = √((σ_d^2)/n)
+
+$$t = \frac{\mu_d − \mu_0}{SE}$$
+* Typically, $$\mu_0 = 0$$
+
+p-value = probability of getting a value more extreme than your test statistic
+
+
+## Non-paired samples
+* There is no connection between specific events in the two samples
+* Independent samples
+
+### Confidence Intervals
+$$SE = \sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }$$
+
+$$ME = t_c \cdot SE$$
+* To find the critical value, use a t-distribution with $$df = \min⁡{n_1−1, n_2−1}$$
+
+$$\mu_1 − \mu_2 = (\bar{x}_1 − \bar{x}_2) \pm ME$$
+
+
+### Hypothesis Tests
+$$SE = \sqrt{\frac{s_1^2}{n_1} +\frac{s_2^2}{n_2}}$$
+
+$$t = \frac{(\bar{x}_1−\bar{x}_2) − \mu_0}{SE}$$
+* Typically, $$\mu_0 = 0$$
+
+
+## Practice
 
 
 
 
-
-
-
-
-
-
-## Variance
-
-
-### Sample Variance
-
-
-## Standard Deviation
-
-
-## Behavior of the Standard Deviation
-> Demo
-
-## Class Practice
-Duke Forest dataset --> 
-* Find the variance and the standard deviation of the square footage for the first 30 houses
-> 6040	4475 	1745 	2091 	1772
-> 1950	3909	2841	3924	2173
-> 2091	2492	2200	3889	3169
-> 2750	3234	2933	3831	2414
-> 1416	2300	1932	2786	2830
-> 3487	1831	1935	2015	2526
 
 
 -----
@@ -59,5 +71,12 @@ Duke Forest dataset -->
 * 7.3 Difference of two means
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 7.16 from section 7.2 exercises
+2. Exercise 7.17 from section 7.2 exercises
+3. Exercise 7.19 from section 7.2 exercises
+4. Exercise 7.21 from section 7.2 exercises
+5. Exercise 7.22 from section 7.2 exercises (Look at exercise 7.20 for more context)
+6. Exercise 7.27 from section 7.3 exercises
+7. Exercise 7.29 from section 7.3 exercises
+8. Exercise 7.32(a,b) from section 7.3 exercises
+9. Exercise 7.31 from section 7.3 exercises
