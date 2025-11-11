@@ -41,22 +41,28 @@ Now, we consider if H0 is not true
 * The rest of the area in the HA normal distribution is the probability that we accurately reject H0. This is __power__. In short, this is the probability that we successfully reject the 
     $$Power = P(Reject~H_0 | H_0~is~not~true)$$
 
-### Example 1
-In an automobile production line, the time to assemble a door takes an average of 8.50 minutes with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process to 8.21 minutes. You decide to test this by sampling 50 door assemblies using the new procedure. What is the power? In other words, what is the probability that you will get a value that shows the process has decreased production time? Use a 5% level of significance.
-* H0: $$\mu = 8.50$$
-* HA: $$\mu < 8.50$$
+### Example using means
+In an automobile production line, the time to assemble a door takes an average of 8.50 minutes with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process to 8.21 minutes. You decide to test this by sampling 50 door assemblies using the new procedure. What is the power? In other words, what is the probability that you will get a value that shows the process has decreased production time? Use a 10% level of significance.
+* H0: $\mu = 8.50$
+* HA: $\mu < 8.50$
 
-The level of significance is $$\alpha = P(\text{Type I Error}) = P(x < x_c)$$. The critical value is $$x_c = 8.198$$.
+The level of significance is $\alpha = P(\text{Type I Error}) = P(x < x_c)$. The critical value is $x_c = 8.264$.
 
-To find $$\beta = P(\text{Type II Error})$$, we create a new distribution assuming HA is true (mean of the distribution is now the true value of 8.21). Then $$\beta = P(\text{Type II Error}) = P(x > x_c) = 0.526$$
+To find $\beta = P(\text{Type II Error})$, we create a new distribution assuming HA is true (mean of the distribution is now the true value of 8.21). Then $\beta = P(\text{Type II Error}) = P(x > x_c) = 0.3837$
 
-The power is the complement: $$Power = 1-P(\text{Type II Error}) = 1-0.526 = 0.474$$. So there is a 47.4% chance that I will get a good result.
+The power is the complement: $Power = 1-P(\text{Type II Error}) = 1-0.3837 = 0.6163$. So there is a 47.3% chance that I will get a good result.
 
-### Example 1 Viewpoint 2
+### Same example using differences of means
 In an automobile production line, the time to assemble a door takes an average time with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process by 0.29 minutes. You decide to test this by sampling 50 door assemblies to measure the time difference using the new procedure. What is the power? In other words, what is the probability that you will get a difference in times that shows the process has decreased production time? Use a 5% level of significance.
-* Let $$d = t_new - t_old$$
-* H0:  $$\mu_d = 0$$
-* HA:  $$\mu_d = -0.29$$
+* Let $d = |\mu_1 - \mu_0|$. This is known as the __effect size__.
+* H0:  $\mu_d = 0$
+* HA:  $\mu_d = -0.29$
+
+The level of significance is $\alpha = P(\text{Type I Error}) = P(x < x_c) = 0.05$ where our null distribution follows $\mu_0 = 0$ and $SE = \frac{1.3}{\sqrt{n}}$. For this distribution, the critical value is $x_c = -0.2356$.
+
+$\beta = P(\text{Type II Error}) = P(x > x_c) = P(x > -0.302)$ where our alternate distribution follows $$\mu_1 = -0.29$$ and $SE = \frac{1.3}{\sqrt{n}}$. This gives $\beta = 0.3837$.
+
+The power is the complement: $Power = 1-\beta = 1-0.3837 = 0.6163$. So there is a 61.6% chance that I will get a good result.
 
 > Do on Desmos to show it's the same.
 
@@ -76,26 +82,42 @@ Really, the only option is to change *n*.
     $$\mu_A-\mu_0 = z_\beta SE + z_\alpha SE$$
 
 To find the right sample size,
-1. Find the z-score that corresponds with $$\alpha$$
-2. Find your z-score that correspons with $$\beta$$
-3. Set $$(z_\alpha + z_\beta)SE$$ equal to the difference $$\mu_A-\mu_0$$ and solve for SE
+1. Find the z-score that corresponds with $\alpha$
+2. Find your z-score that correspons with $\beta$
+3. Set $(z_\alpha + z_\beta)SE$ equal to the difference $\mu_A-\mu_0$ and solve for SE
 4. Solve for *n*
 
-### Example 1 Viewpoint 3
-In an automobile production line, the time to assemble a door takes an average time with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process by 0.29 minutes. You decide to test this by sampling *n* door assemblies to measure the time difference using the new procedure. How many door assemblies should you sample to get a power or 80%? Use a 5% level of significance.
-1. $\alpha = 0.05$ for a standard normal distribution gives a z-score of $z_\alpha = -1.645$
-    * $$z_\alpha SE = 1.645 SE$$ on a normal distribution with $\mu=0$ and $\sigma_\bar{x} = SE$
-2. $\beta = 1-Power = 1-0.80 = 0.20$ for a standard normal distribution gives a z-score of $z_\beta = 0.842$
-    * $$z_\beta SE = 0.842 SE$ for a standard normal distribution with $\mu=-0.29$ and $\sigma_\bar{x} = SE$
-3. Minimum effect size = |-0.29| = 0.29. Take the differences
-    $$\mu_A-\mu_0 = 0.842 SE - (-1.645 SE)$$
-    $$0.29 = 2.487 SE$$
-    $$SE = \frac{0.29}{2.487} = 0.1166$$
-4. Solve for *n*, assuming both groups are the same size
+### Calculating n
+In an automobile production line, the time to assemble a door takes an average of 8.50 minutes with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process to 8.21 minutes. You decide to test this by sampling $n$ door assemblies using the new procedure. How many door assemblies should you sample to get a power of 80%? Use a 5% level of significance.
+
+* Find the difference between the means (known as the effect size)
+    $$d = |\mu_1 - \mu_0| = |8.21 - 8.50| = |-0.29| = 0.29$$
+
+* Find the critical z-score for the significance level in the null distribution (just use a standard normal distribution with $\mu=0$, $\sigma=1$)
+    $$P(z < z_\alpha) = 0.05 \qquad\to\qquad z_\alpha = -1.645$$
+
+* Find the critical z-score for the power in the alternate distribution (just use a standard normal distribution with $\mu=0$, $\sigma=1$)
+    $$P(z < z_\beta) = 0.80 \qquad\to\qquad z_\beta = 0.842$$
+
+* Find the distances from the critical value to each mean and solve for SE
+    $$\begin{align*}d &= d_1 - d_0  \\
+        0.29 &= |z_\beta SE| + |z_\alpha SE| \\
+        0.29 &= 0.842 SE + 1.645 SE \\
+        0.29 &= 2.487 SE \\
+        SE &= \frac{0.29}{2.487} = 0.1166\end{align*}$$
+
+* Use the SE to solve for $n$
     $$SE = \frac{\sigma}{\sqrt{n}}$$
-    $$n = \left(\frac{\sigma}{SE}\right)^2 = \left(\frac{1.3}{0.1166}\right)^2 = 124.31$$
+    $$n = \left(\frac{\sigma}{SE}\right)^2$$
+    $$n = \left(\frac{1.3}{0.1166}\right)^2 = 124.31$$
 
 Minimum is 124.3, but we can only do whole numbers. So, we need to sample at least 125 doors from each method.
+
+> Note: I could reword the problem as:
+> 
+> > In an automobile production line, the time to assemble a door takes an average time with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process by 0.29 minutes. You decide to test this by sampling *n* door assemblies to measure the time difference using the new procedure. How many door assemblies should you sample to get a power or 80%? Use a 5% level of significance.
+>
+> In this case, I just skip the first step since the difference (effect size) is already given in the problem.
 
 -----
 # Homework
