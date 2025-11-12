@@ -26,3 +26,5 @@
 ## Segment 3
 * [20: Quantitative Inference and T-Distributions](./Lectures/2040_20_TDistribution.md)
 * [21: Quantitative Inference with 2 Samples](./Lectures/2040_21_InfOf2QuantitativeSamples.md)
+* [22: Power Calculations](./Lectures/2040_22_PowerCalculations.md)
+* [23: ANOVA](./Lectures/2040_23_ANOVA.md)
