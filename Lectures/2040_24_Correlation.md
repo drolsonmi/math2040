@@ -1,0 +1,70 @@
+<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+Resources:
+* [Desmos: Linear Regression](https://www.desmos.com/calculator/ezcqkdityj)
+
+# Lecture 24: Correlation
+* __Note__: 
+
+## Relationship
+> Show Desmos: Linear Regression
+>   - show the datapoints and a line
+>   - Change the slope to show better fits
+
+In a perfect relationship, a scatterplot would show points along a straight line.
+* Indicates the two variables are related to each other and not influenced from other variables
+$$y = \beta_0 + \beta_1 x$$
+
+Reality, there are always outside influences (confounding variables), creating an error $\epsilon$.
+$$y = \beta_0 + \beta_1 x + \epsilon$$
+
+* Sometimes, this relationship is a line (linear regression)
+* Sometimes, it follows another function (polynomial regression, exponential regression)
+
+We'll focus on linear regression here.
+
+## Predictions and Residuals
+Once we have a line (learn how to make it later), we can use it to make predictions:
+$$y_i = \beta_0 + \beta_1 x_i + e_i \qquad \hat{y}_i = \beta_0 + \beta_1 x_i$$
+
+> Example: 
+>   * Temperature: [52, 52, 54, 54, 52, 52, 48, 46, 45, 43, 45, 45, 46, 46, 46, 46]
+>   * Relative Humidity: [62, 58, 47, 50, 50, 54, 62, 66, 70, 76, 76, 70, 71, 66, 71, 76]
+> $$y = 182.07 - 2.446x$$
+>
+> What is the humidity if the temperature is 50F?
+> $$y = 182.07 - 2.446(50) = 59.77$$
+> 
+> Desmos: Add the predictions
+
+Obviously, it's not perfect. We can calculate the error between a prediction and the true value, also known a __residual__.
+$$y_i-\hat{y}_i = (\beta_0 + \beta_1x_i + e_i) - (\beta_0 + \beta_1x_i) = e_i$$
+
+> Desmos: Add the residuals
+
+We want to get the best line. To get this, we need the correlation.
+
+## Correlation
+In a perfect relationship, a scatterplot would show points along a straight line.
+* Indicates the two variables are related to each other and not influenced from other variables
+$$y = \beta_0 + \beta_1 x$$
+
+This perfect relationship has a 100% correlation ($r = 1.0$). The __correlation__ indicates the strength of the relationship. It takes on a value between -1.0 and +1.0.
+* Show an image of high correlation, moderate correlation, low correlation
+
+We find the correlation using the variability of the x-variable and of the y-variable
+$$r = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y} = \frac{\sum z_xz_y}{n-1}$$
+
+> What is the correlation in the Temperature vs. Relative Humidity example above?
+
+-----
+# Homework
+## Reading
+* 8.1.4 Describing linear relationships with correlation
+
+## Exercises
+1. Exercise () from section () exercises
+2. Exercise () from chapter () exercises
