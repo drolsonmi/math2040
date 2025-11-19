@@ -28,3 +28,5 @@
 * [21: Quantitative Inference with 2 Samples](./Lectures/2040_21_InfOf2QuantitativeSamples.md)
 * [22: Power Calculations](./Lectures/2040_22_PowerCalculations.md)
 * [23: ANOVA](./Lectures/2040_23_ANOVA.md)
+* [24: Correlation](./Lectures/2040_24_Correlation.md)
+* [25: Linear Regression](./Lectures/2040_25_LinearRegression.md)
