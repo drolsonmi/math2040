@@ -10,6 +10,12 @@ Resources:
 * __Note__: 
 
 ## Relationship
+Correlation and Linear Regression look at the relationship of two quantitative variables.
+* One variable is dependent on the other
+* We show this dependence using a scatterplot
+    * The independent variable is on the x-axis
+    * The dependent variable is on the y-axis
+
 > Show Desmos: Linear Regression
 >   - show the datapoints and a line
 >   - Change the slope to show better fits
@@ -56,14 +62,22 @@ This perfect relationship has a 100% correlation ($r = 1.0$). The __correlation_
 * Show an image of high correlation, moderate correlation, low correlation
 
 We find the correlation using the variability of the x-variable and of the y-variable
-$$r = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y} = \frac{\sum z_xz_y}{n-1}$$
+$$R = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y} = \frac{\sum z_xz_y}{n-1}$$
 
 > What is the correlation in the Temperature vs. Relative Humidity example above?
+
+# a
+## $R^2$ coefficient
+Although *R* is commonly used to describe the relationship, it is more common to use $R^2$
+* $R^2$ describes what amount of variation in the dependent variable can be attributed to variations in the independent variable
+
+
 
 -----
 # Homework
 ## Reading
-* 8.1.4 Describing linear relationships with correlation
+* 8.1 Fitting a line, residuals, and correlation
+* 8.2.7 Using $R^2$ to describe the strength of a fit
 
 ## Exercises
 1. Exercise () from section () exercises
