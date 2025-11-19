@@ -18,11 +18,11 @@ Correlation and Linear Regression look at the relationship of two quantitative v
     * The dependent variable is on the y-axis
 
 Correlation:
-$$r = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y}$$
+$$R = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y}$$
 
 ## Linear Regression (Least Squares Regression)
 $$y = \beta_0 + \beta_1x$$
-$$\beta_1 = \frac{s_y}{s_x}r$$
+$$\beta_1 = \frac{s_y}{s_x}R$$
 $$y-\bar{y} = \beta_1(x-\bar{x}) \qquad\to\qquad y = \bar{y}-\beta_1\bar{x} + \beta_1x$$
 $$\to \qquad \text{Let }\beta_0 = \bar{y}-\beta_1\bar{x} \qquad \to \qquad y = \beta_0 + \beta_1x$$
 
