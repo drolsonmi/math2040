@@ -80,5 +80,30 @@ Although *R* is commonly used to describe the relationship, it is more common to
 * 8.2.7 Using $R^2$ to describe the strength of a fit
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 8.2 from section 8.1 exercises
+2. Exercise 8.5 from section 8.1 exercises
+3. Exercise 8.7 from section 8.1 exercises
+4. Exercise 8.12 from section 8.1 exercises
+5. Exercise 8.16 from section 8.1 exercises
+6. Exercise 8.37 from chapter 8 exercises
+7. What is the correlation between these numbers? Do this calculation by hand and show your work (You may use the calculator to find the means and standard deviations and to do the final calculations). Then use a calculator's linear regression function to check your work.
+
+        |   x   |   y   | 
+        | :---: | :---: |
+        | 18.01 | 19.04 |
+        | 17.53 | 28.79 |
+        | 16.53 | 19.29 |
+        | 13.57 | 24.73 |
+        | 15.22 | 28.10 |
+        | 16.03 | 28.67 |
+        | 15.86 | 28.77 |
+        | 16.78 | 29.67 |
+        | 15.88 | 26.90 |
+        | 15.68 | 27.81 |
+        | 14.66 | 27.05 |
+        | 18.02 | 29.73 |
+        | 14.32 | 26.58 |
+        | 18.05 | 31.30 |
+        | 18.82 | 30.76 |
+
+8. Find the $R^2$ value of the data in the previous question. Interpret what this number means.
