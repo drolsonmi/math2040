@@ -26,9 +26,20 @@ $$\beta_1 = \frac{s_y}{s_x}R$$
 $$y-\bar{y} = \beta_1(x-\bar{x}) \qquad\to\qquad y = \bar{y}-\beta_1\bar{x} + \beta_1x$$
 $$\to \qquad \text{Let }\beta_0 = \bar{y}-\beta_1\bar{x} \qquad \to \qquad y = \beta_0 + \beta_1x$$
 
+> In Excel, calculate a correlation on the Duke Forest dataset (Price vs Area)
+>    * Scatterplot
+>    * Calculate Correlation
+>    * Find slope and y-intercept
+>    * Predict house price if the area is 4750 sq ft
+
 ## Interpolation vs Extrapolation
 
 # Inference for Linear Regression
+Our sample has a correlation of $R$. What is the population's correlation $\rho$? Are we sure that we have a strong correlation for our population?
+* We can create a confidence interval 
+    * $\rho = R \pm ME$
+* We can also do a hypothesis test to see if the correlation is significant
+
 
 -----
 # Homework
