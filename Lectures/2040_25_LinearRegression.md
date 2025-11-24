@@ -21,10 +21,10 @@ Correlation:
 $$R = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y}$$
 
 ## Linear Regression (Least Squares Regression)
-$$y = \beta_0 + \beta_1x$$
-$$\beta_1 = \frac{s_y}{s_x}R$$
-$$y-\bar{y} = \beta_1(x-\bar{x}) \qquad\to\qquad y = \bar{y}-\beta_1\bar{x} + \beta_1x$$
-$$\to \qquad \text{Let }\beta_0 = \bar{y}-\beta_1\bar{x} \qquad \to \qquad y = \beta_0 + \beta_1x$$
+$$y = b_0 + b_1x$$
+$$b_1 = \frac{s_y}{s_x}R$$
+$$y-\bar{y} = b_1(x-\bar{x}) \qquad\to\qquad y = \bar{y}-b_1\bar{x} + b_1x$$
+$$\to \qquad \text{Let }b_0 = \bar{y}-b_1\bar{x} \qquad \to \qquad y = b_0 + b_1x$$
 
 > In Excel, calculate a correlation on the Duke Forest dataset (Price vs Area)
 >    * Scatterplot
@@ -35,10 +35,15 @@ $$\to \qquad \text{Let }\beta_0 = \bar{y}-\beta_1\bar{x} \qquad \to \qquad y = \
 ## Interpolation vs Extrapolation
 
 # Inference for Linear Regression
-Our sample has a correlation of $R$. What is the population's correlation $\rho$? Are we sure that we have a strong correlation for our population?
+Our sample has a correlation of $R$. What is the population's correlation ($\rho$)? What are the population's bias ($\beta_0$) and parameter ($\beta_1$)? Are we sure that we have a strong correlation for our population?
+$$y = \beta_0 + \beta_1 x$$
 * We can create a confidence interval 
     * $\rho = R \pm ME$
-* We can also do a hypothesis test to see if the correlation is significant
+    * $\beta_0 = b_0 \pm ME$
+    * $\beta_1 = b_1 \pm ME$
+* We can also do a hypothesis test to see if these measures are significant
+
+> Do a Linear Regression Test in Excel
 
 
 -----
@@ -48,5 +53,10 @@ Our sample has a correlation of $R$. What is the population's correlation $\rho$
 * 8.4 Inference for linear regression
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 8.19 from section 8.2 exercises
+2. Exercise 8.22 from section 8.2 exercises
+3. Exercise 8.23 from section 8.2 exercises
+4. Exercise 8.25 from section 8.2 exercises
+5. Exercise 8.31 from section 8.4 exercises
+6. Exercise 8.32 from section 8.4 exercises
+7. Exercise 8.44 from chapter 8 exercises

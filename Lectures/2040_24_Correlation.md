@@ -22,10 +22,10 @@ Correlation and Linear Regression look at the relationship of two quantitative v
 
 In a perfect relationship, a scatterplot would show points along a straight line.
 * Indicates the two variables are related to each other and not influenced from other variables
-$$y = \beta_0 + \beta_1 x$$
+$$y = b_0 + b_1 x$$
 
 Reality, there are always outside influences (confounding variables), creating an error $\epsilon$.
-$$y = \beta_0 + \beta_1 x + \epsilon$$
+$$y = b_0 + b_1 x + \epsilon$$
 
 * Sometimes, this relationship is a line (linear regression)
 * Sometimes, it follows another function (polynomial regression, exponential regression)
@@ -34,7 +34,7 @@ We'll focus on linear regression here.
 
 ## Predictions and Residuals
 Once we have a line (learn how to make it later), we can use it to make predictions:
-$$y_i = \beta_0 + \beta_1 x_i + e_i \qquad \hat{y}_i = \beta_0 + \beta_1 x_i$$
+$$y_i = b_0 + b_1 x_i + e_i \qquad \hat{y}_i = b_0 + b_1 x_i$$
 
 > Example: 
 >   * Temperature: [52, 52, 54, 54, 52, 52, 48, 46, 45, 43, 45, 45, 46, 46, 46, 46]
@@ -47,7 +47,7 @@ $$y_i = \beta_0 + \beta_1 x_i + e_i \qquad \hat{y}_i = \beta_0 + \beta_1 x_i$$
 > Desmos: Add the predictions
 
 Obviously, it's not perfect. We can calculate the error between a prediction and the true value, also known a __residual__.
-$$y_i-\hat{y}_i = (\beta_0 + \beta_1x_i + e_i) - (\beta_0 + \beta_1x_i) = e_i$$
+$$y_i-\hat{y}_i = (b_0 + b_1x_i + e_i) - (b_0 + b_1x_i) = e_i$$
 
 > Desmos: Add the residuals
 
@@ -56,7 +56,7 @@ We want to get the best line. To get this, we need the correlation.
 ## Correlation
 In a perfect relationship, a scatterplot would show points along a straight line.
 * Indicates the two variables are related to each other and not influenced from other variables
-$$y = \beta_0 + \beta_1 x$$
+$$y = b_0 + b_1 x$$
 
 This perfect relationship has a 100% correlation ($r = 1.0$). The __correlation__ indicates the strength of the relationship. It takes on a value between -1.0 and +1.0.
 * Show an image of high correlation, moderate correlation, low correlation
@@ -66,7 +66,6 @@ $$R = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y} = \frac{\
 
 > What is the correlation in the Temperature vs. Relative Humidity example above?
 
-# a
 ## $R^2$ coefficient
 Although *R* is commonly used to describe the relationship, it is more common to use $R^2$
 * $R^2$ describes what amount of variation in the dependent variable can be attributed to variations in the independent variable

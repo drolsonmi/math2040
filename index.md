@@ -30,3 +30,5 @@
 * [23: ANOVA](./Lectures/2040_23_ANOVA.md)
 * [24: Correlation](./Lectures/2040_24_Correlation.md)
 * [25: Linear Regression](./Lectures/2040_25_LinearRegression.md)
+* [26: Multiple Regression](./Lectures/2040_26_MultipleRegression.md)
+* [27: Logistic Regression](./Lectures/2040_27_LogisticRegression.md)
