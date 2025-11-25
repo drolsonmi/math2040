@@ -10,28 +10,30 @@ Resources for this lecture:
 
 Remember:
 
-## Variance
+## Purpose
+* Linear regression uses a value $x$ and our parameters to predict a numerical value
+    $$\hat{y} = \beta_0 + \beta_1 x$$
+* Logistic regression uses a value $x$ and our parameters to predict a category
 
+## The logistic regression equation
+$$transformation(p) = \beta_0 + \beta_1x$$
+$$transformation(p) = f(x) \tag\text{where }f(x) = \beta_0 + \beta_1x$$
 
-### Sample Variance
+Logit Transformation
+$$logit(p) = \ln\left(\frac{p}{1-p}\right) = f(x)$$
+$$p = \frac{e^f(x)}{1 + e^{f(x)}}$$
 
+> Plot this function on Desmos
+>   * What happens if $\beta_0$ changes?
+>   * What happens if $\beta_1$ changes?
+>   * What happens if $\beta_1$ becomes negative?
 
-## Standard Deviation
+### Demo
+> [CoLab demo on LogisticRegression](https://colab.research.google.com/drive/1_cYfd2OiJxZFeJLGTuen9iLdFxbEgDlm?usp=sharing)
 
-
-## Behavior of the Standard Deviation
-> Demo
-
-## Class Practice
-Duke Forest dataset --> 
-* Find the variance and the standard deviation of the square footage for the first 30 houses
-> 6040	4475 	1745 	2091 	1772
-> 1950	3909	2841	3924	2173
-> 2091	2492	2200	3889	3169
-> 2750	3234	2933	3831	2414
-> 1416	2300	1932	2786	2830
-> 3487	1831	1935	2015	2526
-
+## What if there's more than one variable?
+With linear regression, we just added more terms to our regression equation. We do the same here.
+$$p = \frac{e^f(x)}{1 + e^{f(x)}} \qquad f(x) = \beta_0 + \beta_1x_1 + \beta_2x_2 + \beta_3x_3 + \dots$$
 
 -----
 # Homework

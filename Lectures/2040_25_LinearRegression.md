@@ -20,6 +20,25 @@ Correlation and Linear Regression look at the relationship of two quantitative v
 Correlation:
 $$R = \frac{1}{n-1}\sum \frac{x_i-\bar{x}}{s_x}\frac{y_i-\bar{y}}{s_y}$$
 
+## A note on Modeling
+1. Collect and analyze Data
+2. Model the data (find patterns) - we can use these models to make predictions
+3. Create laws that describe principles
+
+For example, in physics we have the equation $F=ma$. Where did that come from?
+1. Astronomer Tico Bray watched the stars and planets, recording their motion in the skies
+2. Astronomer Johannes Kepler created a number of equations that modeled their motion
+3. Isaac Newton created the Laws of Motion which we can now use to describe any motion
+
+So far this semester, we have only collected and analyzed data. Once we have an analysis, we can create a couple of equations that we can use when new data is presented.
+> The data shows that there is a linear relationship between height and weight among children ages 5-10.
+>   * A new child comes to the doctor's office. The child 42 inches tall. What is the expected weight?
+>   * We don't know the weight yet, but if we use the line that fits the data, we can estimate the weight
+
+We're going to finish this semester looking at two simple models to make predictions:
+* Linear Regression to predict numerical values
+* Logistic Regression to predict categories
+
 ## Linear Regression (Least Squares Regression)
 $$y = b_0 + b_1x$$
 $$b_1 = \frac{s_y}{s_x}R$$
