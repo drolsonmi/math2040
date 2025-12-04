@@ -85,7 +85,7 @@ Although *R* is commonly used to describe the relationship, it is more common to
 4. Exercise 8.12 from section 8.1 exercises
 5. Exercise 8.16 from section 8.1 exercises
 6. Exercise 8.37 from chapter 8 exercises
-7. What is the correlation between these numbers? Do this calculation by hand and show your work (You may use the calculator to find the means and standard deviations and to do the final calculations). Then use a calculator's linear regression function to check your work.
+7. What is the correlation between these datasets? Do this calculation by hand and show your work (You may use the calculator to find the means and standard deviations and to do the final calculations). Then use a calculator's linear regression function to check your work.
 
         |   x   |   y   | 
         | :---: | :---: |

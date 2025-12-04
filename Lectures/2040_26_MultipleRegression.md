@@ -36,3 +36,4 @@ $$y = b_0 + b_1x_1 + b_2x_2 + b_3x_3 + \dots$$
 ## Exercises
 1. Exercise 9.4 from section 9.1 exercises
 2. Exercise 9.6 from section 9.1 exercises
+3. Exercise 9.19 from Chapter 9 exercises
