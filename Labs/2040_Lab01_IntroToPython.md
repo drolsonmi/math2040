@@ -11,7 +11,7 @@
 
 You can choose the language you want, but I'll demonstrate in Python this semester
 * Can use Python online with a Google account for free
-    * You can install Python, or R directly on your computer for free. I'd be happy to help if you want to do this.
+    * You can install Python or R directly on your computer for free. I'd be happy to help if you want to do this.
 * Statistics majors may want to consider learning R - I have resources for you
 
 ## Example: Duke Forest
