@@ -27,10 +27,14 @@ Relationships
 
 -----
 # Homework
+(10 points)
+
 ## Reading
 * 2.1.1 Scatterplots for paired data
 * 2.1.2 Dot plots and the mean
 
 ## Exercises
-* Section 2.1 Exercises
-  * Exercises 2.2, 2.3, 2.4, 2.6
+1. Exercise 2.2 from section 2.1 exercises
+2. Exercise 2.3 from section 2.1 exercises
+3. Exercise 2.4 from section 2.1 exercises
+4. Exercise 2.6 from section 2.1 exercises

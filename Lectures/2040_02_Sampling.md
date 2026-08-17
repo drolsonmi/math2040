@@ -66,8 +66,16 @@ Follow-up questions
 * How might systematic sampling introduce bias based on how the household data is organized?
 
 # Homework
+(13 points)
+
 ## Reading
-* Section 1.3
+* 1.3 Sampling principles and strategies
 
 ## Exercises
-* 1.14, 1.15, 1.17, 1.19, 1.20, 1.24, 1.27
+1. Exercise 1.14 from section 1.3 exercises
+2. Exercise 1.15 from section 1.3 exercises
+3. Exercise 1.17 from section 1.3 exercises
+4. Exercise 1.19 from section 1.3 exercises
+5. Exercise 1.20 from section 1.3 exercises
+6. Exercise 1.24 from section 1.3 exercises
+7. Exercise 1.27 from section 1.3 exercises

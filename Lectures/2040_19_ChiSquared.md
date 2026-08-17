@@ -191,9 +191,13 @@ We fail to reject the null hypothesis, so the assumption that the counts appropr
 
 -----
 # Homework
+(10 points)
+
 ## Reading
 * 6.3 Testing for goodness of fit using chi-square
 
 ## Exercises
-1. Exercise () from section () exercises
-2. Exercise () from chapter () exercises
+1. Exercise 6.31 from section 6.3 exercises
+2. Exercise 6.32 from section 6.3 exercises
+3. Exercise 6.34 from section 6.3 exercises
+4. Exercise 6.47 from chapter 6 exercises

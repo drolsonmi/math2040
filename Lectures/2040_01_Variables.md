@@ -47,12 +47,15 @@ For example,
 When we display the data in a scatterplot, the explanatory variable is always put on the x-axis (as if it's the input of the function $f(x)$) and the response variable is always on the y-axis (as if it is the output of the function $y=f(x)$).
 
 # Homework
+(11 points)
+
 ## Reading
-* Sections 1.1, 1.2
+* 1.1 Case study: using stents to prevent strokes
+* 1.2 Data basics
 
 ## Exercises
-### Section 1.1
-* 1.1
-
-### Section 1.2
-* 1.3, 1.4, 1.7, 1.10
+1. Exercise 1.1 from section 1.1 exercises
+2. Exercise 1.3 from section 1.2 exercises
+3. Exercise 1.4 from section 1.2 exercises
+4. Exercise 1.7 from section 1.2 exercises
+5. Exercise 1.10 from section 1.2 exercises

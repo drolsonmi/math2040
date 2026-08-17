@@ -125,6 +125,8 @@ What are the chances that at least 11 of them were built before 1975?
 
 -----
 # Homework
+(14 points)
+
 ## Reading
 * 4.2 Geometric distribution
 * 4.3 Binomial distribution

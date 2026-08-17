@@ -80,11 +80,16 @@ In Desmos, show the following:
 
 -----
 # Homework
+(13 points) 
+
 ## Reading
 * 2.1.5 Box plots, quartiles, and the median
 
 ## Exercises
-* From section 2.1 Exercises
-  * Exercises 2.8, 2.10, 2.17
-* From Chapter 2 Exercises
-  * Exercises 2.33, 2.28, 2.30, 2.34
+1. Exercise 2.8 from section 2.1 exercises
+2. Exercise 2.10 from section 2.1 exercises
+3. Exercise 2.17 from section 2.1 exercises
+4. Exercise 2.33 from chapter 2 exercises
+5. Exercise 2.28 from chapter 2 exercises
+6. Exercise 2.30 from chapter 2 exercises
+7. Exercise 2.34 from chapter 2 exercises

@@ -29,6 +29,8 @@ $$y = b_0 + b_1x_1 + b_2x_2 + b_3x_3 + \dots$$
 
 -----
 # Homework
+(9 points)
+
 ## Reading
 * 9.1 Introduction to multiple regression
 * 9.4 Multiple regression case study: Mario kart

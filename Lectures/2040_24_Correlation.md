@@ -74,6 +74,8 @@ Although *R* is commonly used to describe the relationship, it is more common to
 
 -----
 # Homework
+(14 points)
+
 ## Reading
 * 8.1 Fitting a line, residuals, and correlation
 * 8.2.7 Using $R^2$ to describe the strength of a fit

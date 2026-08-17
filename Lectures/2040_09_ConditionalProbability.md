@@ -132,8 +132,10 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 4. If you draw out three marbles without replacement, what is the probability of getting a red and then a green and then a marble that is not blue?
 
 -----
------
+
 # Homework
+(15 points)
+
 ## Reading
 * 3.1.6 Complement of an event
 * 3.2 Conditional Probability
@@ -147,4 +149,4 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 6. Exercise 3.13 from section 3.2
 7. Exercise 3.15 from section 3.2
 8. Exercise 3.17 from section 3.2
-9. Exercise 3.41 from Chapter 3 Exercises
+9. Exercise 3.41 from chapter 3 Exercises

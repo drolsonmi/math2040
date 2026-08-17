@@ -45,6 +45,8 @@ Other examples of the poisson distribution
 
 -----
 # Homework
+(9 points)
+
 ## Reading
 * 4.5 Poisson distribution
 

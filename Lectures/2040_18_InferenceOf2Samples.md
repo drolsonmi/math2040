@@ -57,6 +57,8 @@ $$SE = \sqrt{\frac{\hat{p}_{pooled}(1-\hat{p}_{pooled})}{n_1} + \frac{\hat{p}_{p
 
 -----
 # Homework
+(13 points)
+
 ## Reading
 * 6.2 Difference of two proportions
 

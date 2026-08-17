@@ -47,6 +47,8 @@ $$ME = z_c \sqrt{\frac{p_0(1-p_0)}{n}} \qquad\to\qquad n = $$
 
 -----
 # Homework
+(12 points)
+
 ## Reading
 * 5.2 Confidence intervals for a proportion
 * 6.1.5 Choosing a sample size when estimating a proportion

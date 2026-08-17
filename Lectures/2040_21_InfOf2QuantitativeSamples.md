@@ -108,6 +108,8 @@ $$\text{H0: } \bar{x}_1 - \bar{x}_2 = 0$$     HA:  $$\bar{x}_1 - \bar{x}_2 \ne 0
 
 -----
 # Homework
+(15 points)
+
 ## Reading
 * 7.2 Paired data
 * 7.3 Difference of two means

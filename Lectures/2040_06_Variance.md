@@ -56,16 +56,17 @@ Duke Forest dataset -->
 
 -----
 # Homework
+(14 points)
+
 ## Reading
 * 2.1.4 Variance and Standard Deviation
 
 ## Exercises
-* From section 2.1
-  * What is the difference between the variance and the standard deviation?
-  * What do the variance and the standard deviation tell us about our data?
-  * Exercise 2.9
-  * Create a random dataset of 7 elements (just choose 7 numbers between 0 and 40). Then create another random dataset of 7 elements that has a standard deviation *larger* than your first dataset.
-  * Create another random dataset of 7 elements that has a standard deviation *smaller* than your first dataset.
-* From Chapter 2 Exercises
-  * Exercises 2.31, 2.32
-  * Exercise  2.33 (Find the standard deviation of these statistics by hand - show the work. Then verify with the calculator and indicate if you got it right or, if not, what the mistake was that you made.)
+1. What is the difference between the variance and the standard deviation?
+2. What do the variance and the standard deviation tell us about our data?
+3. Exercise 2.9 from section 2.1 exercises
+4. Create a random dataset of 7 elements (just choose 7 numbers between 0 and 40). Then create another random dataset of 7 elements that has a standard deviation *larger* than your first dataset.
+5. Create another random dataset of 7 elements that has a standard deviation *smaller* than your first dataset.
+6. Exercise 2.31 from chapter 2 exercises
+7. Exercise 2.32 from chapter 2 exercises
+8. Exercise 2.33 from chapter 2 exercises (Find the standard deviation of these statistics by hand - show the work. Then verify with the calculator and indicate if you got it right or, if not, what the mistake was that you made.)

@@ -181,6 +181,8 @@ $$\begin{align*}
 
 -----
 # Homework
+(12 points)
+
 ## Reading
 * 3.1.5 Probability Distributions
 * 3.4 Random Variables

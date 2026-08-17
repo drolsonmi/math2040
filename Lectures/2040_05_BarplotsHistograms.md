@@ -40,15 +40,18 @@ $$\frac{\bar{x}}{{median}}\tag{Measure of Skewness}$$
 
 -----
 # Homework
+(13 points)
+
 ## Reading
 * 2.2.1 Contigency tables and bar plots
 * 2.1.3 Histograms and shape
 * 2.2.5 The only pie chart you will see in this book
 
 ## Exercises
-* From section 2.2
-  * Exercises 2.21, 2.22
-* From section 2.1
-  * Exercises 2.12, 2.15, 2.16, 2.18
-* From Chapter 2 Exercises
-  * Exercises 2.31
+1. Exercise 2.21 from section 2.2 exercises
+2. Exercise 2.22 from section 2.2 exercises
+3. Exercise 2.12 from section 2.1 exercises
+4. Exercise 2.15 from section 2.1 exercises
+5. Exercise 2.16 from section 2.1 exercises
+6. Exercise 2.18 from section 2.1 exercises
+7. Exercise 2.31 from chapter 2 exercises

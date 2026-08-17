@@ -55,6 +55,8 @@ $$P(a\le z \le b) = 0.25$$
 
 -----
 # Homework
+(11 points)
+
 ## Reading
 * 4.1.3 Finding tail areas
 * 4.1.4 Normal Probability examples

@@ -100,27 +100,30 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 
 -----
 # Homework
+(17 points)
+
 ## Reading
 * 3.1 Defining Probability
 
 ## Exercises
-1. Exercise 3.1 from section 3.1
-2. Exercise 3.2 from section 3.1
-3. Exercise 3.3 from section 3.1 
-4. (1 point for each answer) For each example below, you need to do two things:
+1. Exercise 3.1 from section 3.1 exercises
+2. Exercise 3.2 from section 3.1 exercises
+3. Exercise 3.3 from section 3.1  exercises
+
+For questions 4-9, do the following two things:
   a. Decide if the events are disjoint (meaning they can't happen at the same time).
   b. Create a new, similar example opposite of your first answer. If your first answer was disjoint, make the new example not disjoint (meaning the events can happen at the same time). If your first answer was not disjoint, make the new example disjoint.
 
-  * Rolling a 5 and a 3 on one die
-  * Having brown hair and blue eyes
-  * Earning an A and a B in a class
-  * Rolling a 2 and an even on one die
-  * A person owns both a dog and a cat
-  * Drawing one card that is both a 10 and a diamond
+4. Rolling a 5 and a 3 on one die
+5. Having brown hair and blue eyes
+6. Earning an A and a B in a class
+7. Rolling a 2 and an even on one die
+8. A person owns both a dog and a cat
+9. Drawing one card that is both a 10 and a diamond
 
-5. Describe the difference between a probability and a proportion.
+10. Describe the difference between a probability and a proportion.
 
-6. A small business that sells custom-printed T-shirts analyzed its sales data from the past quarter. An order is randomly selected from the past quarter's sales. What's the probability that this order contains at least one T-shirt with a logo or at least one T-shirt with a slogan? The data revealed that,
+11. A small business that sells custom-printed T-shirts analyzed its sales data from the past quarter. An order is randomly selected from the past quarter's sales. What's the probability that this order contains at least one T-shirt with a logo or at least one T-shirt with a slogan? The data revealed that,
     * 35% of all orders included at least one T-shirt with a design featuring a logo,
     * 55% of all orders included at least one T-shirt with a slogan, and
     * 20% of all orders included at least one T-shirt with both a logo and a slogan

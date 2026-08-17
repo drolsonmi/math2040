@@ -33,9 +33,13 @@ Follow-up questions
 * Can you think of anything that would be an outside influence on your study? (Confounding Variables)
 
 # Homework
+(9 points)
+
 ## Reading
-* Section 1.2.5
-* Section 1.4
+* 1.2.5 Introducing observational studies and experiments
+* 1.4 Experiments
 
 ## Exercises
-1.29, 1.30, 1.32
+1. Exercise 1.29 from section 1.4 exercises
+2. Exercise 1.30 from section 1.4 exercises
+3. Exercise 1.32 from section 1.4 exercises

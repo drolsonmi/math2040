@@ -67,6 +67,8 @@ $$y = \beta_0 + \beta_1 x$$
 
 -----
 # Homework
+(13 points)
+
 ## Reading
 * 8.2 Least Squares Regression
 * 8.4 Inference for linear regression

@@ -36,6 +36,8 @@ Resources for this lecture:
 
 -----
 # Homework
+(10 points)
+
 ## Reading
 * 3.5 Continuous Distributions
 * 4.1.1 Normal distribution model

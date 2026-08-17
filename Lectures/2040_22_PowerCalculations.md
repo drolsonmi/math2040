@@ -121,6 +121,8 @@ Minimum is 124.3, but we can only do whole numbers. So, we need to sample at lea
 
 -----
 # Homework
+(9 points)
+
 ## Reading
 * 7.4 Power calculations for a difference of means
 

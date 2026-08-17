@@ -89,6 +89,8 @@ Yes, there enough evidence to say with a 1% level of significance that gas price
 
 -----
 # Homework
+(13 points)
+
 ## Reading
 * 7.1 One-sample means with the *t*-distribution
 
