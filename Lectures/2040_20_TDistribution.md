@@ -8,7 +8,7 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 20: Inference with 1-sample Quantitative Data</head>
+<title>Lecture 20: Inference with 1-sample Quantitative Data</title></head>
 
 # Lecture 20: Inference with 1-sample Quantitative Data
 * __Note__: 

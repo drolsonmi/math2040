@@ -8,7 +8,8 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 14: Poisson Distribution</head>
+<title>Lecture 14: Poisson Distribution</title>
+</head>
 
 # Lecture 14: Poisson Distribution
 * Lab 3 on __Friday__

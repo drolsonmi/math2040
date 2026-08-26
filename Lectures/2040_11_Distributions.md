@@ -8,7 +8,8 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 11: Distributions</head>
+<title>Lecture 11: Distributions</title>
+</head>
 
 # Lecture 11: Distributions
 * __Note__: Today is the last day to take Exam 1

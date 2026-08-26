@@ -8,7 +8,8 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 12: Normal Distribution</head>
+<title>Lecture 12: Normal Distribution</title>
+</head>
 
 # Lecture 12: Normal Distribution
 * Lab 3 on __Friday__

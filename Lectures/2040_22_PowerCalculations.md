@@ -8,7 +8,7 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 22: Power Calculations</head>
+<title>Lecture 22: Power Calculations</title></head>
 
 # Lecture 22: Power Calculations
 * __Note__: 

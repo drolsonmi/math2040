@@ -8,7 +8,7 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 25: Linear Regression</head>
+<title>Lecture 25: Linear Regression</title></head>
 
 # Lecture 25: Linear Regression
 * __Note__: 

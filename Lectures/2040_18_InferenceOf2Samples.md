@@ -8,7 +8,7 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 18: Inference with proportions of 2 samples</head>
+<title>Lecture 18: Inference with proportions of 2 samples</title></head>
 
 # Lecture 18: Inference with proportions of 2 samples
 * __Notes:__

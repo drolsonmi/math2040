@@ -8,7 +8,8 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 8: Probability</head>
+<title>Lecture 8: Probability</title>
+</head>
 
 # Lecture 8: Probability
 * __Note__: Exam 1 coming up on __September 23-24__

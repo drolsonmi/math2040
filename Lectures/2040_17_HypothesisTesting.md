@@ -8,7 +8,7 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 17: Hypothesis Testing</head>
+<title>Lecture 17: Hypothesis Testing</title></head>
 
 # Lecture 17: Hypothesis Testing
 * __Notes__

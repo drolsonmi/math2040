@@ -8,7 +8,7 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 19: Chi-Squared Test</head>
+<title>Lecture 19: Chi-Squared Test</title></head>
 
 # Lecture 19: Chi-Squared ($\chi^2$) Test
 * __Notes__: 

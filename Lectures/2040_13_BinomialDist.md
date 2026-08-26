@@ -8,7 +8,8 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 13: Binomial Distributions</head>
+<title>Lecture 13: Binomial Distributions</title>
+</head>
 
 # Lecture 13: Binomial Distributions
 * Lab 3 on __Friday__

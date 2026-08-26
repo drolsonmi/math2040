@@ -8,7 +8,8 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 7: 5-Number Summary and Boxplots</head>
+<title>Lecture 7: 5-Number Summary and Boxplots</title>
+</head>
 
 # Lecture 7: 5-Number Summary and Boxplots
 Resources:

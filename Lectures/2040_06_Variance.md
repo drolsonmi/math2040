@@ -8,7 +8,8 @@
 };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<title>Lecture 6: Variance and Standard Deviations</head>
+<title>Lecture 6: Variance and Standard Deviations</title>
+</head>
 
 # Lecture 6: Variance and Standard Deviations
 Resources for this lecture:
