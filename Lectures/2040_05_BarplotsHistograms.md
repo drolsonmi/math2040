@@ -43,7 +43,7 @@ Show common mistakes: [Irizarry, *Introduction to Data Science*, Chapter 11 Data
 * Right- and left-skewed
   * Measure of skewness:
 
-  $$\frac{\bar{x}}{{median}}$$
+  $$\frac{\bar{x}}{median}$$
 
   * If measure of skewness > 1, then $\bar{x} > median$, so skewed right
   * If measure of skewness < 1, then $\bar{x} < median$, so skewed left
