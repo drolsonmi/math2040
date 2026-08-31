@@ -1,5 +1,7 @@
 # MATH 2040 - Applied Statistics
 
+* [Course Schedule](./Schedule.md)
+
 ## Segment 1
 * [1: Variables](./Lectures/2040_01_Variables.md)
 * [2: Sampling](./Lectures/2040_02_Sampling.md)
