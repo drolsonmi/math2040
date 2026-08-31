@@ -41,7 +41,13 @@ Show common mistakes: [Irizarry, *Introduction to Data Science*, Chapter 11 Data
 ## Skewness
 * Symmetric (Normal) graphs
 * Right- and left-skewed
-$$\frac{\bar{x}}{{median}}\tag{Measure of Skewness}$$
+
+  \begin{equation}
+  \frac{\bar{x}}{{median}}\tag{Measure of Skewness}
+  \end{equation}
+
+  * If measure of skewness > 1, then $\bar{x} > median$, so skewed right
+  * If measure of skewness < 1, then $\bar{x} < median$, so skewed left
 
 * Uniform
 * Bimodal
