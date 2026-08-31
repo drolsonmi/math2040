@@ -41,9 +41,8 @@ Show common mistakes: [Irizarry, *Introduction to Data Science*, Chapter 11 Data
 ## Skewness
 * Symmetric (Normal) graphs
 * Right- and left-skewed
-  * Measure of skewness:
 
-  $$\frac{\bar{x}}{median}$$
+  $$\frac{\bar{x}}{median}\tag{Measure of Skewness}$$
 
   * If measure of skewness > 1, then $\bar{x} > median$, so skewed right
   * If measure of skewness < 1, then $\bar{x} < median$, so skewed left
