@@ -21,6 +21,15 @@ What is the point of graphing? Who is our main audience?
 * Scale - Build the scale first and fit the data to the scale
 * Label
 
+### Common problems with a graphs
+Show common mistakes: [Irizarry, *Introduction to Data Science*, Chapter 11 Data visualization principles](https://rafalab.dfci.harvard.edu/dsbook/data-visualization-principles.html)
+* What is wrong with pie charts?
+  * "Pie charts are a very bad way of displaying information. The eye is good at judging linear measures and bad at judging relative areas. A bar chart or dot chart is a preferable way of displaying this type of data."
+* Bargraphs: missing 0 reference point
+* Areas - Circle figures
+  * The mind is not good at judging relative areas, but it looks there before it looks at other aspects
+  * Some graphs make circles where the size is based on radius - The mind, however, looks at the area - differences are squared, giving inaccurate representations
+
 ## Scatterplot
 Demonstrate a scatterplot
 * Graph the following dataset by hand, then on Excel

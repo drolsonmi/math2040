@@ -15,18 +15,18 @@
 
 ## Bargraph
 Graph for Categorical Variables
-* Create a table with the categories and counts of # of bedrooms in a house from duke forest dataset
+* Create a table with one of the following:
+  * Eye color (ask each student)
+  * the categories and counts of # of bedrooms in a house from duke forest dataset
 * Create a bargraph
-
-### Common problems with a bargraph
-Show common mistakes: [Irizarry, *Introduction to Data Science*, Chapter 11 Data visualization principles](https://rafalab.dfci.harvard.edu/dsbook/data-visualization-principles.html)
-* What is wrong with pie charts?
-  * "Pie charts are a very bad way of displaying information. The eye is good at judging linear measures and bad at judging relative areas. A bar chart or dot chart is a preferable way of displaying this type of data."
 
 ## What is a histogram?
 * Categorization of quantitative data
 * Displays __Data Density__
   * Density is amount in a given volume, or in this case, quantity in a given range
+
+Gather data
+* Ask students to 
 
 ## Setting up a histogram
 * Getting the range

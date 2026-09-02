@@ -1,7 +1,7 @@
 # Lab 1: Intro to Python
 A common tool for data analysis is Microsoft Excel. We will be using Excel a lot throughout the semester. In addition to basic calculations, Excel can also graph data. In my experience, graphing in Excel is difficult to deal with.
 
-Another tool commonly used in statistics is basic progamming languages. These include,
+Another way commonly used to do analysis and make graphs in statistics is using progamming languages. These include,
 * SAS (Statistical Analysis System - For very large and professional statistics)
 * R (Created specifically for statistics - Great as an introduction)
 * Python (Broad application language - Has become equal in most respects to R)
@@ -22,11 +22,26 @@ Each language has a different strength, so languages are chosen based on the nee
   * Go to drive.google.com and log in to your Google account
   * If you don't have a Google account, you can create one using your @students.snow.edu email address
   * `+ New` --> `More` --> `Google Colaboratory`
-* Import Pandas and Stats
+
+Python has a number of functions attached directly into its programming. However, some functions have been created by the python community to simplify and enhance what python can do. These extra functions are assembled into collections of functions we call "packages".
+
+In data analysis, there are two packages we will use frequently. 
+* The `pandas` package (__Pan__el __Da__ta) is used to organize and quickly adjust tables to effectively and efficiently provide information
+    * The core element in the pandas package is the __DataFrame__. This is just a computer term for a table, though you have a lot more flexibility with a DataFrame than you do with a regular table
+* The `stats` package has a series of statistical calculations
+
+Import Pandas and Stats
 
 ```python
 import pandas as pd              # Handles the Data
 import scipy.stats as stats      # Statistics calculations
+```
+
+Now, any function we want from these packages will have either `pd` or `stats` in front to indicate which package houses the function we want.
+
+```python
+data = pd.read_csv(filename)  # The read_csv function is inside the pandas package
+stats.ttest_1samp(data[var], pop_mean)  # The t-test function is in the stats package
 ```
 
 * *Note 1*: Using a `#` allows you to make comments within your code. The program will ignore comments
@@ -99,7 +114,7 @@ print(f"Average: {duke['variable1'].mean()}")
 * [Seaborn Cheatsheet](https://www.datacamp.com/cheat-sheet/python-seaborn-cheat-sheet)
 
 ## Assignment
-These tools of statistics are used to answer a question. So, you now get to think of a question, search for data to answer the question, then complete these tasks to answer the question.
+These tools of statistics are used to answer a question. You now get to think of a question, search for data to answer the question, then complete these tasks to answer the question.
 
 Before coming to class, be sure you have:
 * A laptop that you can bring to class
