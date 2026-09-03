@@ -34,3 +34,11 @@
 * [25: Linear Regression](./Lectures/2040_25_LinearRegression.md)
 * [26: Multiple Regression](./Lectures/2040_26_MultipleRegression.md)
 * [27: Logistic Regression](./Lectures/2040_27_LogisticRegression.md)
+
+## Labs
+* [Lab 1: Introduction to Python](./Labs/2040_Lab01_Python.md)
+* [Lab 2: Graphing in Python](./Labs/2040_Lab02_Graphs.md)
+* Lab 3
+* Lab 4
+* Lab 5
+* Lab 6

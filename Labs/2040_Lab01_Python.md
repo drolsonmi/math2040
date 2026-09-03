@@ -1,4 +1,4 @@
-# Lab 1: Intro to Python
+# Lab 1: Introduction to Python
 A common tool for data analysis is Microsoft Excel. We will be using Excel a lot throughout the semester. In addition to basic calculations, Excel can also graph data. In my experience, graphing in Excel is difficult to deal with.
 
 Another way commonly used to do analysis and make graphs in statistics is using progamming languages. These include,
