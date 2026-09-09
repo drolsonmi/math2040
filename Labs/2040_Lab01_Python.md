@@ -40,7 +40,7 @@ import scipy.stats as stats      # Statistics calculations
 Now, any function we want from these packages will have either `pd` or `stats` in front to indicate which package houses the function we want.
 
 ```python
-data = pd.read_csv(filename)  # The read_csv function is inside the pandas package
+data = pd.read_csv(filename)            # The read_csv function is inside the pandas package
 stats.ttest_1samp(data[var], pop_mean)  # The t-test function is in the stats package
 ```
 

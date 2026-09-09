@@ -104,7 +104,7 @@ sns.histplot(data=duke, x='price', hue='cooling', palette='colorblind')
 * [Seaborn Cheatsheet](https://www.datacamp.com/cheat-sheet/python-seaborn-cheat-sheet)
 
 ## Assignment
-In Lab 1, you did some basic calculations with a dataset of your choosing. You are welcome to use that dataset or to choose another. Your assignment will be to create 4 high-quality plots.
+In Lab 1, you did some basic calculations with a dataset of your choosing. You are welcome to use that dataset or to choose another. Your assignment for this lab will be to create 4 high-quality plots.
 - scatterplot
 - bargraph
 - histogram
