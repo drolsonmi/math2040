@@ -21,23 +21,22 @@ Resources:
 * Mode
 * Median
 
+> __Demo__: Histogram in Desmos
+> * Draw a Histogram in Desmos for this dataset:
+> 
+> $$\{1,2,2,3,3,3,4,4,4,4,5,5,5,6,6,7\}$$
+>
+> Graph the mean, median, mode
+> * mean: `x = A.mean()`
+> * median: `x = A.median()`
+> * mode: `x = 4`
+
 When data is symmetric, these will be the same. If they are not symmetric, then
 * the mean is heavily influenced by outliers
 * the median is somewhat influenced by outliers
 * the mode is not influenced by outliers and remains unchanged
 
-(Draw a normal distribution to show symmetry, then show a skewed dataset)
-
-## Finding the Median
-* List the numbers in order
-* Find the middle point
-    * If the middle point is on a value, the median is that value
-    * If the middle point is between two values, the median is the average of the two values
-
-> * Have 11 students choose a random number between 0 and 20
-> * Find the median
-> * Add a value of 20 to the end of the list so there are 12 values
-> * Find the median
+> Add the values $\{6, 7, 8, 8, 9\}$ to the dataset. See how the mean and median move
 
 ## Quartiles
 The measurement of quartiles can be inclusive or exclusive, meaning it includes or excludes the endpoints
@@ -45,32 +44,35 @@ The measurement of quartiles can be inclusive or exclusive, meaning it includes 
 * Excel has a function for each
   * If the median is a value in the dataset, then excel will weight half the median (find the quartile with the median and the quartile without the median, then average the two)
 
-5-number summary
-* Boxplot
-> * Create the scale (Numberline from 0 to 20)
-> * Create the label ("Random numbers from class")
-> * Draw the 5 numbers
-> * Create boxplot
+### 5-number summary
+The 5-number summary consists of,
+
+$$\{minimum, Q_1, median, Q_3, maximum\}$$
+
+What do these numbers mean?
+* $Q_1$ is value above the lowest quarter of the data
+* Median is value above the lowest half (or 2 quarters) of the data (Can also be called $Q_2$)
+* $Q_3$ is value above the lowest 3 quarters of the data
+* Maximum is value above the all 4 quarters of the data
+
+### Boxplot
+A boxplot is a graph that indicates the 5-number summary. It consists of a box to indicate the range of the 2nd and 3rd quarters (the 2 quarters in the middle, or the centermost 50% of the data) and whiskers to indicate the range of the 1st and 4th quarters.
+
+* Create the scale (Numberline from 0 to 20)
+* Create the label ("Random numbers from class")
+* Draw the 5 numbers
+* Create box between $Q_1$ and $Q_3$
+* Create whiskers between min and $Q_1$ and between $Q_3$ and max
 > * Identify lowest 25%, highest 25%, and the IQR
 
-## Outliers
-* Any value larger than 1.5*IQR
-* Any value smaller than 1.5*IQR
+### Comparing boxplots to histograms
+> * Create a normal distribution of data and show histogram and boxplot in Desmos
+> * Slowly add data to skew the distribution and see how the boxplot is affected
+> * Discuss what is going on
 
-## Class Practice
-Duke Forest dataset --> 
-* Find 5-number summary of square footage for the first 30 houses and make a boxplot
-* Identify the IQR and any outliers
-> 6040  4475 	1745 	2091 	1772
-> 1950  3909	2841	3924	2173
-> 2091	2492	2200	3889	3169
-> 2750	3234	2933	3831	2414
-> 1416	2300	1932	2786	2830
-> 3487	1831	1935	2015	2526
-
-In Desmos, show the following:
-* 5-number summary: `A.quartile([0...4])`
-* Boxplot: `boxplot(A)` --> Show including and excluding outliers
+### Outliers
+* Any value larger than $Q_3 + 1.5*IQR$
+* Any value smaller than $Q_1 - 1.5*IQR$
 
 ## Percentiles
 * Quartiles divided the data into 4 equally-sized segments
@@ -81,10 +83,33 @@ In Desmos, show the following:
   * maximum = 4th quartile = 100th percentile
 * If your value is in the 65th percentile, that means it is above the lowest 65% of the data
 
-## Comparing boxplots to histograms
-> * Create a normal distribution of data and show histogram and boxplot in Desmos
-> * Slowly add data to skew the distribution and see how the boxplot is affected
-> * Discuss what is going on
+Find the 10th, 20th, 30th, … 80th, 90th percentiles of the following dataset:
+
+$$\{50, 54, 57, 59, 61, 64, 66, 68, 69, 70, 71, 72, 72, 73, 73, 74, 74, 75, 75, 76, 76, 76, 77, 77, 77, 78, 78, 79, 79, 80\}$$
+
+Questions:
+* Look at the percentiles. Describe the distribution to me. (Should be left skewed)
+
+In Desmos, show the following:
+* Histogram: `histogram(A)`
+* 5-number summary: `A.quartile([0...4])`
+* Boxplot: `boxplot(A)` --> Show including and excluding outliers
+
+## Class Practice
+Use the following prompt in AI:
+
+	I need to practice making a boxplot and finding percentiles. Give me 25 random values between 20 and 40 with a right skew. Order them from least to greatest.
+
+Then,
+	• Find the 5-number summary
+	• Create a boxplot
+	• Find the 20th, 40th, 60th, and 80th percentiles
+
+When completed, ask AI to provide the 5-number summary, boxplot, and the 20th, 40th, 60th, and 80th percentiles. Grade yourself
+* Be sure to note if you added a numberline and a label to your boxplot!!
+
+What would be the 10th percentile?
+
 
 -----
 # Homework
