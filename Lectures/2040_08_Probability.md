@@ -37,6 +37,34 @@ $$P(x) = \frac{\text{# of successful outcomes}}{\text{# of outcomes}}$$
 If you roll a die, what is the probability of rolling a 6?
 * $P(6) = 1/6 = 0.1667 = 16.67\%$
 
+## Complements
+With dice, we saw $P(6) = \tfrac{1}{6} = 16.67%$. What is the probability of __not__ getting a 6?
+
+$$P(not~6) = P(1~or~2~or~3~or~4~or~5) = P(1) + P(2) + P(3) + P(4) + P(5) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{5}{6}$$
+
+A __complement__ is something that completes or fills in something. For example, 
+* certain clothes are complemented by a jacket or a hat (adding to the ensemble)
+* two partners can complement each other (one has strengths to fill the other's weaknesses)
+* a certain type of soup can complement a certain salad
+
+When the two complements are together, you get the full picture. In probability, $P(A)$ is the probability of one set of outcomes. The opposite set of outcomes, those that would not be consitituted a success, would be the complement of the outcomes.
+
+$P(6)$ is the probability of successes. The opposite (the probability of a failed outcome) would be the complement. We would say the "probability of *not* 6". There are many ways to write the complement: $P(not~A) = P(A^C) = P(\bar{A}) = P(A')$ The textbook uses the $P(6^C)$ notation.
+
+$$P(6^C) = P(1~or~2~or~3~or~4~or~5)$$
+
+Since they are complements, they consitute the whole picture. $P(6)$ looks at just the 6's, while $P(6^C)$ looks at everything else. Together, they account for all 100% of possible outcomes. Thus,
+
+$$P(A)+P(A^C) = 1 = 100%$$
+
+This gives us an easy way to find a complement:
+
+$$P(A^C) = 1 - P(A)$$
+
+If 30% of a sample own cats, then how many do not?
+
+$$P(Cat) = 0.30 \qquad \qquad P(Cat^C) = 1 - P(Cat) = 1 - 0.30 = 0.70$$
+
 ## Law of Large Numbers
 Let's say you want to test the probability of rolling a 6.
 * Roll a die 10 times and get: `3,5,1,2,6,6,3,1,4,2`

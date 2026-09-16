@@ -12,7 +12,7 @@
 </head>
 
 # Lecture 9: Conditional Probability
-* __Note__: Exam 1 coming up on __September 23-24__
+* __Note__: Exam 1 coming up (See the course schedule)
 
 Materials:
 * Deck of Cards
@@ -20,15 +20,14 @@ Materials:
 Remember:
 * $P(A) = \frac{\text{Number of Successful Outcomes}}{\text{Number of Possible Outcomes}}$
 * $P(A~or~B) = P(A) + P(B) - P(A~and~B)$
+* Disjoint (or Mutually Exclusive) if $P(A~and~B) = 0$
+* $P(A^C) = 1 - P(A)$
 
 > __Magic Trick__
 > * Have a student draw a card and place it face down into the deck
 > * Shuffle the deck and put it under the desk viewer
 > * Calculate the probability that I draw that student's card
 > * Reveal
-
-## Complements
-
 
 ## Confusion Matrix (or Contingency Table, or Cross-tabulation)
 Sometimes we are looking at multiple categories at once. The probability of one category may depend on the other category. We often use a __confusion matrix__ to show how the two or more categories react with each other.
@@ -58,7 +57,6 @@ Contingency Table comparing favorite sport to favorite concessions foods:
 | Nachos   | High       | High         | Moderate   |
 | Wings    | High       | Moderate     | Low        |
 | Churros  | Moderate   | High         | Moderate   |
-
 
 ## Conditional Probability
 * What is the probability that a student likes basketball? (145/200 = 0.725)
@@ -109,14 +107,18 @@ $$P(A|B)P(B) = P(A~and~B) = P(B|A)P(A)$$
 > 
 > You come into the game just after I made a first shot, so you don't know if I made it or not. If I make the second shot, what's the probability that I made the first shot?
 > 
-> * Only two options: $(1~and~2)$ or $(1^C~and~2)$
+> * Only two options: $(1~and~2)$ or $(1^C~and~2)$. We want the first.
+> * $P(1~and~2) = P(1|2)\cot P(2) = P(2|1)\cot P(1)$
+>     * We have $P(2|1)$ and $P(1)$, so, use the second form.
+> * $P(1~and~2) = P(2|1)\cdot P(1) = 0.75\cdot 0.70 = 0.525
 
 > __Blackjack - Part 2__: If I draw a 9, what is the probability that I can get blackjack?
+> * Blackjack means I get 21 points
 > * I need 12 points. Different ways to get 12 points:
->    * Ace (11) and Ace (1): $P(A~and~A) = P(A|A)P(A) = \frac{3}{49}\frac{4}{50} = \frac{12}{2450} = 0.00490$
->    * Face and 2: $P(F~and~2) = P(F|2)P(2) = \frac{12}{49}\frac{4}{50} = \frac{48}{2450} = 0.01959$
->    * 10 and 2: $P(10~and~2) = P(10|2)P(2) = \frac{4}{49}\frac{4}{50} = \frac{48}{2450} = 0.00490$
-> $$P((A~and~A) or (F~and~2) or (10~and~2)) = 0.00490+0.01959+0.00490 = 0.02939$$
+>    * Ace (11) and Ace (1): $P(A~and~A) = P(A|A)P(A) = \frac{3}{50}\frac{4}{51} = \frac{12}{2550} = 0.00471$
+>    * Face and 2: $P(F~and~2) = P(F|2)P(2) = \frac{12}{50}\frac{4}{51} = \frac{48}{2550} = 0.01882$
+>    * 10 and 2: $P(10~and~2) = P(10|2)P(2) = \frac{4}{50}\frac{4}{51} = \frac{16}{2550} = 0.00627$
+> $$P((A~and~A) or (F~and~2) or (10~and~2)) = 0.00471+0.01882+0.00627 = 0.02980 = 2.98%$$
 
 ## Independence
 Conditional probabilities imply that one variable depends on another.
@@ -145,7 +147,6 @@ A bag of marbles contains 7 red marbles, 12 blues marbles, 6 green marbles, and 
 (15 points)
 
 ## Reading
-* 3.1.6 Complement of an event
 * 3.2 Conditional Probability
 
 ## Exercises
