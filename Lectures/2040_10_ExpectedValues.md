@@ -12,13 +12,8 @@
 </head>
 
 # Lecture 10: Probability Distributions
-* __Coming Up__:
-  * Lab 2 due on __September 22__
-  * Exam 1 coming up on __September 23-24__
+* __Note__: Exam 1 coming up (See the course schedule)
 
-Resources for this lecture:
-
-Remember:
 
 ## Probability Distributions
 Probability of hair color: What percentage of people have red hair?
