@@ -12,7 +12,7 @@
 </head>
 
 # Lecture 8: Probability
-* __Note__: Exam 1 coming up on __September 23-24__
+* __Note__: Exam 1 coming up (See the course schedule)
 
 ## Intro to Probability
 For quantitative data, we have a number of measures for analysis:
@@ -32,7 +32,7 @@ The flip adds randomness, and we can use the count of categories to calculate th
 * $P(H) = \frac{1}{2} = 0.50 = 50\%$
 
 The general formula for a probability is,
-$$P(x) = \frac{\text{\# of successful outcomes}}{\text{\# of outcomes}}$$
+$$P(x) = \frac{\text{# of successful outcomes}}{\text{# of outcomes}}$$
 
 If you roll a die, what is the probability of rolling a 6?
 * $P(6) = 1/6 = 0.1667 = 16.67\%$
@@ -41,7 +41,7 @@ If you roll a die, what is the probability of rolling a 6?
 Let's say you want to test the probability of rolling a 6.
 * Roll a die 10 times and get: `3,5,1,2,6,6,3,1,4,2`
 * 2 of the 10 rolls were 6's
-* P(6) = 2/10 = 20\%?? <-- No
+* P(6) = 2/10 = 20% ?? <-- No
 
 When you do this as an experiment, it is called a __relative frequency__, or a __proportion__.
 
@@ -49,7 +49,8 @@ When you do this as an experiment, it is called a __relative frequency__, or a _
 
 > The __Law of Large Numbers__ says that if the sample size ($n$) is large enough, then the proportion $\hat{p}_n$ approaches the probability $p$. 
 
-## Addition Rule
+## Probabilities of Two Events
+### Addition Rule
 What is the probability of getting a 5 or a 6?
 * A __disjoint__ probability (also known as __mutually exclusive__ outcomes) occur when there is no way the two outcomes could happen at the same time.
     * When you roll a die, there is no way to role a 5 or a 6 at the same time
@@ -59,7 +60,7 @@ The __addition rule__:
 $$P(A~or~B) = P(A) + P(B)$$
 $$P(A~or~B~or~C~or...~Z) = P(A) + P(B) + P(C) + ... + P(Z)$$
 
-## General Addition Rule
+### General Addition Rule
 A deck of cards:
 >	AH	AD	AC	AS
 >
@@ -90,7 +91,8 @@ A deck of cards:
 What is the probability of drawing a card that is either an Ace or a Spade?
 * Following the formula, $P(A~or~S) = P(A)+P(S) = \frac{4}{52}+\frac{13}{52} = \frac{17}{52}$
 * But if we count them, there are only 16 cards that are either an Ace or a Spade, so $P(A~or~S) = \frac{16}{52}$. What happened?
-* Double-counted one card: the Ace of Spades
+  * Double-counted one card: the Ace of Spades
+  * And probabilities (more details next lecture): $P(A~and~S)=1/52$
 * If you double-count, then just remove one of those counts: $P(A~or~S) = P(A) + P(S) - P(A~and~S) = \frac{4}{52}+\frac{13}{52} - \frac{1}{52} = \frac{16}{52}$
 
 Here is the __general addition rule__:
