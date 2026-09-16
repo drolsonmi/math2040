@@ -51,6 +51,7 @@ For example, let's compare students who like football compared to students who l
 | $\bar{B}$ | 40    | 15        |
 
 Contingency Table comparing favorite sport to favorite concessions foods:
+
 |          | $Football$ | $Basketball$ | $Baseball$ |
 | :------: | :--------: | :----------: | :--------: |
 | Hot Dogs | Moderate   | Low          | High       |
@@ -64,23 +65,25 @@ Contingency Table comparing favorite sport to favorite concessions foods:
 
 The concept behind __conditional probability__ is that a probability for one category depends on another category.
 > What is the probability that a student likes basketball if we already know they like football?
-> * $P(B|F) = 120/160 = 0.75$
-> * $P(\bar{B}|F) = 40/160 = 0.25$
+> * $P(B\vert F) = 120/160 = 0.75$
+> * $P(\bar{B}\vert F) = 40/160 = 0.25$
 
 Equation for Conditional Probabilities:
-$$P(B|A)=\frac{P(A~and~B)}{P(A)}$$
-> * $P(B|F) = \frac{P(B~and~F)}{P(F)} = \frac{120/200}{160/200} = \frac{120}{160} = 0.75$
+
+$$P(B\vert A)=\frac{P(A~and~B)}{P(A)}$$
+
+> * $P(B\vert F) = \frac{P(B~and~F)}{P(F)} = \frac{120/200}{160/200} = \frac{120}{160} = 0.75$
 
 ## AND Probabilities
 Now that we have an equation for conditional probability, we can define the AND probability.
 
-$$P(A~and~B) = P(B|A)P(A)$$
+$$P(A~and~B) = P(B\vert A)P(A)$$
 
 > __Magic Trick - Part 2__
 > * Have 2 students draw cards and place them face down into the deck
 > * Shuffle the deck and put it under the desk viewer
 > * Calculate the probability that I draw both students' cards
-> $$P(A~and~B) = P(B|A)P(A) = \frac{1}{51}\frac{1}{52} = \frac{1}{2652} = 0.000377$$
+> $$P(A~and~B) = P(B\vert A)P(A) = \frac{1}{51}\frac{1}{52} = \frac{1}{2652} = 0.000377$$
 > * Reveal
 
 > __Blackjack__: The goal of blackjack is to get as close to 21 as possible. Cards are awarded points as follows:
@@ -90,15 +93,15 @@ $$P(A~and~B) = P(B|A)P(A)$$
 > 
 > If you already have a King, what is the probability of getting a blackjack?
 >  * King = 10 -> Must get an Ace
-> $$P(A ~ and ~ K) = P(A|K)P(K) = \frac{4}{51}\frac{4}{52} = \frac{16}{2652} = 0.00603$$
+> $$P(A ~ and ~ K) = P(A\vert K)P(K) = \frac{4}{51}\frac{4}{52} = \frac{16}{2652} = 0.00603$$
 
 Notice that we could have swapped the order and gotten the same result:
 
-> $$P(K~and~A) = P(K|A)P(A) = \frac{4}{51}\frac{4}{52} = \frac{16}{2652} = 0.00603$$
+> $$P(K~and~A) = P(K\vert A)P(A) = \frac{4}{51}\frac{4}{52} = \frac{16}{2652} = 0.00603$$
 
 This leads to an important relationship:
-$$P(A|B) = \frac{P(A~and~B)}{P(B)} \qquad P(B|A)=\frac{P(A~and~B)}{P(A)}$$
-$$P(A|B)P(B) = P(A~and~B) = P(B|A)P(A)$$
+$$P(A\vert B) = \frac{P(A~and~B)}{P(B)} \qquad P(B\vert A)=\frac{P(A~and~B)}{P(A)}$$
+$$P(A\vert B)P(B) = P(A~and~B) = P(B\vert A)P(A)$$
 
 > __Basketball__: From practicing free throw shots, I notice a pattern whenever I have 2 shots:
 > * I have a 70% chance of making the first shot
@@ -108,16 +111,16 @@ $$P(A|B)P(B) = P(A~and~B) = P(B|A)P(A)$$
 > You come into the game just after I made a first shot, so you don't know if I made it or not. If I make the second shot, what's the probability that I made the first shot?
 > 
 > * Only two options: $(1~and~2)$ or $(1^C~and~2)$. We want the first.
-> * $P(1~and~2) = P(1|2)\cot P(2) = P(2|1)\cot P(1)$
->     * We have $P(2|1)$ and $P(1)$, so, use the second form.
-> * $P(1~and~2) = P(2|1)\cdot P(1) = 0.75\cdot 0.70 = 0.525
+> * $P(1~and~2) = P(1\vert 2)\cot P(2) = P(2\vert 1)\cot P(1)$
+>     * We have $P(2\vert 1)$ and $P(1)$, so, use the second form.
+> * $P(1~and~2) = P(2\vert 1)\cdot P(1) = 0.75\cdot 0.70 = 0.525$
 
 > __Blackjack - Part 2__: If I draw a 9, what is the probability that I can get blackjack?
 > * Blackjack means I get 21 points
 > * I need 12 points. Different ways to get 12 points:
->    * Ace (11) and Ace (1): $P(A~and~A) = P(A|A)P(A) = \frac{3}{50}\frac{4}{51} = \frac{12}{2550} = 0.00471$
->    * Face and 2: $P(F~and~2) = P(F|2)P(2) = \frac{12}{50}\frac{4}{51} = \frac{48}{2550} = 0.01882$
->    * 10 and 2: $P(10~and~2) = P(10|2)P(2) = \frac{4}{50}\frac{4}{51} = \frac{16}{2550} = 0.00627$
+>    * Ace (11) and Ace (1): $P(A~and~A) = P(A\vert A)P(A) = \frac{3}{50}\frac{4}{51} = \frac{12}{2550} = 0.00471$
+>    * Face and 2: $P(F~and~2) = P(F\vert 2)P(2) = \frac{12}{50}\frac{4}{51} = \frac{48}{2550} = 0.01882$
+>    * 10 and 2: $P(10~and~2) = P(10\vert 2)P(2) = \frac{4}{50}\frac{4}{51} = \frac{16}{2550} = 0.00627$
 > $$P((A~and~A) or (F~and~2) or (10~and~2)) = 0.00471+0.01882+0.00627 = 0.02980 = 2.98%$$
 
 ## Independence

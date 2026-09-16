@@ -33,11 +33,17 @@ There are 3 rules for probability distributions
 Can we find an average for a categorical variable? For a nominal variable, no. But for an ordinal variable, we can.
 
 * Eqn for mean
+
 $$\bar{x}=\frac{x_1+x_2+x_3+...}{n}$$
+
 * Separate
+
 $$\bar{x} = x_1\frac{1}{n} + x_2\frac{1}{n} + x_3\frac{1}{n} + ...$$
+
 * The fraction 1/n is just the probability of randomly selecting $x_i$
+
 $$\bar{x} = x_1P(x_1) + x_2P(x_2) + x_3P(x_3) + ...$$
+
 $$E[X] = \bar{x} = \sum_i x_i P(x_i)\tag{Expected Value of Ordinal Variables}$$
 
 This is the __expected value__ of event $$X$$. The mean calculation is just the expected value of a uniform distribution. However, it is possible for one value to be weighted more heavily, thus working with different probabilities.
@@ -45,6 +51,7 @@ This is the __expected value__ of event $$X$$. The mean calculation is just the 
 To make this work on an ordinal variable, just assign a number to each category with the order of numbers representing the order of categories.
 
 ### Grade Level
+
 | Category | Freshman | Sophomore | Junior | Senior  |
 | :------: | :------: | :-------: | :----: | :-----: |
 | $x$      |  1       |  2        |  3     |  4      |
@@ -58,10 +65,10 @@ To make this work on an ordinal variable, just assign a number to each category 
 
 What if we chose a different scale? 
 * 0=Freshman, 1=Sophomore, 2=Junior, 3=Senior
-  * $E[X] = (0*0.45) + (1*0.40) + (2*0.10) + (3*0.05) = 0.75$
+  * $E[X] = (0\cdot 0.45) + (1\cdot 0.40) + (2\cdot 0.10) + (3\cdot 0.05) = 0.75$
   * The average is still between Freshman and Sophomore, leaning toward Sophomore
 * 19=Freshman, 18=Sophomore, 17=Junior, 16=Senior
-  * $E[X] = (19*0.45) + (18*0.40) + (17*0.10) + (16*0.05) = 18.25$
+  * $E[X] = (19\cdot 0.45) + (18\cdot 0.40) + (17\cdot 0.10) + (16\cdot 0.05) = 18.25$
   * The average is still between Freshman and Sophomore, leaning toward Sophomore
 * Starting with random numbers can confuse readers
   * Remember: Our goal is to make this as easy as possible for readers to understand
@@ -121,15 +128,18 @@ Sometimes our categories have a natural value. Such is the case with insurance, 
 $$E[X] = -$248.75 + $998.75 = $750$$
 
 ## Expected values of Functions
+
 $$E[g(X)]=\sum g(x_i)P(x_i)$$
 
 $$E[X^2] = \sum x_i^2P(x_i)$$
 
 ## Variability
 Knowing that the variance is just an average of the squared deviations, we can follow the same process as we did before:
+
 $$Var[X] = E[(x-\mu)^2] = \sum \left[(x-\mu)^2\cdot P(x)\right]\tag{Variance of Ordinal Variables}$$
 
 We can rearrange this equation to get another form:
+
 $$\begin{align*}
   Var[X] = E[(x-\mu)^2] &= \sum \left[(x-\mu)^2\cdot P(x)\right] \\
     &= \sum\left[(x^2 - 2x\mu + \mu^2)P(x)\right] \\
@@ -149,6 +159,7 @@ $$\sigma=\sqrt{\sum \left[(x-E[X])^2\cdot P(x)\right]} = \sqrt{E[x^2]+(E[X])^2}\
 | $P(x)$   |  0.45    |  0.40     |  0.10  |  0.05  |
 
 $$E[X] = 1.75$$
+
 $$\begin{align*}
   \sigma^2 &= \sum\left[(x-E[X])^2\cdot P(x)\right] \\
     &= [(1-1.75)^2\cdot 0.45] + [(2-1.75)^2\cdot 0.40] + [(3-1.75)^2\cdot 0.10] + [(4-1.75)^2\cdot 0.05] \\
@@ -179,7 +190,7 @@ $$\begin{align*}
 * The standard deviation is thus $\sigma = \sqrt{5.150} = 2.269$
 * Graph in Desmos
   * Put values and proportions into a table
-  * $0\le y\le y_{1}\left\{x_{1}-0.25<x<x_{1}+0.25\right\}$
+  * `$0 \le y \le y_{1}$ {$x_{1}-0.25<x<x_{1}+0.25$}`
   * Graph normaldist(E[X],sigma)
 
 -----
