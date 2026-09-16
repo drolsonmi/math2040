@@ -43,7 +43,7 @@ Let's say you want to test the probability of rolling a 6.
 * 2 of the 10 rolls were 6's
 * P(6) = 2/10 = 20% ?? <-- No
 
-When you do this as an experiment, it is called a __relative frequency__, or a __proportion__.
+When you do this as an experiment, it is called a __relative frequency__, or a __proportion__ (signified mathematically as $\hat{p}$).
 
 > In Python, open [Law of Large Numbers](https://colab.research.google.com/drive/1VRXPNELUI0to4PCfmwk-a8KV4n7zBsiD?usp=sharing) demo
 
