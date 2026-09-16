@@ -100,7 +100,9 @@ Notice that we could have swapped the order and gotten the same result:
 > $$P(K~and~A) = P(K\vert A)P(A) = \frac{4}{51}\frac{4}{52} = \frac{16}{2652} = 0.00603$$
 
 This leads to an important relationship:
+
 $$P(A\vert B) = \frac{P(A~and~B)}{P(B)} \qquad P(B\vert A)=\frac{P(A~and~B)}{P(A)}$$
+
 $$P(A\vert B)P(B) = P(A~and~B) = P(B\vert A)P(A)$$
 
 > __Basketball__: From practicing free throw shots, I notice a pattern whenever I have 2 shots:
