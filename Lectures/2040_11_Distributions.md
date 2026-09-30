@@ -29,7 +29,7 @@ Resources for this lecture:
   * $$P(\text{lower limit}\le X \le \text{upper limit}) = \frac{\text{number of subjects between upper and lower limits}}{\text{total sample size}}$$
 
 ## Probability Density Function
-* [Histogram on python](./2040_11_Distributions.ipynb)
+* [Histogram on python](./code/2040_11_Distributions.ipynb)
   * Temperature data
   * RH data
 * Decrease bin width to see how it becomes continuous

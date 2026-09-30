@@ -112,10 +112,28 @@ $$P(A\vert B)P(B) = P(A~and~B) = P(B\vert A)P(A)$$
 > 
 > You come into the game just after I made a first shot, so you don't know if I made it or not. If I make the second shot, what's the probability that I made the first shot?
 > 
-> * Only two options: $(1~and~2)$ or $(1^C~and~2)$. We want the first.
-> * $P(1~and~2) = P(1\vert 2)\cot P(2) = P(2\vert 1)\cot P(1)$
->     * We have $P(2\vert 1)$ and $P(1)$, so, use the second form.
-> * $P(1~and~2) = P(2\vert 1)\cdot P(1) = 0.75\cdot 0.70 = 0.525$
+> $$P(1~and~2) = P(1|2)P(2) \qquad P(1~and~2)= P(2|1)P(1)$$
+>
+> We want $P(1|2)$. We'll find $P(1~and~2)$, then solve for $P(1|2)$
+>
+> $$P(1~and~2) = P(2|1)P(1) = 0.75\cdot 0.70 = 0.525$$
+>
+> Now, we use $P(1~and~2$ to find $P(1|2)$
+> * We are missing $P(2)$
+>
+> $$\begin{align*}
+   P(2) &= P[(1~and~2) or (1^C and 2)] \\
+        &= P(1~and~2) + P(1^C and 2) \\
+        &= P(2|1)P(1) + P(2|1^C)P(1^C) \\
+        &= 0.75\cdot 0.70 + 0.60\cdot 0.30 \\
+        &= 0.525 + 0.18\\
+        &= 0.705
+   \end{align*}$$
+>
+> Now, we finish.
+> 
+> $$P(1|2) = \frac{P(1~and~2)}{P(2)} = \frac{0.525}{0.705} = 0.7447$$
+
 
 > __Blackjack - Part 2__: If I draw a 9, what is the probability that I can get blackjack?
 > * Blackjack means I get 21 points
@@ -124,6 +142,34 @@ $$P(A\vert B)P(B) = P(A~and~B) = P(B\vert A)P(A)$$
 >    * Face and 2: $P(F~and~2) = P(F\vert 2)P(2) = \frac{12}{50}\frac{4}{51} = \frac{48}{2550} = 0.01882$
 >    * 10 and 2: $P(10~and~2) = P(10\vert 2)P(2) = \frac{4}{50}\frac{4}{51} = \frac{16}{2550} = 0.00627$
 > $$P((A~and~A) or (F~and~2) or (10~and~2)) = 0.00471+0.01882+0.00627 = 0.02980 = 2.98%$$
+
+### Multiple AND Probabilities
+What is $P(A~and~B~and~C)$?
+* Treat $A~and~B$ as a separate event. Then,
+
+$$P( [A~and~B]~and~C) = P(C|[A~and~B])P(A~and~B)$$
+
+We already learned how to find $P(A~and~B)$, so,
+
+$$P( [A~and~B]~and~C) = P(C|[A~and~B])P(B|A)P(A)$$
+
+Continuing, we see a pattern: (For simplicity, let $P(A,B) = P(A~and~B)$)
+
+$$P(A,B,C,D) = P(D|A,B,C)P(C|A,b)P(B|A)P(A)$$
+
+$$P(A,B,C,D,E) = P(E|A,B,C,D)P(D|A,B,C)P(C|A,B)P(B|A)P(A)$$
+
+> __Birthdays__: What is the minimum number of people needed in a room for there to be a 50% chance that at least 2 people share the same birthday?
+> * It's easier to calculate the probability of all unique birthdays: $P(unique)$
+> * Then take the complement: $P(\text{at least 2 shared birthdays}) = 1 - P(unique)$
+>
+> $$P(A) = \frac{365}{365} \qquad P(B|A) = \frac{364}{365} \qquad P(C|A,B) = \frac{363}{365} \qquad \dots$$
+>
+> $$P(all~unique) = P(A)P(B|A)P(C|A,B)P(D|A,B,C)\dots$$
+>
+> (Open excel and show these calculations and the product of all the probabilities)
+>
+> It takes 23 people to have less than 50% chance of everyone having a unique birthday
 
 ## Independence
 Conditional probabilities imply that one variable depends on another.
