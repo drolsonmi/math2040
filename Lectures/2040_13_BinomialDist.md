@@ -43,7 +43,7 @@ Let $p$ be the probability of a successful trial.
 * Probability of finding the first success in the 2nd trial $= P(FS) = P(F and S) = (1-p)p$
 * Probability of finding the first success in the 3rd trial $= P(FFS) = P(F and F and S) = (1-p)^2p$
 * Probability of finding the first success in the 4th trial $= P(FFFS) = (1-p)^3p$
-* Probability of finding the first success in the *n*-th trial $= P(S on nth trial) = (1-p)^{n-1}p$
+* Probability of finding the first success in the *n*-th trial $= P(S~on~nth~trial) = (1-p)^{n-1}p$
 
 $$\mu = \frac{1}{p} \qquad \sigma = \sqrt{\frac{1-p}{p^2}}$$
 
