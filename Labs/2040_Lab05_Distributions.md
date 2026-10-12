@@ -22,7 +22,7 @@ We learned four different distributions. Here is a summary:
 
 ## Normal Distributions
 
-$$z = \frac{x-x\bar}{s} \qquad or \qquad z = \frac{x-\mu}{\sigma}$$
+$$z = \frac{x-\bar{x}}{s} \qquad or \qquad z = \frac{x-\mu}{\sigma}$$
 
 ## Geometric Distributions
 The probability of success on the $n$-th trial
