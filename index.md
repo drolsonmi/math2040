@@ -38,7 +38,7 @@
 ## Labs
 * [Lab 1: Introduction to Python](./Labs/2040_Lab01_Python.md)
 * [Lab 2: Graphing in Python](./Labs/2040_Lab02_Graphs.md)
-* Lab 3
+* [Lab 3: Summary Statistics in Python and Excel](./Labs/2040_Lab03_SummaryStats.md)
 * Lab 4
-* Lab 5
+* [Lab 5: Modeling Distributions in Excel](./Labs/2040_Lab05_Distributions.md)
 * Lab 6
