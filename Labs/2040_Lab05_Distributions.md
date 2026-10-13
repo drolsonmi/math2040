@@ -24,25 +24,7 @@ We learned four different distributions. Here is a summary:
 
 $$z = \frac{x-\bar{x}}{s} \qquad or \qquad z = \frac{x-\mu}{\sigma}$$
 
-## Geometric Distributions
-The probability of success on the $n$-th trial
-
-$$P(X=k) = (1-p)^{n-k} p \qquad E[X] = \frac{1}{p}$$
-
-## Binomial Distributions
-The probability of $k$ successes out of $n$ trials
-
-$$P(X=k) = {}_nC_k p^k (1-p)^{n-k} \qquad P(X\le k) = P(X=0) + P(X=1) + \dots + P(X=k)$$
-
-
-## Poisson Distributions
-The probability of $k$ successes in a given amount of time
-
-$$P(X=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$
-
-## Excel Calculations
-
-Below is a table of all the commands you will need in Microsoft Excel to work with the 4 distributions we have discussed.
+Here is a table with all Normal Distribution functions within Excel
 
 | __Normal Distribution__       | Excel Command                    |
 | :---------------------------- | :------------------------------- |
@@ -53,6 +35,21 @@ Below is a table of all the commands you will need in Microsoft Excel to work wi
 | Standard normal probabilities | =NORM.S.DIST(z, TRUE)            |
 | Standard normal inverse       | =NORM.S.INV(probability)         |
 
+
+## Geometric Distributions
+The probability of success on the $n$-th trial
+
+$$P(X = n) = (1-p)^{n-1} p \qquad E[X] = \frac{1}{p}$$
+
+Excel functions for the Geometric Distribution may or may not be programmed into Excel. You will need to calculate these manually.
+
+## Binomial Distributions
+The probability of $k$ successes out of $n$ trials
+
+$$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k} \qquad P(X\le k) = P(X=0) + P(X=1) + \dots + P(X=k)$$
+
+Here is a table with all Binomial Distribution functions within Excel
+
 | __Binomial Distribution__     | Excel Command                    |
 | :---------------------------- | :------------------------------- |
 | $P(X = k)$                    | =BINOM.DIST(k, n, p, FALSE)      |
@@ -60,13 +57,14 @@ Below is a table of all the commands you will need in Microsoft Excel to work wi
 | Inverse binomial              | =BINOM.INV(n, p, probability)    |
 | Combinations $\binom{n}{k}$   | =combin(n,k)                     |
 
-$$E[X] = np \qquad P(X=k) = {}_nC_k p^k (1-p)^{n-k}$$
+## Poisson Distributions
+The probability of $k$ successes in a given amount of time
+
+$$P(X=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$
+
+Here is a table with all Poisson Distribution functions within Excel
 
 | __Poisson Distribution__      | Excel Command                    |
 | :---------------------------- | :------------------------------- |
 | $P(X = k)$                    | =POISSON.DIST(x, lambda, FALSE)  |
 | $P(X \le k)$                  | =POISSON.DIST(x, lambda, TRUE)   |
-
-Functions for the Geometric Distribution may or may not be programmed into Excel. You will need to calculate these manually.
-
-$$E[X] = \frac{1}{p} \qquad P(X=k) = (1-p)^{k-1}p$$
