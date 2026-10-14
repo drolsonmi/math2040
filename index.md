@@ -20,6 +20,7 @@
 * [13: Binomial Distributions](./Lectures/2040_13_BinomialDist.md)
 * [14: Poisson Distributions](./Lectures/2040_14_PoissonDist.md)
 * [15: The Central Limit Therorem](./Lectures/2040_15_CLT.md)
+    - [Google CoLab Simulation of CLT](https://colab.research.google.com/drive/11zwvlEZTJKvGG-uAhX87bhFuX0rbzjlO?usp=sharing)
 * [16: Confidence Intervals](./Lectures/2040_16_ConfidenceIntervals.md)
 * [17: Hypothesis Testing](./Lectures/2040_17_HypothesisTesting.md)
 * [18: Inference of 2 Samples](./Lectures/2040_18_InferenceOf2Samples.md)
