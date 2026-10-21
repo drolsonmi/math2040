@@ -25,7 +25,7 @@ $$p = \hat{p} \pm ME \qquad \hat{p} - ME \le p \le \hat{p} + ME$$
 
 This is known as a __confidence interval__.
 
-## Finding the critical value
+### Finding the critical value
 The __confidence level__ indicates how sure we are of these measurements. 
 * Normal distribution - the confidence level is the area in the middle
   * > Demo on Desmos
@@ -34,6 +34,15 @@ The __confidence level__ indicates how sure we are of these measurements.
 * The __critical value__ is the z-score that borders this area
 
 > Demo: Desmos 1040-L20
+
+### Finding the confidence interval
+After you get your sample proportion $\hat{p}$,
+* Find the standard error: $SE_\hat{p} = \sqrt{\fracc{\hat{p}(1-\hat{p})}{n}}$
+* Find the margin of error: $ME = z_c SE$
+* Calculate your confidence interval
+  * $\hat{p} - ME \le p \le \hat{p} + ME$
+* Conclusion
+  * "I am ($C$)% confident that the true proportion of (variable being measured) is between ($\hat{p}-ME$) and ($\hat{p}+ME$)"
 
 ### Practice
 > Give everyone a small handful of beans
@@ -58,6 +67,8 @@ The __confidence level__ indicates how sure we are of these measurements.
 <iframe src="https://www.desmos.com/calculator/6nscq72swx?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 * [Desmos Demo of Confidence Interval](https://www.desmos.com/calculator/6nscq72swx)
+  * As $n$ increases, $ME$ decreases
+  * As $C$ increases, $z_c$ increases, and thus $ME$ increases
 
 ### What is the ideal sample size?
 
