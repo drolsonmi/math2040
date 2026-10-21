@@ -40,17 +40,32 @@ The __confidence level__ indicates how sure we are of these measurements.
 > * Find the proportion of beans that are white
 > * Gather and submit the data (Microsoft Forms: Bean Counter)
 >
+> If beans not available, Dice
+> * Roll 10 dice 3 times and count all the 1's and 2's
+> * Calculate the proportion of 1's and 2's in your sample of 30 rolls
+>
 > In your groups:
->   * Find the mean ($\mu_\hat{p}$) and the standard error ($SE_\hat{p}$)
+>   * Find the standard error ($SE_\hat{p}$)
 >   * Find the margin of error using a 90% confidence level
->   * Find the 90% confidence level of the true proportion
+>   * Find the 90% confidence interval for the true proportion
 > 
 > Together (in Desmos: [2040-CLT](https://www.desmos.com/calculator/ugpnvtiiyp))
 >   * Plot each group's value and margin of error
 >   * What are the mean and standard deviation? Do the match what we calculated?* 
 
-## What is the ideal sample size?
-$$ME = z_c \sqrt{\frac{p_0(1-p_0)}{n}} \qquad\to\qquad n = $$
+## How does the sample size $n$ affect the confidence interval?
+
+<iframe src="https://www.desmos.com/calculator/6nscq72swx?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+* [Desmos Demo of Confidence Interval](https://www.desmos.com/calculator/6nscq72swx)
+
+### What is the ideal sample size?
+
+$$ME = z_c \sqrt{\frac{p_0(1-p_0)}{n}} \qquad\to\qquad n = \frac{1}{\hat{p}(1-\hat{p})}\left(\frac{z_c}{ME}\right)^2$$
+
+What should be my sample size if I want the margin of error to be 0.10 at a 90% confidence level?
+* Take $\hat{p} = 0.70$
+* Unknown $\hat{p}$ (worst-case scenario: $\hat{p} = 0.50$)
 
 -----
 # Homework
