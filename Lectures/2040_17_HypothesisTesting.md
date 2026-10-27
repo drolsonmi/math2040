@@ -36,9 +36,15 @@ In the most recent elections, a poll of 325 people indicated that 53% of them wo
 * What is the null value?
 * What is the null hypothesis?
 * What is the alternate hypothesis?
-$$\hat{p} = 0.53 \qquad SE=\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} = \sqrt{\frac{0.53(0.47)}{325}} = \sqrt{0.000766} = 0.0277$$
+
+$$\hat{p} = 0.53 \qquad SE=\sqrt{\frac{p_0(1-p_0)}{n}} = \sqrt{\frac{0.50(1-0.50)}{325}} = \sqrt{0.000766} = 0.0277$$
+
+Since we are going with the default assumption (null hypothesis) that the true value is equal to the null value, we calculate the SE with the null value $p_0$.
+
 $$ME = z_cSE = 1.96(0.0277) = 0.0543$$
+
 $$p\text{ is in }\hat{p}\pm ME = 0.53 \pm 0.0543$$
+
 $$0.4757 \le p \le 0.5843$$
 
 Since a minority vote is possible, we cannot say for sure that the true proportion is a majority.
