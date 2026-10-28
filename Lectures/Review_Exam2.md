@@ -214,6 +214,14 @@ When taking random samples of size $n$ from a population with true proportion $p
 ---
 
 ## Topic 5: Confidence Intervals for 1-Sample Proportion Data
+Steps for creating a Confidence Interval
+1. Verify that the Central Limit Theorem is satisfied
+  * **Random:** Data comes from a random sample or randomized experiment.
+  * **Large Counts:** $n\hat{p} \ge 10$ and $n(1-\hat{p}) \ge 10$ (or $x \ge 10$ successes and $n - x \ge 10$ failures).
+2. Determine the confidence level and find the critical value $z_c$
+3. Calculate the Margin of Error
+4. Establish the Confidence Interval
+5. Create an appropriate interpretation of the Confidence Interval
 
 ### A. Purpose
 To estimate an unknown population parameter $p$ using a sample proportion $\hat{p} = \frac{x}{n}$.
@@ -229,11 +237,7 @@ Where:
   * $99\%$ Confidence $\implies z_c \approx 2.576$
 * $\text{Margin of Error (ME)} = z_c \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$
 
-### C. Conditions to Check
-1. **Random:** Data comes from a random sample or randomized experiment.
-2. **Large Counts:** $n\hat{p} \ge 10$ and $n(1-\hat{p}) \ge 10$ (or $x \ge 10$ successes and $n - x \ge 10$ failures).
-
-### D. TI-84 Command
+### C. TI-84 Command
 * `STAT` $\to$ `TESTS` $\to$ `A: 1-PropZInt`
 * Inputs: 
   * `x`: Number of successes (must be a whole integer)
@@ -243,6 +247,16 @@ Where:
 ---
 
 ## Topic 6: Hypothesis Testing for 1-Sample Proportion Data
+Steps for completing a Hypothesis Test
+1. Verify that the Central Limit Theorem is satisfied
+  * **Random:** Random sample.
+  * **Large Counts:** $n p_0 \ge 10$ and $n(1 - p_0) \ge 10$ (using the hypothesized value $p_0$).
+2. Establish your hypotheses
+  * Determing the null value $p_0$ and state the null hypothesis $H_0$ and the alternate hypothesis $H_A$
+3. Set up your normal distribution
+  * Determine significance level $\alpha$ and find critical value $z_c$
+4. Find the test statistic and/or the p-value
+5. State your conclusion
 
 ### A. Hypotheses Setup
 * **Null Hypothesis ($H_0$):** $p = p_0$ (where $p_0$ is the hypothesized population proportion)
@@ -270,11 +284,7 @@ Determination:
 * **If $p\text{-value} \le \alpha$:** Reject $H_0$. There is convincing statistical evidence for $H_a$.
 * **If $p\text{-value} > \alpha$:** Fail to reject $H_0$. There is insufficient statistical evidence for $H_a$.
 
-### D. Conditions to Check
-1. **Random:** Random sample.
-2. **Large Counts:** $n p_0 \ge 10$ and $n(1 - p_0) \ge 10$ (using the hypothesized value $p_0$).
-
-### E. TI-84 Command
+### D. TI-84 Command
 * `STAT` $\to$ `TESTS` $\to$ `5: 1-PropZTest`
 * Inputs:
   * `p0`: Hypothesized value from $H_0$
