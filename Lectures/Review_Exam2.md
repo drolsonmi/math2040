@@ -81,8 +81,11 @@ Used when counting the number of **successes** ($k$) in a **fixed number of inde
 
 #### Formulas
 * **Combinatorics:**
+
   $$\text{Factorials: } n! = n\times (n-1) \times (n-2) \times \dots \times 2 \times 1$$
-  $$\text{Permutations: } {}_nP_k = \frac{n!}{(n-k)!} \qquad \qquad \text{Combinations: } {}_nC_k=\binom{n}{k} = \frac{{}_nP_k}{k!} = \frac{n!}{(n-k)!k!}$$
+
+  $$\text{Permutations: } {}_nP_k = \frac{n!}{(n-k)!} \qquad \qquad \text{Combinations: } {}_nC_k=\binom{n}{k} = \frac{ {}_nP_k}{k!} = \frac{n!}{(n-k)!k!}$$
+
 * **Probability:** 
   $$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$$
 * **Mean ($\mu$):** 
