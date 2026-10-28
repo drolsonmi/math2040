@@ -71,7 +71,7 @@ Following is the material on the front page of the exam:
 ## Topic 2: Discrete Probability Distributions
 
 ### A. Binomial Distribution
-Used when counting the number of **successes** ($X$) in a **fixed number of independent trials** ($n$).
+Used when counting the number of **successes** ($k$) in a **fixed number of independent trials** ($n$).
 
 #### Conditions (**BINS**)
 1. **B**inary: Outcomes are classified as Success or Failure.
@@ -80,6 +80,9 @@ Used when counting the number of **successes** ($X$) in a **fixed number of inde
 4. **S**ame probability: Probability of success $p$ is constant for every trial.
 
 #### Formulas
+* **Combinatorics:**
+  $$\text{Factorials: } n! = n\times (n-1) \times (n-2) \times \dots \times 2 \times 1$$
+  $$\text{Permutations: } {}_nP_k = \frac{n!}{(n-k)!} \qquad \qquad \text{Combinations: } {}_nC_k=\binom{n}{k} = \frac{{}_nP_k}{k!} = \frac{n!}{(n-k)!k!}$$
 * **Probability:** 
   $$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$$
 * **Mean ($\mu$):** 
@@ -94,7 +97,7 @@ Used when counting the number of **successes** ($X$) in a **fixed number of inde
 ---
 
 ### B. Geometric Distribution
-Used when counting the number of trials ($X$) required to achieve the **first success**.
+Used when counting the number of trials ($k$) required to achieve the **first success**.
 
 #### Conditions (**BITS**)
 1. **B**inary: Success or Failure.
@@ -117,7 +120,7 @@ Used when counting the number of trials ($X$) required to achieve the **first su
 ---
 
 ### C. Poisson Distribution
-Used when counting the number of events ($X$) occurring in a **fixed interval** of time or space.
+Used when counting the number of events ($k$) occurring in a **fixed interval** of time or space.
 
 #### Key Properties
 * Events occur independently at a constant average rate $\lambda$.
@@ -253,7 +256,17 @@ $$z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$$
 
 > **Note:** Notice that standard error here uses $p_0$ from $H_0$, **not** $\hat{p}$.
 
+Determination:
+* If the test statistic $z$ is more extreme than the critical value $z_c$, then we **reject $H_0$**.
+* If the test statistic $z$ is closer to zero than the critical value $z_c$, then we **fail to reject $H_0$**.
+
 ### C. Decision Rule (p-value approach)
+Assume you find a test statistic $z_t$. The p-value is found as,
+* Left-tailed test:   $p\text{-value} = P(z < z_t)$ 
+* Right-tailed test:  $p\text{-value} = P(z > z_t)$
+* Two-tailed test:    $p\text{-value} = 2*P(|z| > |z_t|)$
+
+Determination:
 * **If $p\text{-value} \le \alpha$:** Reject $H_0$. There is convincing statistical evidence for $H_a$.
 * **If $p\text{-value} > \alpha$:** Fail to reject $H_0$. There is insufficient statistical evidence for $H_a$.
 
