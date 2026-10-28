@@ -25,7 +25,8 @@ Commonly used to,
 
 ### The $\chi^2$ test statistic
 In the past, we calculated a z-score as,
-$$Z = \frac{point~estimate - null~value}{SE}$$
+
+$$z = \frac{point~estimate - null~value}{Standard~Error} = \frac{\hat{p}-p_0}{SE}$$
 
 However, we want to test if they collectively are irregularly far from zero. So, how do we get rid of the negatives? Square it! Squaring it will do two things:
 1. eliminate the negative
@@ -69,7 +70,7 @@ So, what does the $\chi^2$ distribution look like?
 
 > Look at the $\chi^2$ distribution on Desmos
 
-When we have a $\chi^2$ distribution, we are going to get a test statistic, then find the p-value of the tail to the right of that test statistic.
+When we have a $\chi^2$ distribution, we are going to get a test statistic, then find the p\text{-value} of the tail to the right of that test statistic.
 
 ## Example 2: M&M's
 Mars, Inc. claims that the colors of their basic M&M's candy have the following probability distribution:
@@ -91,23 +92,24 @@ You wonder if this is true. So, you grab a few handfuls and get the following co
   * Look up graph on Desmos
 * Find expected counts
 * Find $\chi^2$
-* Find p-value
+* Find p\text{-value}
 * Answer the question
 
-| Color             | Brown | Yellow | Red    | Orange | Green | Blue  |
-| :---------------: | :---: | :----: | :----: | :----: | :---: | :---: |
-| In Sample         | 69    | 51     | 47     | 22     | 26    | 35    |
-| Expected          | 75    | 50     | 50     | 25     | 25    | 25    |
-| (x-E[x])^2 / E[x] | 0.48  | 0.02   | 0.18   | 0.36   | 0.04  | 4     |
+| Color               | Brown | Yellow | Red    | Orange | Green | Blue  |
+| :-----------------: | :---: | :----: | :----: | :----: | :---: | :---: |
+| In Sample           | 69    | 51     | 47     | 22     | 26    | 35    |
+| Expected            | 75    | 50     | 50     | 25     | 25    | 25    |
+| $(x-E[x])^2 / E[x]$ | 0.48  | 0.02   | 0.18   | 0.36   | 0.04  | 4     |
 
 $$\chi^2 = 0.48+0.02+0.18+0.36+0.04+4 = 5.08$$
 
-Find the p-value
+Find the p\text{-value}
 * Desmos: `chisqdist(5)`
 * TI-84: `STAT` $\to$ `TESTS` $\to$ `D:$\chi^2$GOF-Test`
 
-$$p-value=P(\chi^2>5.08) = 0.406 > 0.10$$
-* Fail to reject H0
+$$p\text{-value} = P(\chi^2>5.08) = 0.406$$
+
+* Comparing to the significance level, $0.406 > 0.10 \to $ fail to reject H0
 * Therefore the distribution appears to agree with the advertisement
 
 Your friend decides to go all-in and counts 3,000 M&M's.
@@ -120,8 +122,9 @@ Your friend decides to go all-in and counts 3,000 M&M's.
 
 $$\chi^2 = 0.018+0.015+0.202+0.213+0.48+0.333 = 1.261$$
 
-$$p-value = P(\chi^2 > 1.261) = 0.939$$
-* Fail to reject H0
+$$p\text{-value} = P(\chi^2 > 1.261) = 0.939$$
+
+* Comparing to the significance level, $0.939 > 0.10 \to $ fail to reject H0
 * Therefore the distribution appears to agree with the advertisement
 
 ## Conditions for the Chi-square Test
@@ -146,6 +149,7 @@ Is this data normal? If it is, then the normal distribution will follow the mean
 Now, let's look at a few percentiles. The expected values will follow the normal distribution. 
 * Find the z-score for the nth percentile
 * Solve for x
+
 $$z = \frac{x-\bar{x}}{s} \qquad\to\qquad x = zs + \bar{x}$$
 
 > In Python, copy in data and find the percentiles
@@ -160,14 +164,14 @@ $$z = \frac{x-\bar{x}}{s} \qquad\to\qquad x = zs + \bar{x}$$
 > stats.norm.ppf([0.20,0.25,0.30,0.40,0.50,0.60,0.70,0.75,0.80], loc=A.mean(), scale=A.std())
 > ```
 
-| Percent           | 20     | 25     | 30     | 40     | 50     | 60     | 70     | 75     | 80     |
-| :---------------- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| Percentile        | 1947   | 2034   | 2091   | 2260   | 2509   | 2803.6 | 3003.8 | 3217.8 | 3555.8 |
-| Expected          | 1938.2 | 2102.6 | 2250.2 | 2516.8 | 2766.0 | 3015.2 | 3281.8 | 3429.4 | 3593.8 |
-|                   |        |        |        |        |        |        |        |        |        |
-| (x-E[x])^2 / E[x] | 0.040  | 2.240  | 11.270 | 26.212 | 23.885 | 14.852 | 23.552 | 13.067 | 0.402  |
+| Percent             | 20     | 25     | 30     | 40     | 50     | 60     | 70     | 75     | 80     |
+| :------------------ | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| Percentile          | 1947   | 2034   | 2091   | 2260   | 2509   | 2803.6 | 3003.8 | 3217.8 | 3555.8 |
+| Expected            | 1938.2 | 2102.6 | 2250.2 | 2516.8 | 2766.0 | 3015.2 | 3281.8 | 3429.4 | 3593.8 |
+|                     |        |        |        |        |        |        |        |        |        |
+| $(x-E[x])^2 / E[x]$ | 0.040  | 2.240  | 11.270 | 26.212 | 23.885 | 14.852 | 23.552 | 13.067 | 0.402  |
 
-$$\chi^2 = 115.520 \qquad p-value=P(\chi^2>115.520) = 2.8*10^{-21} < 0.01$$
+$$\chi^2 = 115.520 \qquad p\text{-value}=P(\chi^2>115.520) = 2.8*10^{-21} < 0.01$$
 
 ## Independence in two-way tables
 What we have seen so far is a goodness of fit, checking how proportions of 1 variable fit with expected counts. What if we have 2 variables? 
@@ -191,10 +195,14 @@ The proportion of those that passed was 63/72 = 0.875. The proportion of those t
 * HA:  The counts do not represent the expected counts (in other words, it is not consistently 0.875 of all students that pass)
 
 Now, we find the $\chi^2$ test statistic.
-$$\ch^2 = \frac{(24-23.625)^2}{23.625} + \frac{(21-21.875)^2}{21.875} + \frac{(18-17.5)^2}{17.5} + \frac{(3-3.375)^2}{3.375} + \frac{(4-3.125)^2}{3.125} + \frac{(2-2.5)^2}{2.5}$$
+
+$$\chi^2 = \frac{(24-23.625)^2}{23.625} + \frac{(21-21.875)^2}{21.875} + \frac{(18-17.5)^2}{17.5} + \frac{(3-3.375)^2}{3.375} + \frac{(4-3.125)^2}{3.125} + \frac{(2-2.5)^2}{2.5}$$
+
 $$\chi^2=0.00595 + 0.035 + 0.01429 + 0.04167 + 0.245 + 0.1 = 0.44191$$
-$$df = (\text{\# of rows} - 1)*(\text{\# of columns}-1) = (2-1)*(3-1)=1*2=2$$
-$$p-value=0.802$$
+
+$$df = (\text{# of rows} - 1)*(\text{# of columns}-1) = (2-1)*(3-1)=1*2=2$$
+
+$$p\text{-value} = 0.802 \qquad \alpha = 0.10 \qquad 0.802 > 0.10$$
 
 We fail to reject the null hypothesis, so the assumption that the counts appropriately represent the expected counts stands. Approximately 87.5% of students in my MATH 1025 class pass, regardless of the modality.
 
