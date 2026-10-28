@@ -26,6 +26,8 @@
 * [18: Inference of 2 Samples](./Lectures/2040_18_InferenceOf2Samples.md)
 * [19: Chi-squared Distributions](./Lectures/2040_19_ChiSquared.md)
 
+[Exam 2 Review](./Lectures/Review_Exam2.md)
+
 ## Segment 3
 * [20: Quantitative Inference and T-Distributions](./Lectures/2040_20_TDistribution.md)
 * [21: Quantitative Inference with 2 Samples](./Lectures/2040_21_InfOf2QuantitativeSamples.md)
@@ -42,4 +44,6 @@
 * [Lab 3: Summary Statistics in Python and Excel](./Labs/2040_Lab03_SummaryStats.md)
 * Lab 4
 * [Lab 5: Modeling Distributions in Excel](./Labs/2040_Lab05_Distributions.md)
+    * [Lab 5: Modeling Distributions in Python](./Labs/2040_Lab05_Distributions_Python.md)
+    * [Lab 5: Modeling Distributions in R](./Labs/2040_Lab05_Distributions_R.md)
 * Lab 6
