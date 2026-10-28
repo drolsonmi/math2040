@@ -53,7 +53,7 @@ There are 100 multiple-choice questions on an exam (A,B,C,D). We expect there to
 |    C     | 25         | 25       | $\frac{(25-25)^2}{25} = 0$ | 0                     |
 |    D     | 25         | 35       | $\frac{(35-25)^2}{25} = 4$ | 4                     |
 
-$\chi^2 = 1+1+0+4=6$
+$$\chi^2 = 1+1+0+4=6$$
 
 ### The Graph
 The normal distribution has two factors: the mean and the standard deviation.
@@ -73,11 +73,13 @@ When we have a $\chi^2$ distribution, we are going to get a test statistic, then
 
 ## Example 2: M&M's
 Mars, Inc. claims that the colors of their basic M&M's candy have the following probability distribution:
+
 | Color | Brown | Yellow | Red    | Orange | Green | Blue  |
 | :---: | :---: | :----: | :----: | :----: | :---: | :---: |
 | P(x)  | 0.30  | 0.20   | 0.20   | 0.10   | 0.10  | 0.10  |
 
 You wonder if this is true. So, you grab a few handfuls and get the following counts for 250 M&M's. Assuming your sample is randomly selected, does your sample adequately represent the population? Use $\alpha=0.05$ (5% level of significance).
+
 | Color     | Brown | Yellow | Red    | Orange | Green | Blue  |
 | :-------: | :---: | :----: | :----: | :----: | :---: | :---: |
 | In Sample | 69    | 51     | 47     | 22     | 26    | 35    |
@@ -102,7 +104,7 @@ $$\chi^2 = 0.48+0.02+0.18+0.36+0.04+4 = 5.08$$
 
 Find the p-value
 * Desmos: `chisqdist(5)`
-* TI-84: `D:chi^2GOF-Test`
+* TI-84: `STAT` $\to$ `TESTS` $\to$ `D:$\chi^2$GOF-Test`
 
 $$p-value=P(\chi^2>5.08) = 0.406 > 0.10$$
 * Fail to reject H0
