@@ -196,18 +196,11 @@ Used when you are given a **probability or percentile** (area) and need to find 
 ## Topic 4: Central Limit Theorem (CLT)
 
 ### The Theorem
-For a population with any distribution having mean $\mu$ and finite standard deviation $\sigma$, as sample size $n$ becomes large, the sampling distribution of the sample mean approaches a Normal distribution with a mean of $\mu_{\hat{p}} = p$ and a standard deviation of $\sigma_{\hat{p}} = \sigma / \sqrt{n}$. We call this sampling distribution $\bar{X}$:
+For a population with any distribution having mean $\mu$ and finite standard deviation $\sigma$, as sample size $n$ becomes large, the sampling distribution of the sample mean approaches a Normal distribution with a mean of $\mu_{\hat{p}} = p$ and a standard deviation of $\sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}$. We call this sampling distribution $\bar{X}$:
 
-$$\bar{X} \approx N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)$$
+$$\bar{X} \approx N\left(\mu, \sqrt{\frac{p(1-p)}{n}}\right)$$
 
-* For Categorical data, *large enough* means,
-    - Number of successes is at least 10 ($n\hat{p} \ge 10$)
-    - Number of failures is at least 10 ($n(1-\hat{p}) \ge 10$)
-
-### CLT for Sample Proportions ($\hat{p}$)
-When taking random samples of size $n$ from a population with true proportion $p$:
-* Mean of sample proportions: $\mu_{\hat{p}} = p$
-* Standard Error of sample proportions: $\sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}$
+A sample can be considered as part of the larger sampling distribution. If the sample is large enough, then this sampling distribution can be approximated as a normal distribution.
 
 #### Conditions for Sampling Distribution of $\hat{p}$ to be Approximately Normal:
 1. **Random Sampling:** Sample must be selected randomly.
