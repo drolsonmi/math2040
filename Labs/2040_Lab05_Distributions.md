@@ -11,8 +11,8 @@
 <title>Lab 5: Distributions</title>
 </head>
 
-# Lab 5 Distributions
-In Lab 5, you are going to explore a dataset using different types of distributions. You will consider multiple variables, but the distribution you use depends on that variable. 
+# Lab: Distributions
+In this lab, you are going to explore a dataset using different types of distributions. You will consider multiple variables, but the distribution you use depends on that variable. 
 
 Remember there are two basic calculations with distributions:
 - A __PDF__ (Probability Density Function) will give the __likelihood__ of the event. (For discrete distributions, this is also the probability.)
