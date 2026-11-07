@@ -53,6 +53,19 @@ Since a minority vote is possible, we cannot say for sure that the true proporti
 
 
 ## Decision Errors
+The significance level is basically the probability that any of those extreme values happen by random chance. If we make a decision but that decision is actually wrong, then we have an error. There are 2 basic errors:
+
+1. If we reject H0 but H0 is really true, we have a __Type I Error__
+  - We are in that tail - the probability that an extreme value happens by random chance
+    - or... "the significance level indicates how often the data lead us to incorrectly reject H0" (quote from textbook)
+  - P(Type I Error) = $\alpha$
+2. If we fail to reject H0 (keep it as true) but we should have, this is a __Type II Error__
+  - P(Type II Error) = $\beta$
+  - There is a way to calculate this, but it isn't needed for this class
+    - Establish an alternate value. $\alpha$ is based on the null value. $\beta$ is the same thing but based on the alternate value
+    - Example: Production quality depends on what method is being used. Under method S, the proportion of defective products is $p_S$. Under method T, the proportion of defective products is $p_T$. It is suspected that method A was used.
+      - $\alpha$ is based on the null value: $p_0 = p_S$
+      - $\beta$ is based on the alternate value: $p_A = p_T$
 
 |         | Fail to reject H0                | Reject H0                        |
 | :------ | :------------------------------: | :------------------------------: |
