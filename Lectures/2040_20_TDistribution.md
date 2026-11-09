@@ -19,8 +19,11 @@ Remember:
 
 ## CLT for Quantitative Variables
 When dealing with Confidence Intervals and Hypothesis Tests for Categorical data, we used the mean and standard error in our calculations.
+
 $$\mu_{\hat{p}} = p \qquad \sigma_{\hat{p}}=SE_{\hat{p}}=\sqrt{\frac{p(1-p)}{n}}\tag{CLT for Categorical Variables}$$
+
 $$ME=z_c\pm SE \tag{Confidence Intervals}$$
+
 $$z = \frac{\hat{p}-p_0}{SE} \tag{Hypothesis Testing}$$
 
 In addition to categorical variables, we can also take a quantitative variable and make it categorical by establishing a threshold and counting events above and below the threshold.
