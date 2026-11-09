@@ -34,18 +34,24 @@ In reality, either H0 is true or H0 is not true. Let's first assume that H0 is t
 * If H0 is true, then the true mean is $\mu_0$
   > Draw a normal distribution around $\mu_0$ on Desmos (use link above)
 * Significance Level is probability of a Type I Error:
-    $$\alpha = P(Reject~H_0 | H_0~is~true) = P(\text{Type I Error})$$
   > Highlight significance level
+
+    $$\alpha = P(Reject~H_0 | H_0~is~true) = P(\text{Type I Error})$$
+
 * Complement of significance level (confidence level) is probability of correctly saying H0 is true:
+
     $$P(Fail~to~reject~H_0 | H_0~is~true) = 1 - P(Reject~H_0 | H_0~is~true)$$
 
 Now, we consider if H0 is not true
 * If H0 is not true, then HA is true, and the true mean is around $\mu_1$
   > Draw another normal distribution around $\mu_1$
 * Probability of a Type II Error is the tail of this second distribution that goes into the area of the Confidence Level
-    $$\beta = P(Fail~to~reject~H_0 | H_0~is~not~true) = P(\text{Type II Error})$$
   > Highlight Type II Error region
+
+    $$\beta = P(Fail~to~reject~H_0 | H_0~is~not~true) = P(\text{Type II Error})$$
+
 * The rest of the area in the HA normal distribution is the probability that we accurately reject H0. This is __power__. In short, this is the probability that we successfully reject the 
+
     $$Power = P(Reject~H_0 | H_0~is~not~true)$$
 
 ### Example using means
@@ -61,7 +67,7 @@ The power is the complement: $Power = 1-P(\text{Type II Error}) = 1-0.3837 = 0.6
 
 ### Same example using differences of means
 In an automobile production line, the time to assemble a door takes an average time with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process by 0.29 minutes. You decide to test this by sampling 50 door assemblies to measure the time difference using the new procedure. What is the power? In other words, what is the probability that you will get a difference in times that shows the process has decreased production time? Use a 5% level of significance.
-* Let $d = |\mu_1 - \mu_0|$. This is known as the __effect size__.
+* Let $d = \lvert \mu_1 - \mu_0 \lvert$. This is known as the __effect size__.
 * H0:  $\mu_d = 0$
 * HA:  $\mu_d = -0.29$
 
@@ -98,15 +104,19 @@ To find the right sample size,
 In an automobile production line, the time to assemble a door takes an average of 8.50 minutes with a standard deviation of 1.3 minutes. You hear of a new process that decreases the process to 8.21 minutes. You decide to test this by sampling $n$ door assemblies using the new procedure. How many door assemblies should you sample to get a power of 80%? Use a 5% level of significance.
 
 * Find the difference between the means (known as the effect size)
+
     $$d = |\mu_1 - \mu_0| = |8.21 - 8.50| = |-0.29| = 0.29$$
 
 * Find the critical z-score for the significance level in the null distribution (just use a standard normal distribution with $\mu=0$, $\sigma=1$)
+
     $$P(z < z_\alpha) = 0.05 \qquad\to\qquad z_\alpha = -1.645$$
 
 * Find the critical z-score for the power in the alternate distribution (just use a standard normal distribution with $\mu=0$, $\sigma=1$)
+
     $$P(z < z_\beta) = 0.80 \qquad\to\qquad z_\beta = 0.842$$
 
 * Find the distances from the critical value to each mean and solve for SE
+
     $$\begin{align*}d &= d_1 - d_0  \\
         0.29 &= |z_\beta SE| + |z_\alpha SE| \\
         0.29 &= 0.842 SE + 1.645 SE \\
@@ -114,8 +124,11 @@ In an automobile production line, the time to assemble a door takes an average o
         SE &= \frac{0.29}{2.487} = 0.1166\end{align*}$$
 
 * Use the SE to solve for $n$
+
     $$SE = \frac{\sigma}{\sqrt{n}}$$
+
     $$n = \left(\frac{\sigma}{SE}\right)^2$$
+
     $$n = \left(\frac{1.3}{0.1166}\right)^2 = 124.31$$
 
 Minimum is 124.3, but we can only do whole numbers. So, we need to sample at least 125 doors from each method.

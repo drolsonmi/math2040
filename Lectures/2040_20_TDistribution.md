@@ -41,15 +41,22 @@ We can follow many of the same processes. However, we have to look at the Centra
 ### CLT for Sample Mean
 $$\mu_{\bar{x}}=\mu \qquad \sigma_{\bar{x}}=SE_{\bar{x}}=\frac{\sigma}{\sqrt{n}}\tag{CLT for Quantitative Variables}$$
 
-> A restaurant earns about $13,000 a day with a standard deviation of $750.
+> A restaurant earns about \$13,000 a day with a standard deviation of \$750.
 > * What is the probability that they earn less than $12,500 in one day?
+>
 > $$P(x < \$12,500)\tag{$\mu = \$13,000~~~~\sigma = \$750$}$$
+>
 > $$z = \frac{x-\mu}{\sigma} = \frac{\$12,500 - \$13,000}{\$750} = -\frac{2}{3}$$
+>
 > $$P(z < -\frac{2}{3}) = 0.252$$
-> * What is the probability that a sample of 45 days earns an average of less than $12,500 in one day?
+>
+> * What is the probability that a sample of 45 days earns an average of less than \$12,500 in one day?
 >    * Think through this logically first. Should this be a higher or lower probability?
+>
 > $$P(\bar{x} < \$12,500)\tag{$\mu_{\bar{x}} = \$13,000~~~~SE = \frac{\$750}{\sqrt{45}}=\$111.80$}$$
+>
 > $$z = \frac{\bar{x}-\mu}{SE} = \frac{\$12,500 - \$13,000}{\$111.80} = -4.47$$
+>
 > $$P(z < -4.47) = 3.9*10^{-6}$$
 
 The two conditions for the CLT to hold are the same for quantitative variables as they were for categorical variables, though the second is now calculated differently:
@@ -73,19 +80,23 @@ $$\sigma_{\bar{x}} = SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}$$
 
 ### Confidence Intervals
 A sample of 56 gas stations show an average price of $3.25 for a gallon of unleaded gasoline with a standard deviation of $0.07. What is the 95% confidence interval for the true price of unleaded gasoline?
+
 $$SE = \frac{s}{\sqrt{n}} = \frac{\$0.07}{\sqrt{56}} = \frac{\$0.07}{7.48} = 0.00935$$
+
 $$ME = z_cSE = 1.96*0.00935 = 0.0183$$
+
 $$x = \bar{x} \pm ME = \{\$3.25 - \$0.0183, \$3.25 + \$0.0183\} = \{\$3.232, \$3.268\}$$
 
 We are 95% confident that the true average price of unleaded gasoline is between $3.232 and $3.268.
 
 ### Hypothesis Testing
-A sample of 56 gas stations show an average price of $3.25 for a gallon of unleaded gasoline with a standard deviation of $0.07. If last year's average price of gas this time of year was $3.29, can we say with a 1% level of significance that gas is cheaper this year?
-* H0: $$\mu = 3.29$$
-* HA: $$\mu < 3.29$$
-* $$\alpha = 0.01$$
+A sample of 56 gas stations show an average price of \$3.25 for a gallon of unleaded gasoline with a standard deviation of \$0.07. If last year's average price of gas this time of year was $3.29, can we say with a 1% level of significance that gas is cheaper this year?
+* H0: $\mu = 3.29$
+* HA: $\mu < 3.29$
+* $\alpha = 0.01$
 
 $$t = \frac{\bar{x}-\mu_0}{SE} = \frac{\bar{x}-\mu_0}{s/\sqrt{n}} = \frac{3.25-3.29}{0.07/\sqrt{56}} = \frac{-0.04}{0.00935} = -4.278 $$
+
 $$\text{p-value} = P(t<-4.278) = 0.00003816$$
 
 Yes, there enough evidence to say with a 1% level of significance that gas prices are lower this year than they were last year.
