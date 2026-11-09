@@ -41,7 +41,7 @@ We can follow many of the same processes. However, we have to look at the Centra
 ### CLT for Sample Mean
 $$\mu_{\bar{x}}=\mu \qquad \sigma_{\bar{x}}=SE_{\bar{x}}=\frac{\sigma}{\sqrt{n}}\tag{CLT for Quantitative Variables}$$
 
-> A restaurant earns about \$13,000 a day with a standard deviation of \$750.
+> A restaurant earns about \\$13,000 a day with a standard deviation of \\$750.
 > * What is the probability that they earn less than $12,500 in one day?
 >
 > $$P(x < \$12,500)\tag{$\mu = \$13,000~~~~\sigma = \$750$}$$
@@ -71,6 +71,7 @@ The two conditions for the CLT to hold are the same for quantitative variables a
 
 ## T-Distribution
 Everything we did above works beautifully if we know $\sigma$. However, we often don't. So, we have to approximate using the sample.
+
 $$\sigma_{\bar{x}} = SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}$$
 
 > Demonstrate on Desmos with *n* as a variable
@@ -79,7 +80,7 @@ $$\sigma_{\bar{x}} = SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}$$
 > Show on Desmos and TI-84
 
 ### Confidence Intervals
-A sample of 56 gas stations show an average price of $3.25 for a gallon of unleaded gasoline with a standard deviation of $0.07. What is the 95% confidence interval for the true price of unleaded gasoline?
+A sample of 56 gas stations show an average price of \\$3.25 for a gallon of unleaded gasoline with a standard deviation of \\$0.07. What is the 95% confidence interval for the true price of unleaded gasoline?
 
 $$SE = \frac{s}{\sqrt{n}} = \frac{\$0.07}{\sqrt{56}} = \frac{\$0.07}{7.48} = 0.00935$$
 
@@ -90,7 +91,7 @@ $$x = \bar{x} \pm ME = \{\$3.25 - \$0.0183, \$3.25 + \$0.0183\} = \{\$3.232, \$3
 We are 95% confident that the true average price of unleaded gasoline is between $3.232 and $3.268.
 
 ### Hypothesis Testing
-A sample of 56 gas stations show an average price of \$3.25 for a gallon of unleaded gasoline with a standard deviation of \$0.07. If last year's average price of gas this time of year was $3.29, can we say with a 1% level of significance that gas is cheaper this year?
+A sample of 56 gas stations show an average price of \\$3.25 for a gallon of unleaded gasoline with a standard deviation of \\$0.07. If last year's average price of gas this time of year was $3.29, can we say with a 1% level of significance that gas is cheaper this year?
 * H0: $\mu = 3.29$
 * HA: $\mu < 3.29$
 * $\alpha = 0.01$
