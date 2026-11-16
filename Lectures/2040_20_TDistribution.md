@@ -42,6 +42,7 @@ We can follow many of the same processes. However, we have to look at the Centra
 >   * Otherwise, need about 30 samples
 
 ### CLT for Sample Mean
+
 $$\mu_{\bar{x}}=\mu \qquad \sigma_{\bar{x}}=SE_{\bar{x}}=\frac{\sigma}{\sqrt{n}}\tag{CLT for Quantitative Variables}$$
 
 > A restaurant earns about \\$13,000 a day with a standard deviation of \\$750.
