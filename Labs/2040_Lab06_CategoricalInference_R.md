@@ -12,12 +12,19 @@
 </head>
 
 # Lab: Categorical Inference (R)
-In this lab, you are going to assume the role of a statistical consultant for an airline that is testing a new boarding process. The goal of this lab will be to perform a statistical inference to explore the data.
+In this lab, you are a statistical consultant for an airline that is testing a new boarding process. Every part of the lab uses the same passenger survey, found on the __Data__ sheet of the lab workbook. The variables are all categorical:
+
+| __Variable__     | Categories                                 | Column name                 |
+| :--------------- | :----------------------------------------- | :-------------------------- |
+| Boarding Method  | Old, New                                   | `df[["Boarding Method"]]`   |
+| Flight Type      | Domestic, International                    | `df[["Flight Type"]]`       |
+| Seat Class       | Economy, Premium Economy, Business, First  | `df[["Seat Class"]]`        |
+| Age Group        | 18-29, 30-44, 45-59, 60+                   | `df[["Age Group"]]`         |
+| Satisfaction     | Satisfied, Not Satisfied                   | `df[["Satisfaction"]]`      |
 
 Remember the two kinds of inference:
-- A __confidence interval__ *estimates* a parameter: $\text{estimate} \pm \text{margin of error}$
-- A __hypothesis test__ asks whether the data give *evidence against* a claim ($H_0$). A small p-value (less than $\alpha = 0.05$) means we reject $H_0$.
-    - __Chi-squared tests__ are like hypothesis tests but consider multiple categories for a single variable
+- A __confidence interval__ __estimates__ a parameter: $\text{estimate} \pm \text{margin of error}$.
+- A __hypothesis test__ asks whether the data give __evidence against__ a claim ($H_0$). A small p-value (less than $\alpha = 0.05$) means we reject $H_0$.
 
 ## Setup
 We use the `readxl` package to read the workbook. Everything else is built into R.
@@ -26,7 +33,7 @@ We use the `readxl` package to read the workbook. Everything else is built into 
 # install.packages("readxl")   # run once if needed
 library(readxl)
 
-df <- read_excel("Airline_Categorical_Inference_Lab.xlsx", sheet = "Data")
+df <- read_excel("Airline_Categorical_Inference_Lab.xlsx", sheet = "Data", range = "A1:F401")
 head(df)
 ```
 

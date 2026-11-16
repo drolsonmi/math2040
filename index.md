@@ -42,8 +42,13 @@
 * [Lab 1: Introduction to Python](./Labs/2040_Lab01_Python.md)
 * [Lab 2: Graphing in Python](./Labs/2040_Lab02_Graphs.md)
 * [Lab 3: Summary Statistics in Python and Excel](./Labs/2040_Lab03_SummaryStats.md)
-* Lab 4
+* Lab 4 - Probabilities?
 * [Lab 5: Modeling Distributions in Excel](./Labs/2040_Lab05_Distributions.md)
     * [Lab 5: Modeling Distributions in Python](./Labs/2040_Lab05_Distributions_Python.md)
     * [Lab 5: Modeling Distributions in R](./Labs/2040_Lab05_Distributions_R.md)
-* Lab 6
+* [Lab 6: Categorical Inference in Excel](./Labs/2040_Lab06_CategoricalInference_Excel.md)
+    * [Lab 6: Categorical Inference in Python](./Labs/2040_Lab06_CategoricalInference_Python.md)
+    * [Lab 6: Categorical Inference in R](./Labs/2040_Lab06_CategoricalInference_R.md)
+* [Lab 7: Quantitative Inference in Excel](./Labs/2040_Lab07_QuantitativeInference_Excel.md)
+    * [Lab 7: Quantitative Inference in Python](./Labs/2040_Lab07_QuantitativeInference_Python.md)
+    * [Lab 7: Quantitative Inference in R](./Labs/2040_Lab07_QuantitativeInference_R.md)
